@@ -301,6 +301,18 @@ A 68-line prompt-knowledge skill: hex editing, tile editing (it correctly notes 
 
 ---
 
+## Game-specific: Tecmo Super Bowl
+
+TSB is its own platform in practice: custom bank map, event engine, pointer tables, 28/32-team variants. The repo keeps a separate category at [`../skills/tecmosuper/`](../skills/tecmosuper/README.md):
+
+| Skill | Use |
+|---|---|
+| `tecmosuper-events` | The `$C390`/`$C3A2`/`$C3AF` event API, sequence vs scene IDs, and the full event library |
+| `tecmosuper-rom-map` | 32 × 8 KB PRG banks, `$C000`/`$E000` fixed banks, CPU↔file offsets |
+| `tecmosuper-hacking` | TSBTool `SET` commands, hex edits, rebuilding from the 2025 disassembly, patches |
+
+The key distinction the events skill enforces: a **sequence index** (`CUTSCENE_TO_DRAW` → `CUTSCENE_ADDR`) is not a **scene ID** (the byte inside the sequence). Confusing them is the usual reason a TSB cutscene edit plays the wrong thing.
+
 ## The gap, updated
 
 The 2026 picture is better than "scattered pieces":

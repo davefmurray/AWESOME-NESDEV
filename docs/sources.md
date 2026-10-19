@@ -39,6 +39,12 @@ Not verified by execution: Mesen MCP, mcp-bizhawk, Nes.Mcp, GhidraMCP, Gearlynx,
 | [skilldb: ROM Hacking](https://skilldb.dev/skills/retro-gaming-skills/rom-hacking) | Generic craft knowledge, paywall | page, 68 lines, 2026 |
 | [scotbearss/poryrom](https://github.com/scotbearss/poryrom) | Docker-build + headless-verify + screenshot loop (GBA) | 1★ MIT, Sep 8 2026 |
 | [spiiin/NesBlockFinder](https://github.com/spiiin/NesBlockFinder) | Block/screen locator and FCEUX dump workflow | 6★, 2017, no license |
+| [TecmoBowl.org: events](https://tecmobowl.org/forums/topic/9946-events/) | TSB event IDs, `$C390`/`$C3A2`/`$C3AF`, directions | thread, 2008 |
+| [bruddog/Tecmo_Super_Bowl_NES_Disassembly](https://github.com/bruddog/Tecmo_Super_Bowl_NES_Disassembly) | Bank IDs, scene enums, sequence table, fixed-bank code | 63★, pushed 2025-10-09 |
+| [rom_map.xlsx](https://github.com/bruddog/Tecmo_Super_Bowl_NES_Disassembly/blob/main/DOCS/rom_map.xlsx) | Bank contents, file ranges, PRG/CHR layout | 2025 |
+| [TSBTool set commands](https://tecmobowl.org/forums/topic/69338-set-commands-list-for-nes-tsb-updated-91725/) | `SET(offset,bytes)` syntax and community patch list | updated 2025-09-17 |
+| [Editing cutscenes](https://tecmobowl.org/topic/13387-an-easy-guide-to-changing-and-deleting-various-cutscenes/) | Bulk cutscene removal, beginner workflow | 2012 |
+| [TSB ROM hex index](https://tecmobowl.org/topic/53101-tsb-rom-hex-location-index/) | Community file-offset landmarks | 2013–2016 |
 | [drhelius/Gearlynx](https://github.com/drhelius/Gearlynx) | 6502 debugger tool surface, transports | `MCP_README.md`, 2026 |
 | [Yuki001/nes-skills](https://github.com/Yuki001/nes-skills) | Four skills, bundled binaries, workflow | repo, Jun 2026 |
 | [vgrichina/re-skill](https://github.com/vgrichina/re-skill) | Phases, scaffold, loop script | repo, Mar 2026 |
@@ -57,7 +63,7 @@ Not verified by execution: Mesen MCP, mcp-bizhawk, Nes.Mcp, GhidraMCP, Gearlynx,
 
 ## Derived skills
 
-The `skills/` library was distilled from 64 NESdev Wiki pages fetched on 2026-10-19. The page list is in [`skills/nesdev-wiki-guide/references/page-index.md`](../skills/nesdev-wiki-guide/references/page-index.md). Prose was rewritten and tables reformatted; no wiki article is copied verbatim. The wiki retains its own terms — link back to it rather than mirroring sections.
+The `skills/` library was distilled from 64 NESdev Wiki pages fetched on 2026-10-19, plus a Tecmo Super Bowl category built from the 2008 event thread and the 2025 disassembly. The page list is in [`skills/nesdev-wiki-guide/references/page-index.md`](../skills/nesdev-wiki-guide/references/page-index.md). Prose was rewritten and tables reformatted; no wiki article is copied verbatim. The wiki retains its own terms — link back to it rather than mirroring sections.
 
 ## Repository metrics
 

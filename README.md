@@ -5,7 +5,7 @@
 Not a link dump. Every entry says what it is for, how to install it, and where it breaks.
 Last verified **October 2026**.
 
-[Start here](docs/start-here.md) · [The agent stack](docs/agent-stack.md) · [MCP servers](docs/mcp-servers.md) · [Agent skills](docs/agent-skills.md) · [Skills library](skills/) · [Homebrew](docs/homebrew.md) · [ROM hacking](docs/romhacking.md) · [Cold-ROM playbook](docs/cold-rom-playbook.md) · [Reference](docs/reference.md) · [Troubleshooting](docs/troubleshooting.md) · [Resources](docs/resources.md) · [Glossary](docs/glossary.md) · [Sources](docs/sources.md)
+[Start here](docs/start-here.md) · [The agent stack](docs/agent-stack.md) · [MCP servers](docs/mcp-servers.md) · [Agent skills](docs/agent-skills.md) · [Skills library](skills/) · [Tecmo Super Bowl](skills/tecmosuper/README.md) · [Homebrew](docs/homebrew.md) · [ROM hacking](docs/romhacking.md) · [Cold-ROM playbook](docs/cold-rom-playbook.md) · [Reference](docs/reference.md) · [Troubleshooting](docs/troubleshooting.md) · [Resources](docs/resources.md) · [Glossary](docs/glossary.md) · [Sources](docs/sources.md)
 
 ---
 
@@ -64,13 +64,13 @@ That fork → build → run loop is the single biggest quality-of-life change in
 | [Glossary](docs/glossary.md) | PRG, CHR, mapper, OAM, CDL, NMI, and the rest |
 | [Sources](docs/sources.md) | Where every claim came from, with dates and versions |
 | [Tools](tools/README.md) | Header parser, bank-aware address math, CDL merge/stats |
-| [Skills library](skills/README.md) | Seven installable NESdev skills distilled from the wiki |
+| [Skills library](skills/README.md) | NESdev hardware skills plus a Tecmo Super Bowl category |
 
 ---
 
 ## Installable skills
 
-Seven skills built from the NESdev Wiki, each with references and failure-mode checklists:
+Seven NESdev hardware skills plus a three-skill Tecmo Super Bowl category, each with references and failure-mode checklists:
 
 | Skill | Covers |
 |---|---|
@@ -81,9 +81,12 @@ Seven skills built from the NESdev Wiki, each with references and failure-mode c
 | [nes-apu-audio](skills/nes-apu-audio/SKILL.md) | Channels, frame counter, envelopes, DMC |
 | [nes-input-devices](skills/nes-input-devices/SKILL.md) | Controller reads, DPCM glitch, Zapper, Four Score |
 | [nes-6502-assembly](skills/nes-6502-assembly/SKILL.md) | Addressing modes, cycles, jump tables, optimization |
+| [tecmosuper-events](skills/tecmosuper-events/SKILL.md) | TSB cutscenes: bank/scene IDs, calls, full event library |
+| [tecmosuper-rom-map](skills/tecmosuper-rom-map/SKILL.md) | TSB banks, file offsets, data locations |
+| [tecmosuper-hacking](skills/tecmosuper-hacking/SKILL.md) | TSBTool SET commands, hex edits, rebuild, patches |
 
 ```bash
-cp -r skills/*/ ~/.claude/skills/
+cp -r skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
 ```
 
 Details and provenance: [skills/README.md](skills/README.md).
@@ -120,6 +123,7 @@ Neither replaces knowing the platform. The NES is a 1983 console with a PPU that
 | dotnes skills | repo, Sep 2026 | ✅ reference; tied to dotnes repo |
 | sadnescity/romhacking | plugin `1.0.1` (Sep 2026) | ✅ MIT; translation method, not mechanics |
 | gearlynx-romhacking | inside Gearlynx, Oct 2026 | ✅ genre template; Lynx, not NES |
+| Tecmo Super Bowl skills | 3 skills, Oct 2026 | ✅ events, ROM map, hacking |
 
 Legend: ✅ works as described · ⚠️ read before trusting · 🧪 early / incomplete · ❌ not for NES
 

@@ -1,9 +1,9 @@
 # Skills library
 
-Seven installable agent skills distilled from the [NESdev Wiki](https://www.nesdev.org/wiki/). Each is a folder with a `SKILL.md` and `references/` — copy the whole folder into your harness's skills directory.
+Ten installable agent skills: seven distilled from the [NESdev Wiki](https://www.nesdev.org/wiki/), plus a three-skill [Tecmo Super Bowl](tecmosuper/README.md) category. Each is a folder with a `SKILL.md` and `references/` — copy the whole folder into your harness's skills directory.
 
 ```bash
-cp -r skills/*/ ~/.claude/skills/
+cp -r skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
 ```
 
 | Skill | Use when |
@@ -15,6 +15,16 @@ cp -r skills/*/ ~/.claude/skills/
 | [nes-apu-audio](nes-apu-audio/SKILL.md) | Sound channels, frames, envelopes, frequency math, DPCM |
 | [nes-input-devices](nes-input-devices/SKILL.md) | Controllers, DPCM glitch, Zapper, Four Score |
 | [nes-6502-assembly](nes-6502-assembly/SKILL.md) | 6502 code, cycles, jump tables, optimizations |
+
+### Tecmo Super Bowl
+
+Game-specific skills for TSB, kept separate from the generic NES hardware packs. See the [category page](tecmosuper/README.md).
+
+| Skill | Use when |
+|---|---|
+| [tecmosuper-events](tecmosuper-events/SKILL.md) | Cutscenes, menus, event IDs, the `$C390`/`$C3A2`/`$C3AF` engine |
+| [tecmosuper-rom-map](tecmosuper-rom-map/SKILL.md) | Bank map, file offsets, CPU↔file translation, data locations |
+| [tecmosuper-hacking](tecmosuper-hacking/SKILL.md) | TSBTool SET commands, hex edits, rebuild, 28/32-team, patches |
 
 ## Design
 

@@ -1,0 +1,3062 @@
+[
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 0,
+  "event_hex": "00",
+  "name": "Opening",
+  "flags": "",
+  "disassembly_label": "INTRO_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 1,
+  "event_hex": "01",
+  "name": "Title Screen",
+  "flags": "",
+  "disassembly_label": "START_SCREEN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 2,
+  "event_hex": "02",
+  "name": "Kickoff",
+  "flags": "",
+  "disassembly_label": "KICKOFF_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 3,
+  "event_hex": "03",
+  "name": "Punt",
+  "flags": "",
+  "disassembly_label": "PUNT_SCREEN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 4,
+  "event_hex": "04",
+  "name": "Field Goal",
+  "flags": "",
+  "disassembly_label": "FG_SCREEN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 5,
+  "event_hex": "05",
+  "name": "JJ Incomplete (missed)",
+  "flags": "",
+  "disassembly_label": "DEFENSE_JUMP_MISS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 6,
+  "event_hex": "06",
+  "name": "JJ Incomplete (tipped)",
+  "flags": "",
+  "disassembly_label": "DEFENSE_JUMP_TIPPED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 7,
+  "event_hex": "07",
+  "name": "Incomplete (bounced)",
+  "flags": "",
+  "disassembly_label": "DEFENSE_TIPPED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 8,
+  "event_hex": "08",
+  "name": "Incomplete Dive (missed)",
+  "flags": "",
+  "disassembly_label": "DEFENSE_DIVE_MISS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 9,
+  "event_hex": "09",
+  "name": "Attempted Blocked Punt/FG/Pass",
+  "flags": "",
+  "disassembly_label": "BLOCK_MISS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 10,
+  "event_hex": "0A",
+  "name": "Blocked Punt",
+  "flags": "",
+  "disassembly_label": "BLOCK_PUNT_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 11,
+  "event_hex": "0B",
+  "name": "Blocked FG",
+  "flags": "",
+  "disassembly_label": "BLOCK_FG_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 12,
+  "event_hex": "0C",
+  "name": "Blocked PAT",
+  "flags": "",
+  "disassembly_label": "BLOCK_XP_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 13,
+  "event_hex": "0D",
+  "name": "Blocked Pass",
+  "flags": "",
+  "disassembly_label": "BLOCK_PASS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 14,
+  "event_hex": "0E",
+  "name": "Long FG Attempt",
+  "flags": "",
+  "disassembly_label": "KICK_TOWARDS_UPRIGHTS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 15,
+  "event_hex": "0F",
+  "name": "FG Through Uprights [->]",
+  "flags": "direction_right",
+  "disassembly_label": "P1_KICK_THROUGH_UPRIGHTS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 16,
+  "event_hex": "10",
+  "name": "FG Through Uprights [<-]",
+  "flags": "direction_left",
+  "disassembly_label": "P2_KICK_THROUGH_UPRIGHTS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 17,
+  "event_hex": "11",
+  "name": "FG Good",
+  "flags": "",
+  "disassembly_label": "FG_GOOD_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 18,
+  "event_hex": "12",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "P2_FG_UPRIGHTS_SIDE_VIEW_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 19,
+  "event_hex": "13",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "P1_FG_UPRIGHTS_SIDE_VIEW_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 20,
+  "event_hex": "14",
+  "name": "Doink Left Upright, Good [->]",
+  "flags": "direction_right",
+  "disassembly_label": "P1_LEFT_UPRIGHT_GOOD_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 21,
+  "event_hex": "15",
+  "name": "Doink Right Upright, Good [->]",
+  "flags": "direction_right",
+  "disassembly_label": "P1_RIGHT_UPRIGHT_GOOD_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 22,
+  "event_hex": "16",
+  "name": "Doink Left Upright, Missed [->]",
+  "flags": "direction_right",
+  "disassembly_label": "P1_LEFT_UPRIGHT_MISS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 23,
+  "event_hex": "17",
+  "name": "Doink Right Upright, Missed [->]",
+  "flags": "direction_right",
+  "disassembly_label": "P1_RIGHT_UPRIGHT_MISS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 24,
+  "event_hex": "18",
+  "name": "Missed Left [->]",
+  "flags": "direction_right",
+  "disassembly_label": "P1_LEFT_UPRIGHT_WIDE_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 25,
+  "event_hex": "19",
+  "name": "Missed Right [->]",
+  "flags": "direction_right",
+  "disassembly_label": "P1_RIGHT_UPRIGHT_WIDE_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 26,
+  "event_hex": "1A",
+  "name": "Short FG [->]",
+  "flags": "direction_right",
+  "disassembly_label": "P1_SHORT_UPRIGH_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 27,
+  "event_hex": "1B",
+  "name": "Referee - No Good",
+  "flags": "",
+  "disassembly_label": "REF_NO_GOOD_SIGNAL"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 28,
+  "event_hex": "1C",
+  "name": "Doink Right Upright, Good [<-]",
+  "flags": "direction_left",
+  "disassembly_label": "P2_RIGHT_UPRIGHT_GOOD_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 29,
+  "event_hex": "1D",
+  "name": "Doink Left Upright, Good [<-]",
+  "flags": "direction_left",
+  "disassembly_label": "P2_LEFT_UPRIGHT_GOOD_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 30,
+  "event_hex": "1E",
+  "name": "Doink Right Upright, Missed [<-]",
+  "flags": "direction_left",
+  "disassembly_label": "P2_RIGHT_UPRIGHT_MISS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 31,
+  "event_hex": "1F",
+  "name": "Doink Left Upright, Missed [<-]",
+  "flags": "direction_left",
+  "disassembly_label": "P2_LEFT_UPRIGHT_MISS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 32,
+  "event_hex": "20",
+  "name": "Missed Right [<-]",
+  "flags": "direction_left",
+  "disassembly_label": "P2_RIGHT_UPRIGHT_WIDE_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 33,
+  "event_hex": "21",
+  "name": "Missed Left [<-]",
+  "flags": "direction_left",
+  "disassembly_label": "P2_LEFT_UPRIGHT_WIDE_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 34,
+  "event_hex": "22",
+  "name": "Short FG [<-]",
+  "flags": "direction_left",
+  "disassembly_label": "P2_SHORT_UPRIGHT_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 35,
+  "event_hex": "23",
+  "name": "Successful Try",
+  "flags": "",
+  "disassembly_label": "XP_GOOD_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 36,
+  "event_hex": "24",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_1_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 37,
+  "event_hex": "25",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_2_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 38,
+  "event_hex": "26",
+  "name": "QB Sack",
+  "flags": "",
+  "disassembly_label": "QB_SACK_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 39,
+  "event_hex": "27",
+  "name": "QB Sack + Side Change",
+  "flags": "",
+  "disassembly_label": "QB_SACK_SIDE_CHANGE_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 40,
+  "event_hex": "28",
+  "name": "Safety",
+  "flags": "",
+  "disassembly_label": "QB_SACK_SAFETY_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 41,
+  "event_hex": "29",
+  "name": "Bullet Pass",
+  "flags": "",
+  "disassembly_label": "QB_PASS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 42,
+  "event_hex": "2A",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "START_JUMP_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 43,
+  "event_hex": "2B",
+  "name": "JJ Catch",
+  "flags": "",
+  "disassembly_label": "OFFENSE_JUMP_CATCH_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 44,
+  "event_hex": "2C",
+  "name": "JJ Incomplete (missed)",
+  "flags": "",
+  "disassembly_label": "OFFENSE_JUMP_MISS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 45,
+  "event_hex": "2D",
+  "name": "JJ Incomplete (tipped)",
+  "flags": "",
+  "disassembly_label": "OFFENSE_JUMP_TIPPED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 46,
+  "event_hex": "2E",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "DOUBLE_JUMP_START_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 47,
+  "event_hex": "2F",
+  "name": "Catch",
+  "flags": "",
+  "disassembly_label": "OFFENSE_CATCH_SIDEWAYS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 48,
+  "event_hex": "30",
+  "name": "Incomplete (bounced)",
+  "flags": "",
+  "disassembly_label": "OFFENSE_TIP_SIDEWAYS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 49,
+  "event_hex": "31",
+  "name": "Incomplete Pass",
+  "flags": "",
+  "disassembly_label": "WHIFF_INCOMPLETE_PASS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 50,
+  "event_hex": "32",
+  "name": "Complete Dive",
+  "flags": "",
+  "disassembly_label": "OFFENSE_DIVE_CATCH_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 51,
+  "event_hex": "33",
+  "name": "Incomplete Dive (missed)",
+  "flags": "",
+  "disassembly_label": "OFFENSE_DIVE_MISS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 52,
+  "event_hex": "34",
+  "name": "Incomplete Dive (tipped)",
+  "flags": "",
+  "disassembly_label": "OFFENSE_DIVE_TIPPED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 53,
+  "event_hex": "35",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_3_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 54,
+  "event_hex": "36",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_4_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 55,
+  "event_hex": "37",
+  "name": "Injury",
+  "flags": "",
+  "disassembly_label": "INJURY_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 56,
+  "event_hex": "38",
+  "name": "Rushing TD",
+  "flags": "",
+  "disassembly_label": "RUSHING_TOUCHDOWN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 57,
+  "event_hex": "39",
+  "name": "Receiving TD",
+  "flags": "",
+  "disassembly_label": "PASSING_TOUCHDOWN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 58,
+  "event_hex": "3A",
+  "name": "AFC Champion",
+  "flags": "",
+  "disassembly_label": "AFC_CHAMPION_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 59,
+  "event_hex": "3B",
+  "name": "Super Champion",
+  "flags": "",
+  "disassembly_label": "SUPER_BOWL_CHAMPION_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 60,
+  "event_hex": "3C",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "SUPER_BOWL_STADIUM_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 61,
+  "event_hex": "3D",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_5_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 62,
+  "event_hex": "3E",
+  "name": "First Down (Ref. faces left)",
+  "flags": "",
+  "disassembly_label": "FIRST_DOWN_REF_ARM_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 63,
+  "event_hex": "3F",
+  "name": "First Down (Ref. faces forward)",
+  "flags": "",
+  "disassembly_label": "FIRST_DOWN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 64,
+  "event_hex": "40",
+  "name": "Second Down",
+  "flags": "",
+  "disassembly_label": "SECOND_DOWN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 65,
+  "event_hex": "41",
+  "name": "Third Down",
+  "flags": "",
+  "disassembly_label": "THIRD_DOWN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 66,
+  "event_hex": "42",
+  "name": "Fourth Down",
+  "flags": "",
+  "disassembly_label": "FOURTH_DOWN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 67,
+  "event_hex": "43",
+  "name": "JJ Interception",
+  "flags": "",
+  "disassembly_label": "DEFENSE_JUMP_INT_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 68,
+  "event_hex": "44",
+  "name": "Super JJ",
+  "flags": "",
+  "disassembly_label": "DOUBLE_JUMP_CATCH_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 69,
+  "event_hex": "45",
+  "name": "Super JJ (missed)",
+  "flags": "",
+  "disassembly_label": "DOUBLE_JUMP_MISS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 70,
+  "event_hex": "46",
+  "name": "Super JJ (missed)",
+  "flags": "",
+  "disassembly_label": "DOUBLE_JUMP_TIP_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 71,
+  "event_hex": "47",
+  "name": "Super JJ, Int (missed)",
+  "flags": "",
+  "disassembly_label": "DOUBLE_JUMP_INT_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 72,
+  "event_hex": "48",
+  "name": "Interception",
+  "flags": "",
+  "disassembly_label": "DEFENSE_INTERCEPTION_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 73,
+  "event_hex": "49",
+  "name": "Halftime - Blimp",
+  "flags": "",
+  "disassembly_label": "HALF_TIME_BLIMP_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 74,
+  "event_hex": "4A",
+  "name": "Halftime - Wink",
+  "flags": "",
+  "disassembly_label": "HALF_TIME_GIRL_WINK_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 75,
+  "event_hex": "4B",
+  "name": "Halftime - Band",
+  "flags": "",
+  "disassembly_label": "HALF_TIME_BAND_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 76,
+  "event_hex": "4C",
+  "name": "Halftime - Toss Cheerleader",
+  "flags": "",
+  "disassembly_label": "HALF_TIME_CHEERLEADER_TOSS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 77,
+  "event_hex": "4D",
+  "name": "Halftime - Parachute",
+  "flags": "",
+  "disassembly_label": "HALF_TIME_PARACHUTE_WAVE_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 78,
+  "event_hex": "4E",
+  "name": "QB Stats -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "DRAW_PLAYER_PORTAIT_WITH_LABELS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 79,
+  "event_hex": "4F",
+  "name": "Halftime - Cheerleaders x2",
+  "flags": "",
+  "disassembly_label": "HALF_TIME_CHEERLEADER_KICK_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 80,
+  "event_hex": "50",
+  "name": "Halftime - Kiss",
+  "flags": "",
+  "disassembly_label": "HALF_TIME_GIRL_KISS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 81,
+  "event_hex": "51",
+  "name": "Catch, Dive Int",
+  "flags": "",
+  "disassembly_label": "DEFENSE_DIVE_MISS_WR_CATCH_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 82,
+  "event_hex": "52",
+  "name": "Catch, JJ Int",
+  "flags": "",
+  "disassembly_label": "DEFENSE_JUMP_MISS_WR_CATCH_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 83,
+  "event_hex": "53",
+  "name": "Incomp, Dive Int",
+  "flags": "",
+  "disassembly_label": "DEFENSE_DIVE_MISS_BOUNCE_OFF_WR_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 84,
+  "event_hex": "54",
+  "name": "Incomp, JJ Int",
+  "flags": "",
+  "disassembly_label": "DEFENSE_JUMP_MISS_BOUNCE_OFF_WR_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 85,
+  "event_hex": "55",
+  "name": "Dive Int",
+  "flags": "",
+  "disassembly_label": "DEFENSE_DIVE_INTERCEPTION_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 86,
+  "event_hex": "56",
+  "name": "Division Champs",
+  "flags": "",
+  "disassembly_label": "DIVISION_CHAMP_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 87,
+  "event_hex": "57",
+  "name": "Flashing \"Press Start\" at title",
+  "flags": "",
+  "disassembly_label": "FLASH_START_GAME_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 88,
+  "event_hex": "58",
+  "name": "Special Halftime Show",
+  "flags": "",
+  "disassembly_label": "MIGHTY_BOMBJACK_HALFTIME_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 89,
+  "event_hex": "59",
+  "name": "Halftime Show (Blimp, Wink, Band, Kiss)",
+  "flags": "",
+  "disassembly_label": "HALFTIME_1_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 90,
+  "event_hex": "5A",
+  "name": "Halftime Show (Parachute, The Wave, Cheerleaders x2, Toss Cheerleader)",
+  "flags": "",
+  "disassembly_label": "HALFTIME_2_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 91,
+  "event_hex": "5B",
+  "name": "Halftime Show (Cheerleaders x2, Band, Blimp, Wink)",
+  "flags": "",
+  "disassembly_label": "HALFTIME_3_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 92,
+  "event_hex": "5C",
+  "name": "Halftime Show (Wink, Cheerleaders x2, Toss Cheerleader, Kiss)",
+  "flags": "",
+  "disassembly_label": "HALFTIME_4_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 93,
+  "event_hex": "5D",
+  "name": "Yards Rushed -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "YARDS_RUSH_TODAY_UNUSED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 94,
+  "event_hex": "5E",
+  "name": "Yards Returned -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "YARDS_RETURN_TODAY_UNUSED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 95,
+  "event_hex": "5F",
+  "name": "Yards Received -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "YARDS_RECEIVE_TODAY_UNUSED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 96,
+  "event_hex": "60",
+  "name": "Interception TD -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "INT_TD_UNUSED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 97,
+  "event_hex": "61",
+  "name": "Defensive TD -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "DEFENSE_TD_UNUSED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 98,
+  "event_hex": "62",
+  "name": "Rush Yards Today -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "RUSHING_YARDS_TODAY_UNUSED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 99,
+  "event_hex": "63",
+  "name": "Rec Yards Today -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "REC_YARDS_TODAY_UNUSED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 100,
+  "event_hex": "64",
+  "name": "Sacks Today -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "SACKS_YARDS_TODAY_UNUSED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 101,
+  "event_hex": "65",
+  "name": "Int Today -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "INT_TODAY_UNUSED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 102,
+  "event_hex": "66",
+  "name": "000Yards Rusher -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "YARDS_RUSHER_UNUSED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 103,
+  "event_hex": "67",
+  "name": "000Yards Receiver -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "YARDS_RECEIVER_UNUSED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 104,
+  "event_hex": "68",
+  "name": "000Yards Passer -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "YARDS_PASSER_UNUSED_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 105,
+  "event_hex": "69",
+  "name": "Yellow Flag-False Start -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "FALSE_START_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 106,
+  "event_hex": "6A",
+  "name": "Yellow Flag-Offsides -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "OFFSIDE_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 107,
+  "event_hex": "6B",
+  "name": "NFC Champion",
+  "flags": "",
+  "disassembly_label": "NFC_CHAMPION_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 108,
+  "event_hex": "6C",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_6_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 109,
+  "event_hex": "6D",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_7_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 110,
+  "event_hex": "6E",
+  "name": "Credits",
+  "flags": "",
+  "disassembly_label": "CREDITS_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 111,
+  "event_hex": "6F",
+  "name": "Sound Test",
+  "flags": "",
+  "disassembly_label": "SOUND_MODE_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 112,
+  "event_hex": "70",
+  "name": "Chains + 1st Down [->]",
+  "flags": "direction_right",
+  "disassembly_label": "P1_CHAINS_FIRST_DOWN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 113,
+  "event_hex": "71",
+  "name": "Chains + 2nd Down [->]",
+  "flags": "direction_right",
+  "disassembly_label": "CHAINS_SECOND_DOWN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 114,
+  "event_hex": "72",
+  "name": "Chains + 3rd Down [->]",
+  "flags": "direction_right",
+  "disassembly_label": "CHAINS_THIRD_DOWN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 115,
+  "event_hex": "73",
+  "name": "Chains + 4th Down [->]",
+  "flags": "direction_right",
+  "disassembly_label": "CHAINS_FOURTH_DOWN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 116,
+  "event_hex": "74",
+  "name": "Chains + Change Sides [->]",
+  "flags": "direction_right",
+  "disassembly_label": "CHAINS_CHANGE_SIDE_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 117,
+  "event_hex": "75",
+  "name": "Chains + First Down [<-]",
+  "flags": "direction_left",
+  "disassembly_label": "P2_CHAINS_FIRST_DOWN_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 118,
+  "event_hex": "76",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_8_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 119,
+  "event_hex": "77",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_9_SCENE_ID"
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 120,
+  "event_hex": "78",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 121,
+  "event_hex": "79",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 122,
+  "event_hex": "7A",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 123,
+  "event_hex": "7B",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 124,
+  "event_hex": "7C",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 125,
+  "event_hex": "7D",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 126,
+  "event_hex": "7E",
+  "name": "Incomp (bounced), Dive",
+  "flags": "",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 6,
+  "bank_hex": "06",
+  "bank_name": "Gameplay cutscenes, kicks, catches, touchdowns, halftime",
+  "event": 127,
+  "event_hex": "7F",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 0,
+  "event_hex": "00",
+  "name": "NFL Leaders",
+  "flags": "",
+  "disassembly_label": "NFL_LEADERS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 1,
+  "event_hex": "01",
+  "name": "Leading Passers",
+  "flags": "",
+  "disassembly_label": "LEADING_PASSERS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 2,
+  "event_hex": "02",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "LEADING_PASSERS_HEADERS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 3,
+  "event_hex": "03",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "LEADING_PASSERS_MENU_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 4,
+  "event_hex": "04",
+  "name": "Leading Receiving",
+  "flags": "",
+  "disassembly_label": "LEADING_RECEIVERS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 5,
+  "event_hex": "05",
+  "name": "Leading Rushing",
+  "flags": "",
+  "disassembly_label": "LEADING_RUSHERS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 6,
+  "event_hex": "06",
+  "name": "Scoring",
+  "flags": "",
+  "disassembly_label": "LEADING_SCORERS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 7,
+  "event_hex": "07",
+  "name": "Leading Punting",
+  "flags": "",
+  "disassembly_label": "LEADING_PUNTERS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 8,
+  "event_hex": "08",
+  "name": "Interceptions",
+  "flags": "",
+  "disassembly_label": "INTERCEPTION_LEADERS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 9,
+  "event_hex": "09",
+  "name": "Leading Sacks",
+  "flags": "",
+  "disassembly_label": "SACK_LEADERS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 10,
+  "event_hex": "0A",
+  "name": "Punt Returns",
+  "flags": "",
+  "disassembly_label": "PR_LEADERS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 11,
+  "event_hex": "0B",
+  "name": "Kickoff Returns",
+  "flags": "",
+  "disassembly_label": "KR_LEADERS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 12,
+  "event_hex": "0C",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_10_THRU_24_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 13,
+  "event_hex": "0D",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 14,
+  "event_hex": "0E",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 15,
+  "event_hex": "0F",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 16,
+  "event_hex": "10",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 17,
+  "event_hex": "11",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 18,
+  "event_hex": "12",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 19,
+  "event_hex": "13",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 20,
+  "event_hex": "14",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 21,
+  "event_hex": "15",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 22,
+  "event_hex": "16",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 23,
+  "event_hex": "17",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 24,
+  "event_hex": "18",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 25,
+  "event_hex": "19",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 26,
+  "event_hex": "1A",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 27,
+  "event_hex": "1B",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "SCOREBOARD_ALL_QTRS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 28,
+  "event_hex": "1C",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "SCOREBOARD_NO_QTRS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 29,
+  "event_hex": "1D",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "SCOREBOARD_Q1_SKP_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 30,
+  "event_hex": "1E",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "SCOREBOARD_Q2_SKP_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 31,
+  "event_hex": "1F",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "SCOREBOARD_Q3_SKP_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 32,
+  "event_hex": "20",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "SCOREBOARD_Q4_SKP_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 33,
+  "event_hex": "21",
+  "name": "Scoreboard (1->2)",
+  "flags": "",
+  "disassembly_label": "SCOREBOARD_Q1_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 34,
+  "event_hex": "22",
+  "name": "Scoreboard (2->3)",
+  "flags": "",
+  "disassembly_label": "SCOREBOARD_Q2_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 35,
+  "event_hex": "23",
+  "name": "Scoreboard (3->4)",
+  "flags": "",
+  "disassembly_label": "SCOREBOARD_Q3_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 36,
+  "event_hex": "24",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_25_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 37,
+  "event_hex": "25",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_26_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 38,
+  "event_hex": "26",
+  "name": "Injury Recovery",
+  "flags": "",
+  "disassembly_label": "RECOVERED_FROM_INJURY_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 39,
+  "event_hex": "27",
+  "name": "?Opening Coin Toss",
+  "flags": "",
+  "disassembly_label": "COIN_TOSS_INTRO_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 40,
+  "event_hex": "28",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "COIN_FLIP_P1_WINS_ANI_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 41,
+  "event_hex": "29",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "COIN_FLIP_P2_WINS_ANI_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 42,
+  "event_hex": "2A",
+  "name": "?Choose Kick -or- Receive (P1)",
+  "flags": "",
+  "disassembly_label": "CHOOSE_KICK_OR_RET_P1_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 43,
+  "event_hex": "2B",
+  "name": "?Choose Kick -or- Receive (P2)",
+  "flags": "",
+  "disassembly_label": "CHOOSE_KICK_OR_RET_P2_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 44,
+  "event_hex": "2C",
+  "name": "Opening Coin Toss/Choose Kick -or- Receive (P1 wins)",
+  "flags": "",
+  "disassembly_label": "P1_WINS_COIN_TOSS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 45,
+  "event_hex": "2D",
+  "name": "Opening Coin Toss/Choose Kick -or- Receive (P2 wins)",
+  "flags": "",
+  "disassembly_label": "P2_WINS_COIN_TOSS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 46,
+  "event_hex": "2E",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "REF_POINT_P1_KICKOFF_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 47,
+  "event_hex": "2F",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "REF_POINT_P2_KICKOFF_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 48,
+  "event_hex": "30",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "DRAW_INITIAL_KICKOFF_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 49,
+  "event_hex": "31",
+  "name": "Overtime Coin Toss/Choose Kick -or- Receive (P1 wins)",
+  "flags": "",
+  "disassembly_label": "OT_COIN_TOSS_P1_WINS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 50,
+  "event_hex": "32",
+  "name": "Overtime Coin Toss/Choose Kick -or- Receive (P2 wins)",
+  "flags": "",
+  "disassembly_label": "OT_COIN_TOSS_P2_WINS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 51,
+  "event_hex": "33",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_27_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 52,
+  "event_hex": "34",
+  "name": "Black intro screen - \"PRESEASON\"",
+  "flags": "",
+  "disassembly_label": "PRESEASON_LARGE_TXT_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 53,
+  "event_hex": "35",
+  "name": "Black intro screen - \"PROBOWL\"",
+  "flags": "",
+  "disassembly_label": "PROBOWL_LARGE_TXT_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 54,
+  "event_hex": "36",
+  "name": "Black intro screen - \"REGULAR SEASON 1ST WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_1_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 55,
+  "event_hex": "37",
+  "name": "Black intro screen - \"REGULAR SEASON 2ND WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_2_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 56,
+  "event_hex": "38",
+  "name": "Black intro screen - \"REGULAR SEASON 3RD WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_3_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 57,
+  "event_hex": "39",
+  "name": "Black intro screen - \"REGULAR SEASON 4TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_4_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 58,
+  "event_hex": "3A",
+  "name": "Black intro screen - \"REGULAR SEASON 5TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_5_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 59,
+  "event_hex": "3B",
+  "name": "Black intro screen - \"REGULAR SEASON 6TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_6_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 60,
+  "event_hex": "3C",
+  "name": "Black intro screen - \"REGULAR SEASON 7TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_7_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 61,
+  "event_hex": "3D",
+  "name": "Black intro screen - \"REGULAR SEASON 8TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_8_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 62,
+  "event_hex": "3E",
+  "name": "Black intro screen - \"REGULAR SEASON 9TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_9_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 63,
+  "event_hex": "3F",
+  "name": "Black intro screen - \"REGULAR SEASON 10TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_10_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 64,
+  "event_hex": "40",
+  "name": "Black intro screen - \"REGULAR SEASON 11TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_11_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 65,
+  "event_hex": "41",
+  "name": "Black intro screen - \"REGULAR SEASON 12TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_12_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 66,
+  "event_hex": "42",
+  "name": "Black intro screen - \"REGULAR SEASON 13TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_13_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 67,
+  "event_hex": "43",
+  "name": "Black intro screen - \"REGULAR SEASON 14TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_14_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 68,
+  "event_hex": "44",
+  "name": "Black intro screen - \"REGULAR SEASON 15TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_15_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 69,
+  "event_hex": "45",
+  "name": "Black intro screen - \"REGULAR SEASON 16TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_16_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 70,
+  "event_hex": "46",
+  "name": "Black intro screen - \"REGULAR SEASON 17TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_17_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 71,
+  "event_hex": "47",
+  "name": "Black intro screen - \"REGULAR SEASON 18TH WEEK\"",
+  "flags": "",
+  "disassembly_label": "REG_SEAS_WEEK_18_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 72,
+  "event_hex": "48",
+  "name": "Black intro screen - \"REGULAR SEASON WEEK\" (small letters) -UNUSED-",
+  "flags": "unused",
+  "disassembly_label": "REG_SEAS_SMALL_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 73,
+  "event_hex": "49",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_28_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 74,
+  "event_hex": "4A",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_29_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 75,
+  "event_hex": "4B",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_30_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 76,
+  "event_hex": "4C",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "SCOREBOARD_4Q_THEN_STATS_SKP_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 77,
+  "event_hex": "4D",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "SCOREBOARD_OT_THEN_STATS_SKP_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 78,
+  "event_hex": "4E",
+  "name": "Final Scoreboard (No O.T.)",
+  "flags": "",
+  "disassembly_label": "SCOREBOARD_4Q_THEN_STATS_SCENE_ID"
+ },
+ {
+  "bank": 7,
+  "bank_hex": "07",
+  "bank_name": "Leaders, scoreboards, coin toss, season/week screens",
+  "event": 79,
+  "event_hex": "4F",
+  "name": "Final Scoreboard (O.T.)",
+  "flags": "",
+  "disassembly_label": "SCOREBOARD_OT_THEN_STATS_SCENE_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 0,
+  "event_hex": "00",
+  "name": "Main Menu",
+  "flags": "",
+  "disassembly_label": "MAIN_MENU_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 1,
+  "event_hex": "01",
+  "name": "Main Menu - Preseason Dropdown",
+  "flags": "",
+  "disassembly_label": "PRESEASON_MENU_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 2,
+  "event_hex": "02",
+  "name": "Preaeason - Team Select",
+  "flags": "",
+  "disassembly_label": "PRESEASON_SELECT_TEAM_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 3,
+  "event_hex": "03",
+  "name": "Season Menu",
+  "flags": "",
+  "disassembly_label": "SEASON_MENU_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 4,
+  "event_hex": "04",
+  "name": "Team Control",
+  "flags": "",
+  "disassembly_label": "TEAM_CONTROL_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 5,
+  "event_hex": "05",
+  "name": "NFL Schedule",
+  "flags": "",
+  "disassembly_label": "NFL_SCHEDULE_HEADER_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 6,
+  "event_hex": "06",
+  "name": "NFL Schedule - Dropdown {Auto Skip, Playoffs, Reset}",
+  "flags": "",
+  "disassembly_label": "SCHEDULE_MENU_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 7,
+  "event_hex": "07",
+  "name": "NFL Schedule - Reset Warning",
+  "flags": "",
+  "disassembly_label": "FIRST_SCHEDULE_RESET_WARN_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 8,
+  "event_hex": "08",
+  "name": "NFL Schedule - Reset Final Warning",
+  "flags": "",
+  "disassembly_label": "FINAL_SCHEDULE_RESET_WARN_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 9,
+  "event_hex": "09",
+  "name": "NFL Schedule - Auto Skip #",
+  "flags": "",
+  "disassembly_label": "SKIP_TO_WEEK_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 10,
+  "event_hex": "0A",
+  "name": "Season - NFL Standings",
+  "flags": "",
+  "disassembly_label": "STANDINGS_MENU_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 11,
+  "event_hex": "0B",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "RANKINGS_MENU_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 12,
+  "event_hex": "0C",
+  "name": "Season - Team Rankings",
+  "flags": "",
+  "disassembly_label": "RANKINGS_MENU_SCREEN_ID_EXTRA"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 13,
+  "event_hex": "0D",
+  "name": "Playoff Bracket",
+  "flags": "",
+  "disassembly_label": "PLAYOFF_BRACKET_SEASON_NOT_OVER_SCREEN_ID_DUPE_ONE"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 14,
+  "event_hex": "0E",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "PLAYOFF_BRACKET_SEASON_NOT_OVER_SCREEN_ID_DUPE_TWO"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 15,
+  "event_hex": "0F",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "PLAYOFF_BRACKET_SEASON_NOT_OVER_SCREEN_ID_DUPE_THREE"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 16,
+  "event_hex": "10",
+  "name": "Playoff Bracket",
+  "flags": "",
+  "disassembly_label": "PLAYOFF_BRACKET_SEASON_NOT_OVER_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 17,
+  "event_hex": "11",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "PLAYOFF_BRACKET_TEAM_NAMES_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 18,
+  "event_hex": "12",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "PROBOWL_TEAM_TYPE_SCREEN_ID_DUPE_ONE"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 19,
+  "event_hex": "13",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "PROBOWL_TEAM_TYPE_SCREEN_ID_DUPE_TWO"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 20,
+  "event_hex": "14",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "PROBOWL_TEAM_TYPE_SCREEN_ID_DUPE_THREE"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 21,
+  "event_hex": "15",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "PROBOWL_TEAM_TYPE_SCREEN_ID_DUPE_FOUR"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 22,
+  "event_hex": "16",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "PROBOWL_TEAM_TYPE_SCREEN_ID_DUPE_FIVE"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 23,
+  "event_hex": "17",
+  "name": "Main Menu - Probowl Dropdown",
+  "flags": "",
+  "disassembly_label": "PROBOWL_TEAM_TYPE_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 24,
+  "event_hex": "18",
+  "name": "Probowl - Team Select",
+  "flags": "",
+  "disassembly_label": "PRO_BOWL_TEAM_CHOICE_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 25,
+  "event_hex": "19",
+  "name": "Team Data",
+  "flags": "",
+  "disassembly_label": "TEAM_DATA_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 26,
+  "event_hex": "1A",
+  "name": "Team Roster",
+  "flags": "",
+  "disassembly_label": "ROSTER_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 27,
+  "event_hex": "1B",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "DEFENSIVE_STARTERS_SCREEN_ID_UNUSED_1"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 28,
+  "event_hex": "1C",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "DEFENSIVE_STARTERS_SCREEN_ID_UNUSED_2"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 29,
+  "event_hex": "1D",
+  "name": "DF Starters",
+  "flags": "",
+  "disassembly_label": "DEFENSIVE_STARTERS_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 30,
+  "event_hex": "1E",
+  "name": "Play Book",
+  "flags": "",
+  "disassembly_label": "PLAYBOOK_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 31,
+  "event_hex": "1F",
+  "name": "Play Chooser",
+  "flags": "",
+  "disassembly_label": "PLAYBOOK_RUN_CHANGE_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 32,
+  "event_hex": "20",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "PLAYBOOK_PASS_CHANGE_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 33,
+  "event_hex": "21",
+  "name": "AFC/NFC All Stars",
+  "flags": "",
+  "disassembly_label": "PRO_BOWL_TEAM_DATA_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 34,
+  "event_hex": "22",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "PRO_BOWL_HEADER_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 35,
+  "event_hex": "23",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "PRO_BOWL_CHANGE_PLAYER_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 36,
+  "event_hex": "24",
+  "name": "Player Data Screen QB",
+  "flags": "bank_swap",
+  "disassembly_label": "QB_DATA_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 37,
+  "event_hex": "25",
+  "name": "Player Data Screen RB,WR,TE",
+  "flags": "bank_swap",
+  "disassembly_label": "RB_WR_TE_DATA_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 38,
+  "event_hex": "26",
+  "name": "Player Data Screen OL",
+  "flags": "bank_swap",
+  "disassembly_label": "OL_DATA_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 39,
+  "event_hex": "27",
+  "name": "Player Data Screen Defense",
+  "flags": "bank_swap",
+  "disassembly_label": "DEFENDER_DATA_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 40,
+  "event_hex": "28",
+  "name": "Player Data Screen K",
+  "flags": "bank_swap",
+  "disassembly_label": "KICKER_DATA_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 41,
+  "event_hex": "29",
+  "name": "Player Data Screen P",
+  "flags": "bank_swap",
+  "disassembly_label": "PUNTER_DATA_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 42,
+  "event_hex": "2A",
+  "name": "AFC East Standings",
+  "flags": "",
+  "disassembly_label": "AFC_EAST_STANDINGS_TEXT_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 43,
+  "event_hex": "2B",
+  "name": "AFC Central Standings",
+  "flags": "",
+  "disassembly_label": "AFC_CENT_STANDINGS_TEXT_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 44,
+  "event_hex": "2C",
+  "name": "AFC West Standings",
+  "flags": "",
+  "disassembly_label": "AFC_WEST_STANDINGS_TEXT_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 45,
+  "event_hex": "2D",
+  "name": "NFC East Standings",
+  "flags": "",
+  "disassembly_label": "NFC_EAST_STANDINGS_TEXT_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 46,
+  "event_hex": "2E",
+  "name": "NFC Central Standings",
+  "flags": "",
+  "disassembly_label": "NFC_CENT_STANDINGS_TEXT_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 47,
+  "event_hex": "2F",
+  "name": "NFC West Standings",
+  "flags": "",
+  "disassembly_label": "NFC_WEST_STANDINGS_TEXT_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 48,
+  "event_hex": "30",
+  "name": "Standings Screen",
+  "flags": "",
+  "disassembly_label": "FOUR_TEAM_DIV_STANDINGS_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 49,
+  "event_hex": "31",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "FIVE_TEAM_DIV_STANDINGS_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 50,
+  "event_hex": "32",
+  "name": "OF Starters",
+  "flags": "bank_swap",
+  "disassembly_label": "OFF_STARTERS_2WR_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 56,
+  "event_hex": "38",
+  "name": "OF Starters - Starter Reset",
+  "flags": "bank_swap",
+  "disassembly_label": "OFF_STARTER_RESET_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 57,
+  "event_hex": "39",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "NFL_OFFENSIVE_TEAM_RANKINGS_SCREEN_ID_DUPE"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 58,
+  "event_hex": "3A",
+  "name": "Team Rankings - Offense NFL",
+  "flags": "",
+  "disassembly_label": "NFL_OFFENSIVE_TEAM_RANKINGS_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 59,
+  "event_hex": "3B",
+  "name": "Team Rankings - Offense AFC",
+  "flags": "",
+  "disassembly_label": "AFC_OFFENSIVE_TEAM_RANKINGS_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 60,
+  "event_hex": "3C",
+  "name": "Team Rankings - Offense NFC",
+  "flags": "",
+  "disassembly_label": "NFC_OFFENSIVE_TEAM_RANKINGS_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 61,
+  "event_hex": "3D",
+  "name": "Team Rankings - Defense NFL",
+  "flags": "",
+  "disassembly_label": "NFL_DFFENSIVE_TEAM_RANKINGS_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 62,
+  "event_hex": "3E",
+  "name": "Team Rankings - Defense AFC",
+  "flags": "",
+  "disassembly_label": "AFC_DFFENSIVE_TEAM_RANKINGS_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 63,
+  "event_hex": "3F",
+  "name": "Team Rankings - Defense NFC",
+  "flags": "",
+  "disassembly_label": "NFC_DFFENSIVE_TEAM_RANKINGS_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 64,
+  "event_hex": "40",
+  "name": "Play Select Screen",
+  "flags": "",
+  "disassembly_label": "PLAY_SELECT_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 65,
+  "event_hex": "41",
+  "name": "P1, Off Dropdown Menu",
+  "flags": "bank_swap",
+  "disassembly_label": "P1_OFF_MENU_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 66,
+  "event_hex": "42",
+  "name": "P1, Off \"Call Timeout\"",
+  "flags": "bank_swap",
+  "disassembly_label": "P1_OFF_TIMEOUT_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 67,
+  "event_hex": "43",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "P1_DEF_MENU_SCREEN_ID_DUPE"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 68,
+  "event_hex": "44",
+  "name": "P1, Def Dropdown Menu",
+  "flags": "bank_swap",
+  "disassembly_label": "P1_DEF_MENU_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 69,
+  "event_hex": "45",
+  "name": "P1, Def \"Call Timeout\"",
+  "flags": "bank_swap",
+  "disassembly_label": "P1_DEF_TIMEOUT_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 70,
+  "event_hex": "46",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "P2_OFF_MENU_SCREEN_ID_DUPE"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 71,
+  "event_hex": "47",
+  "name": "P2, Off Dropdown Menu",
+  "flags": "bank_swap",
+  "disassembly_label": "P2_OFF_MENU_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 72,
+  "event_hex": "48",
+  "name": "P2, Off \"Call Timeout\"",
+  "flags": "bank_swap",
+  "disassembly_label": "P2_OFF_TIMEOUT_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 73,
+  "event_hex": "49",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "EMPTY_PLAYCALL_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 74,
+  "event_hex": "4A",
+  "name": "P2, Def Dropdown Menu",
+  "flags": "bank_swap",
+  "disassembly_label": "P2_DEFENSIVE_MENU_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 75,
+  "event_hex": "4B",
+  "name": "P2, Def \"Call Timeout\"",
+  "flags": "bank_swap",
+  "disassembly_label": "P2_DEF_TIMEOUT_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 76,
+  "event_hex": "4C",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": "OFFENSIVE_MENU_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 77,
+  "event_hex": "4D",
+  "name": "",
+  "flags": "unassigned",
+  "disassembly_label": ""
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 78,
+  "event_hex": "4E",
+  "name": "??? Clock Bkg",
+  "flags": "bank_swap",
+  "disassembly_label": "CLOCK_BACKGROUND_SCREEN_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 79,
+  "event_hex": "4F",
+  "name": "??? \"#th Down ##\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "DOWN_MARKERS_1ST_10_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 80,
+  "event_hex": "50",
+  "name": "\"\\\\\\Fumble///\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "FUMBLE_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 81,
+  "event_hex": "51",
+  "name": "\"Punt Kick\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "PUNT_KICK_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 82,
+  "event_hex": "52",
+  "name": "\"Field Goal\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "FIELD_GOAL_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 83,
+  "event_hex": "53",
+  "name": "\"Successful Try\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "SUCCESSFUL_TRY_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 84,
+  "event_hex": "54",
+  "name": "\"No Good\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "NO_GOOD_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 85,
+  "event_hex": "55",
+  "name": "\"First Down\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "FIRST_DOWN_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 86,
+  "event_hex": "56",
+  "name": "\"Side Change\" + \"Next Offense ... Next Defense\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "SIDE_CHG_NEXT_OFF_NEXT_DEF_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 87,
+  "event_hex": "57",
+  "name": "\"Side Change\" + \"Next Defense ... Next Offense\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "SIDE_CHG_NEXT_DEF_NEXT_OFF_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 88,
+  "event_hex": "58",
+  "name": "\"TOUCHDOWN\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "TOUCHDOWN_LARGE_LETTERS_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 89,
+  "event_hex": "59",
+  "name": "\"Try For Point\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "TRY_FOR_POINT_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 90,
+  "event_hex": "5A",
+  "name": "\"SAFETY\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "SAFETY_LARGE_LETTERS_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 91,
+  "event_hex": "5B",
+  "name": "\"Incomplete Pass\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "INCOMPLETE_PASS_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 92,
+  "event_hex": "5C",
+  "name": "\"Touchback\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "TOUCHBACK_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 93,
+  "event_hex": "5D",
+  "name": "\"Interception\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "INTERCEPTION_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 94,
+  "event_hex": "5E",
+  "name": "\"Field Goal\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "FIELD_GOAL_MESSAGE_BAR_ID_2"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 95,
+  "event_hex": "5F",
+  "name": "\"Recover\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "RECOVER_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 96,
+  "event_hex": "60",
+  "name": "\"QB Sack\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "QB_SACK_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 97,
+  "event_hex": "61",
+  "name": "\"\\\\\\Kick Block///\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "KICK_BLOCK_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 98,
+  "event_hex": "62",
+  "name": "\"\\\\\\Blocked Punt///\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "BLOCKED_PUNT_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 99,
+  "event_hex": "63",
+  "name": "\"\\\\\\Pass Block///\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "ONSIDE_KICK_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 100,
+  "event_hex": "64",
+  "name": "\"\\\\\\Onside Kick///\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "PENALTY_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 101,
+  "event_hex": "65",
+  "name": "\"\\\\\\Penalty///\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "OUT_OF_BOUNDS_OFFSCREEN_MESSAGE_BAR_ID"
+ },
+ {
+  "bank": 15,
+  "bank_hex": "0F",
+  "bank_name": "Menus, team/player data, playcalling, message bar",
+  "event": 102,
+  "event_hex": "66",
+  "name": "\"Out of Bounds\" slidebar",
+  "flags": "bank_swap",
+  "disassembly_label": "OUT_OF_BOUNDS_ONSCREEN_MESSAGE_BAR_ID"
+ }
+]

@@ -1,0 +1,307 @@
+bank_hex,bank_name,event_hex,name,flags,disassembly_label
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",00,Opening,,INTRO_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",01,Title Screen,,START_SCREEN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",02,Kickoff,,KICKOFF_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",03,Punt,,PUNT_SCREEN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",04,Field Goal,,FG_SCREEN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",05,JJ Incomplete (missed),,DEFENSE_JUMP_MISS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",06,JJ Incomplete (tipped),,DEFENSE_JUMP_TIPPED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",07,Incomplete (bounced),,DEFENSE_TIPPED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",08,Incomplete Dive (missed),,DEFENSE_DIVE_MISS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",09,Attempted Blocked Punt/FG/Pass,,BLOCK_MISS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",0A,Blocked Punt,,BLOCK_PUNT_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",0B,Blocked FG,,BLOCK_FG_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",0C,Blocked PAT,,BLOCK_XP_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",0D,Blocked Pass,,BLOCK_PASS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",0E,Long FG Attempt,,KICK_TOWARDS_UPRIGHTS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",0F,FG Through Uprights [->],direction_right,P1_KICK_THROUGH_UPRIGHTS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",10,FG Through Uprights [<-],direction_left,P2_KICK_THROUGH_UPRIGHTS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",11,FG Good,,FG_GOOD_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",12,,unassigned,P2_FG_UPRIGHTS_SIDE_VIEW_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",13,,unassigned,P1_FG_UPRIGHTS_SIDE_VIEW_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",14,"Doink Left Upright, Good [->]",direction_right,P1_LEFT_UPRIGHT_GOOD_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",15,"Doink Right Upright, Good [->]",direction_right,P1_RIGHT_UPRIGHT_GOOD_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",16,"Doink Left Upright, Missed [->]",direction_right,P1_LEFT_UPRIGHT_MISS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",17,"Doink Right Upright, Missed [->]",direction_right,P1_RIGHT_UPRIGHT_MISS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",18,Missed Left [->],direction_right,P1_LEFT_UPRIGHT_WIDE_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",19,Missed Right [->],direction_right,P1_RIGHT_UPRIGHT_WIDE_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",1A,Short FG [->],direction_right,P1_SHORT_UPRIGH_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",1B,Referee - No Good,,REF_NO_GOOD_SIGNAL
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",1C,"Doink Right Upright, Good [<-]",direction_left,P2_RIGHT_UPRIGHT_GOOD_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",1D,"Doink Left Upright, Good [<-]",direction_left,P2_LEFT_UPRIGHT_GOOD_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",1E,"Doink Right Upright, Missed [<-]",direction_left,P2_RIGHT_UPRIGHT_MISS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",1F,"Doink Left Upright, Missed [<-]",direction_left,P2_LEFT_UPRIGHT_MISS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",20,Missed Right [<-],direction_left,P2_RIGHT_UPRIGHT_WIDE_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",21,Missed Left [<-],direction_left,P2_LEFT_UPRIGHT_WIDE_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",22,Short FG [<-],direction_left,P2_SHORT_UPRIGHT_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",23,Successful Try,,XP_GOOD_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",24,,unassigned,EMPTY_1_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",25,,unassigned,EMPTY_2_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",26,QB Sack,,QB_SACK_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",27,QB Sack + Side Change,,QB_SACK_SIDE_CHANGE_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",28,Safety,,QB_SACK_SAFETY_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",29,Bullet Pass,,QB_PASS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",2A,,unassigned,START_JUMP_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",2B,JJ Catch,,OFFENSE_JUMP_CATCH_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",2C,JJ Incomplete (missed),,OFFENSE_JUMP_MISS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",2D,JJ Incomplete (tipped),,OFFENSE_JUMP_TIPPED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",2E,,unassigned,DOUBLE_JUMP_START_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",2F,Catch,,OFFENSE_CATCH_SIDEWAYS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",30,Incomplete (bounced),,OFFENSE_TIP_SIDEWAYS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",31,Incomplete Pass,,WHIFF_INCOMPLETE_PASS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",32,Complete Dive,,OFFENSE_DIVE_CATCH_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",33,Incomplete Dive (missed),,OFFENSE_DIVE_MISS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",34,Incomplete Dive (tipped),,OFFENSE_DIVE_TIPPED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",35,,unassigned,EMPTY_3_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",36,,unassigned,EMPTY_4_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",37,Injury,,INJURY_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",38,Rushing TD,,RUSHING_TOUCHDOWN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",39,Receiving TD,,PASSING_TOUCHDOWN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",3A,AFC Champion,,AFC_CHAMPION_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",3B,Super Champion,,SUPER_BOWL_CHAMPION_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",3C,,unassigned,SUPER_BOWL_STADIUM_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",3D,,unassigned,EMPTY_5_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",3E,First Down (Ref. faces left),,FIRST_DOWN_REF_ARM_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",3F,First Down (Ref. faces forward),,FIRST_DOWN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",40,Second Down,,SECOND_DOWN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",41,Third Down,,THIRD_DOWN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",42,Fourth Down,,FOURTH_DOWN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",43,JJ Interception,,DEFENSE_JUMP_INT_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",44,Super JJ,,DOUBLE_JUMP_CATCH_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",45,Super JJ (missed),,DOUBLE_JUMP_MISS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",46,Super JJ (missed),,DOUBLE_JUMP_TIP_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",47,"Super JJ, Int (missed)",,DOUBLE_JUMP_INT_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",48,Interception,,DEFENSE_INTERCEPTION_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",49,Halftime - Blimp,,HALF_TIME_BLIMP_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",4A,Halftime - Wink,,HALF_TIME_GIRL_WINK_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",4B,Halftime - Band,,HALF_TIME_BAND_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",4C,Halftime - Toss Cheerleader,,HALF_TIME_CHEERLEADER_TOSS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",4D,Halftime - Parachute,,HALF_TIME_PARACHUTE_WAVE_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",4E,QB Stats -UNUSED-,unused,DRAW_PLAYER_PORTAIT_WITH_LABELS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",4F,Halftime - Cheerleaders x2,,HALF_TIME_CHEERLEADER_KICK_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",50,Halftime - Kiss,,HALF_TIME_GIRL_KISS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",51,"Catch, Dive Int",,DEFENSE_DIVE_MISS_WR_CATCH_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",52,"Catch, JJ Int",,DEFENSE_JUMP_MISS_WR_CATCH_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",53,"Incomp, Dive Int",,DEFENSE_DIVE_MISS_BOUNCE_OFF_WR_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",54,"Incomp, JJ Int",,DEFENSE_JUMP_MISS_BOUNCE_OFF_WR_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",55,Dive Int,,DEFENSE_DIVE_INTERCEPTION_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",56,Division Champs,,DIVISION_CHAMP_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",57,"Flashing ""Press Start"" at title",,FLASH_START_GAME_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",58,Special Halftime Show,,MIGHTY_BOMBJACK_HALFTIME_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",59,"Halftime Show (Blimp, Wink, Band, Kiss)",,HALFTIME_1_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",5A,"Halftime Show (Parachute, The Wave, Cheerleaders x2, Toss Cheerleader)",,HALFTIME_2_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",5B,"Halftime Show (Cheerleaders x2, Band, Blimp, Wink)",,HALFTIME_3_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",5C,"Halftime Show (Wink, Cheerleaders x2, Toss Cheerleader, Kiss)",,HALFTIME_4_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",5D,Yards Rushed -UNUSED-,unused,YARDS_RUSH_TODAY_UNUSED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",5E,Yards Returned -UNUSED-,unused,YARDS_RETURN_TODAY_UNUSED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",5F,Yards Received -UNUSED-,unused,YARDS_RECEIVE_TODAY_UNUSED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",60,Interception TD -UNUSED-,unused,INT_TD_UNUSED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",61,Defensive TD -UNUSED-,unused,DEFENSE_TD_UNUSED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",62,Rush Yards Today -UNUSED-,unused,RUSHING_YARDS_TODAY_UNUSED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",63,Rec Yards Today -UNUSED-,unused,REC_YARDS_TODAY_UNUSED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",64,Sacks Today -UNUSED-,unused,SACKS_YARDS_TODAY_UNUSED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",65,Int Today -UNUSED-,unused,INT_TODAY_UNUSED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",66,000Yards Rusher -UNUSED-,unused,YARDS_RUSHER_UNUSED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",67,000Yards Receiver -UNUSED-,unused,YARDS_RECEIVER_UNUSED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",68,000Yards Passer -UNUSED-,unused,YARDS_PASSER_UNUSED_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",69,Yellow Flag-False Start -UNUSED-,unused,FALSE_START_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",6A,Yellow Flag-Offsides -UNUSED-,unused,OFFSIDE_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",6B,NFC Champion,,NFC_CHAMPION_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",6C,,unassigned,EMPTY_6_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",6D,,unassigned,EMPTY_7_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",6E,Credits,,CREDITS_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",6F,Sound Test,,SOUND_MODE_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",70,Chains + 1st Down [->],direction_right,P1_CHAINS_FIRST_DOWN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",71,Chains + 2nd Down [->],direction_right,CHAINS_SECOND_DOWN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",72,Chains + 3rd Down [->],direction_right,CHAINS_THIRD_DOWN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",73,Chains + 4th Down [->],direction_right,CHAINS_FOURTH_DOWN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",74,Chains + Change Sides [->],direction_right,CHAINS_CHANGE_SIDE_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",75,Chains + First Down [<-],direction_left,P2_CHAINS_FIRST_DOWN_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",76,,unassigned,EMPTY_8_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",77,,unassigned,EMPTY_9_SCENE_ID
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",78,,unassigned,
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",79,,unassigned,
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",7A,,unassigned,
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",7B,,unassigned,
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",7C,,unassigned,
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",7D,,unassigned,
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",7E,"Incomp (bounced), Dive",,
+06,"Gameplay cutscenes, kicks, catches, touchdowns, halftime",7F,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",00,NFL Leaders,,NFL_LEADERS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",01,Leading Passers,,LEADING_PASSERS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",02,,unassigned,LEADING_PASSERS_HEADERS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",03,,unassigned,LEADING_PASSERS_MENU_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",04,Leading Receiving,,LEADING_RECEIVERS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",05,Leading Rushing,,LEADING_RUSHERS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",06,Scoring,,LEADING_SCORERS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",07,Leading Punting,,LEADING_PUNTERS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",08,Interceptions,,INTERCEPTION_LEADERS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",09,Leading Sacks,,SACK_LEADERS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",0A,Punt Returns,,PR_LEADERS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",0B,Kickoff Returns,,KR_LEADERS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",0C,,unassigned,EMPTY_10_THRU_24_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",0D,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",0E,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",0F,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",10,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",11,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",12,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",13,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",14,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",15,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",16,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",17,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",18,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",19,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",1A,,unassigned,
+07,"Leaders, scoreboards, coin toss, season/week screens",1B,,unassigned,SCOREBOARD_ALL_QTRS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",1C,,unassigned,SCOREBOARD_NO_QTRS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",1D,,unassigned,SCOREBOARD_Q1_SKP_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",1E,,unassigned,SCOREBOARD_Q2_SKP_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",1F,,unassigned,SCOREBOARD_Q3_SKP_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",20,,unassigned,SCOREBOARD_Q4_SKP_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",21,Scoreboard (1->2),,SCOREBOARD_Q1_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",22,Scoreboard (2->3),,SCOREBOARD_Q2_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",23,Scoreboard (3->4),,SCOREBOARD_Q3_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",24,,unassigned,EMPTY_25_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",25,,unassigned,EMPTY_26_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",26,Injury Recovery,,RECOVERED_FROM_INJURY_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",27,?Opening Coin Toss,,COIN_TOSS_INTRO_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",28,,unassigned,COIN_FLIP_P1_WINS_ANI_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",29,,unassigned,COIN_FLIP_P2_WINS_ANI_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",2A,?Choose Kick -or- Receive (P1),,CHOOSE_KICK_OR_RET_P1_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",2B,?Choose Kick -or- Receive (P2),,CHOOSE_KICK_OR_RET_P2_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",2C,Opening Coin Toss/Choose Kick -or- Receive (P1 wins),,P1_WINS_COIN_TOSS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",2D,Opening Coin Toss/Choose Kick -or- Receive (P2 wins),,P2_WINS_COIN_TOSS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",2E,,unassigned,REF_POINT_P1_KICKOFF_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",2F,,unassigned,REF_POINT_P2_KICKOFF_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",30,,unassigned,DRAW_INITIAL_KICKOFF_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",31,Overtime Coin Toss/Choose Kick -or- Receive (P1 wins),,OT_COIN_TOSS_P1_WINS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",32,Overtime Coin Toss/Choose Kick -or- Receive (P2 wins),,OT_COIN_TOSS_P2_WINS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",33,,unassigned,EMPTY_27_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",34,"Black intro screen - ""PRESEASON""",,PRESEASON_LARGE_TXT_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",35,"Black intro screen - ""PROBOWL""",,PROBOWL_LARGE_TXT_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",36,"Black intro screen - ""REGULAR SEASON 1ST WEEK""",,REG_SEAS_WEEK_1_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",37,"Black intro screen - ""REGULAR SEASON 2ND WEEK""",,REG_SEAS_WEEK_2_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",38,"Black intro screen - ""REGULAR SEASON 3RD WEEK""",,REG_SEAS_WEEK_3_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",39,"Black intro screen - ""REGULAR SEASON 4TH WEEK""",,REG_SEAS_WEEK_4_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",3A,"Black intro screen - ""REGULAR SEASON 5TH WEEK""",,REG_SEAS_WEEK_5_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",3B,"Black intro screen - ""REGULAR SEASON 6TH WEEK""",,REG_SEAS_WEEK_6_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",3C,"Black intro screen - ""REGULAR SEASON 7TH WEEK""",,REG_SEAS_WEEK_7_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",3D,"Black intro screen - ""REGULAR SEASON 8TH WEEK""",,REG_SEAS_WEEK_8_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",3E,"Black intro screen - ""REGULAR SEASON 9TH WEEK""",,REG_SEAS_WEEK_9_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",3F,"Black intro screen - ""REGULAR SEASON 10TH WEEK""",,REG_SEAS_WEEK_10_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",40,"Black intro screen - ""REGULAR SEASON 11TH WEEK""",,REG_SEAS_WEEK_11_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",41,"Black intro screen - ""REGULAR SEASON 12TH WEEK""",,REG_SEAS_WEEK_12_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",42,"Black intro screen - ""REGULAR SEASON 13TH WEEK""",,REG_SEAS_WEEK_13_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",43,"Black intro screen - ""REGULAR SEASON 14TH WEEK""",,REG_SEAS_WEEK_14_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",44,"Black intro screen - ""REGULAR SEASON 15TH WEEK""",,REG_SEAS_WEEK_15_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",45,"Black intro screen - ""REGULAR SEASON 16TH WEEK""",,REG_SEAS_WEEK_16_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",46,"Black intro screen - ""REGULAR SEASON 17TH WEEK""",,REG_SEAS_WEEK_17_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",47,"Black intro screen - ""REGULAR SEASON 18TH WEEK""",,REG_SEAS_WEEK_18_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",48,"Black intro screen - ""REGULAR SEASON WEEK"" (small letters) -UNUSED-",unused,REG_SEAS_SMALL_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",49,,unassigned,EMPTY_28_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",4A,,unassigned,EMPTY_29_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",4B,,unassigned,EMPTY_30_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",4C,,unassigned,SCOREBOARD_4Q_THEN_STATS_SKP_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",4D,,unassigned,SCOREBOARD_OT_THEN_STATS_SKP_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",4E,Final Scoreboard (No O.T.),,SCOREBOARD_4Q_THEN_STATS_SCENE_ID
+07,"Leaders, scoreboards, coin toss, season/week screens",4F,Final Scoreboard (O.T.),,SCOREBOARD_OT_THEN_STATS_SCENE_ID
+0F,"Menus, team/player data, playcalling, message bar",00,Main Menu,,MAIN_MENU_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",01,Main Menu - Preseason Dropdown,,PRESEASON_MENU_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",02,Preaeason - Team Select,,PRESEASON_SELECT_TEAM_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",03,Season Menu,,SEASON_MENU_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",04,Team Control,,TEAM_CONTROL_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",05,NFL Schedule,,NFL_SCHEDULE_HEADER_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",06,"NFL Schedule - Dropdown {Auto Skip, Playoffs, Reset}",,SCHEDULE_MENU_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",07,NFL Schedule - Reset Warning,,FIRST_SCHEDULE_RESET_WARN_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",08,NFL Schedule - Reset Final Warning,,FINAL_SCHEDULE_RESET_WARN_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",09,NFL Schedule - Auto Skip #,,SKIP_TO_WEEK_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",0A,Season - NFL Standings,,STANDINGS_MENU_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",0B,,unassigned,RANKINGS_MENU_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",0C,Season - Team Rankings,,RANKINGS_MENU_SCREEN_ID_EXTRA
+0F,"Menus, team/player data, playcalling, message bar",0D,Playoff Bracket,,PLAYOFF_BRACKET_SEASON_NOT_OVER_SCREEN_ID_DUPE_ONE
+0F,"Menus, team/player data, playcalling, message bar",0E,,unassigned,PLAYOFF_BRACKET_SEASON_NOT_OVER_SCREEN_ID_DUPE_TWO
+0F,"Menus, team/player data, playcalling, message bar",0F,,unassigned,PLAYOFF_BRACKET_SEASON_NOT_OVER_SCREEN_ID_DUPE_THREE
+0F,"Menus, team/player data, playcalling, message bar",10,Playoff Bracket,,PLAYOFF_BRACKET_SEASON_NOT_OVER_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",11,,unassigned,PLAYOFF_BRACKET_TEAM_NAMES_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",12,,unassigned,PROBOWL_TEAM_TYPE_SCREEN_ID_DUPE_ONE
+0F,"Menus, team/player data, playcalling, message bar",13,,unassigned,PROBOWL_TEAM_TYPE_SCREEN_ID_DUPE_TWO
+0F,"Menus, team/player data, playcalling, message bar",14,,unassigned,PROBOWL_TEAM_TYPE_SCREEN_ID_DUPE_THREE
+0F,"Menus, team/player data, playcalling, message bar",15,,unassigned,PROBOWL_TEAM_TYPE_SCREEN_ID_DUPE_FOUR
+0F,"Menus, team/player data, playcalling, message bar",16,,unassigned,PROBOWL_TEAM_TYPE_SCREEN_ID_DUPE_FIVE
+0F,"Menus, team/player data, playcalling, message bar",17,Main Menu - Probowl Dropdown,,PROBOWL_TEAM_TYPE_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",18,Probowl - Team Select,,PRO_BOWL_TEAM_CHOICE_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",19,Team Data,,TEAM_DATA_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",1A,Team Roster,,ROSTER_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",1B,,unassigned,DEFENSIVE_STARTERS_SCREEN_ID_UNUSED_1
+0F,"Menus, team/player data, playcalling, message bar",1C,,unassigned,DEFENSIVE_STARTERS_SCREEN_ID_UNUSED_2
+0F,"Menus, team/player data, playcalling, message bar",1D,DF Starters,,DEFENSIVE_STARTERS_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",1E,Play Book,,PLAYBOOK_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",1F,Play Chooser,,PLAYBOOK_RUN_CHANGE_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",20,,unassigned,PLAYBOOK_PASS_CHANGE_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",21,AFC/NFC All Stars,,PRO_BOWL_TEAM_DATA_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",22,,unassigned,PRO_BOWL_HEADER_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",23,,unassigned,PRO_BOWL_CHANGE_PLAYER_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",24,Player Data Screen QB,bank_swap,QB_DATA_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",25,"Player Data Screen RB,WR,TE",bank_swap,RB_WR_TE_DATA_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",26,Player Data Screen OL,bank_swap,OL_DATA_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",27,Player Data Screen Defense,bank_swap,DEFENDER_DATA_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",28,Player Data Screen K,bank_swap,KICKER_DATA_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",29,Player Data Screen P,bank_swap,PUNTER_DATA_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",2A,AFC East Standings,,AFC_EAST_STANDINGS_TEXT_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",2B,AFC Central Standings,,AFC_CENT_STANDINGS_TEXT_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",2C,AFC West Standings,,AFC_WEST_STANDINGS_TEXT_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",2D,NFC East Standings,,NFC_EAST_STANDINGS_TEXT_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",2E,NFC Central Standings,,NFC_CENT_STANDINGS_TEXT_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",2F,NFC West Standings,,NFC_WEST_STANDINGS_TEXT_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",30,Standings Screen,,FOUR_TEAM_DIV_STANDINGS_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",31,,unassigned,FIVE_TEAM_DIV_STANDINGS_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",32,OF Starters,bank_swap,OFF_STARTERS_2WR_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",38,OF Starters - Starter Reset,bank_swap,OFF_STARTER_RESET_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",39,,unassigned,NFL_OFFENSIVE_TEAM_RANKINGS_SCREEN_ID_DUPE
+0F,"Menus, team/player data, playcalling, message bar",3A,Team Rankings - Offense NFL,,NFL_OFFENSIVE_TEAM_RANKINGS_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",3B,Team Rankings - Offense AFC,,AFC_OFFENSIVE_TEAM_RANKINGS_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",3C,Team Rankings - Offense NFC,,NFC_OFFENSIVE_TEAM_RANKINGS_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",3D,Team Rankings - Defense NFL,,NFL_DFFENSIVE_TEAM_RANKINGS_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",3E,Team Rankings - Defense AFC,,AFC_DFFENSIVE_TEAM_RANKINGS_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",3F,Team Rankings - Defense NFC,,NFC_DFFENSIVE_TEAM_RANKINGS_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",40,Play Select Screen,,PLAY_SELECT_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",41,"P1, Off Dropdown Menu",bank_swap,P1_OFF_MENU_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",42,"P1, Off ""Call Timeout""",bank_swap,P1_OFF_TIMEOUT_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",43,,unassigned,P1_DEF_MENU_SCREEN_ID_DUPE
+0F,"Menus, team/player data, playcalling, message bar",44,"P1, Def Dropdown Menu",bank_swap,P1_DEF_MENU_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",45,"P1, Def ""Call Timeout""",bank_swap,P1_DEF_TIMEOUT_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",46,,unassigned,P2_OFF_MENU_SCREEN_ID_DUPE
+0F,"Menus, team/player data, playcalling, message bar",47,"P2, Off Dropdown Menu",bank_swap,P2_OFF_MENU_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",48,"P2, Off ""Call Timeout""",bank_swap,P2_OFF_TIMEOUT_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",49,,unassigned,EMPTY_PLAYCALL_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",4A,"P2, Def Dropdown Menu",bank_swap,P2_DEFENSIVE_MENU_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",4B,"P2, Def ""Call Timeout""",bank_swap,P2_DEF_TIMEOUT_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",4C,,unassigned,OFFENSIVE_MENU_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",4D,,unassigned,
+0F,"Menus, team/player data, playcalling, message bar",4E,??? Clock Bkg,bank_swap,CLOCK_BACKGROUND_SCREEN_ID
+0F,"Menus, team/player data, playcalling, message bar",4F,"??? ""#th Down ##"" slidebar",bank_swap,DOWN_MARKERS_1ST_10_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",50,"""\\\Fumble///"" slidebar",bank_swap,FUMBLE_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",51,"""Punt Kick"" slidebar",bank_swap,PUNT_KICK_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",52,"""Field Goal"" slidebar",bank_swap,FIELD_GOAL_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",53,"""Successful Try"" slidebar",bank_swap,SUCCESSFUL_TRY_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",54,"""No Good"" slidebar",bank_swap,NO_GOOD_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",55,"""First Down"" slidebar",bank_swap,FIRST_DOWN_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",56,"""Side Change"" + ""Next Offense ... Next Defense"" slidebar",bank_swap,SIDE_CHG_NEXT_OFF_NEXT_DEF_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",57,"""Side Change"" + ""Next Defense ... Next Offense"" slidebar",bank_swap,SIDE_CHG_NEXT_DEF_NEXT_OFF_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",58,"""TOUCHDOWN"" slidebar",bank_swap,TOUCHDOWN_LARGE_LETTERS_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",59,"""Try For Point"" slidebar",bank_swap,TRY_FOR_POINT_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",5A,"""SAFETY"" slidebar",bank_swap,SAFETY_LARGE_LETTERS_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",5B,"""Incomplete Pass"" slidebar",bank_swap,INCOMPLETE_PASS_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",5C,"""Touchback"" slidebar",bank_swap,TOUCHBACK_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",5D,"""Interception"" slidebar",bank_swap,INTERCEPTION_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",5E,"""Field Goal"" slidebar",bank_swap,FIELD_GOAL_MESSAGE_BAR_ID_2
+0F,"Menus, team/player data, playcalling, message bar",5F,"""Recover"" slidebar",bank_swap,RECOVER_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",60,"""QB Sack"" slidebar",bank_swap,QB_SACK_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",61,"""\\\Kick Block///"" slidebar",bank_swap,KICK_BLOCK_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",62,"""\\\Blocked Punt///"" slidebar",bank_swap,BLOCKED_PUNT_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",63,"""\\\Pass Block///"" slidebar",bank_swap,ONSIDE_KICK_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",64,"""\\\Onside Kick///"" slidebar",bank_swap,PENALTY_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",65,"""\\\Penalty///"" slidebar",bank_swap,OUT_OF_BOUNDS_OFFSCREEN_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",66,"""Out of Bounds"" slidebar",bank_swap,OUT_OF_BOUNDS_ONSCREEN_MESSAGE_BAR_ID
