@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/awesome-nesdev-banner.png" alt="AWESOME NESDEV — pixel-art NES controller and wordmark" width="900">
+</p>
+
 # AWESOME NESDEV
 
 **Agent skills, MCP servers, and field notes for NES / Famicom homebrew and ROM hacking.**
