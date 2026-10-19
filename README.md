@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/awesome-nesdev-banner.png" alt="AWESOME NESDEV — pixel-art NES controller and wordmark" width="800">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/awesome-nesdev-banner.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/awesome-nesdev-banner-light.png">
+    <img src="assets/awesome-nesdev-banner.png" alt="AWESOME NESDEV — pixel-art NES controller and wordmark" width="800">
+  </picture>
 </p>
 
 # AWESOME NESDEV
@@ -11,7 +15,9 @@ Last verified **October 2026**.
 
 [Start here](docs/start-here.md) · [The agent stack](docs/agent-stack.md) · [MCP servers](docs/mcp-servers.md) · [Agent skills](docs/agent-skills.md) · [Skills library](skills/) · [Tecmo Super Bowl](skills/tecmosuper/README.md) · [Homebrew](docs/homebrew.md) · [ROM hacking](docs/romhacking.md) · [Cold-ROM playbook](docs/cold-rom-playbook.md) · [Reference](docs/reference.md) · [Troubleshooting](docs/troubleshooting.md) · [Resources](docs/resources.md) · [Glossary](docs/glossary.md) · [Sources](docs/sources.md)
 
----
+<p align="center">
+  <img src="assets/divider.png" alt="" width="800">
+</p>
 
 ## The 60-second version
 
@@ -49,7 +55,9 @@ That fork → build → run loop is the single biggest quality-of-life change in
 | Run a multi-day RE campaign | **re-skill** + **romdev** + **GhidraMCP** | [Agent skills](docs/agent-skills.md) |
 | Learn the platform properly | [Reference](docs/reference.md) + [Resources](docs/resources.md) | — |
 
----
+<p align="center">
+  <img src="assets/divider.png" alt="" width="800">
+</p>
 
 ## What this wiki covers
 
@@ -115,7 +123,9 @@ Neither replaces knowing the platform. The NES is a 1983 console with a PPU that
 2. **Pin versions.** These are mostly one-person projects. Record the version in your project README; re-read a skill's `SKILL.md` after upgrading.
 3. **Verify in the emulator, not in the chat.** A model can be confident and wrong about PPU timing. Use screenshots, memory reads and frame checks as the source of truth.
 
----
+<p align="center">
+  <img src="assets/divider.png" alt="" width="800">
+</p>
 
 ## Status board
 
