@@ -51,6 +51,8 @@ Then boot it in two emulators. If it runs in one and not the other, suspect the 
 
 Do not start with a disassembler for a roster edit. Do not start with a hex editor for an AI change.
 
+If the target is a level or block layout, capture a PPU nametable dump and use [NesBlockFinder](https://github.com/spiiin/NesBlockFinder) to turn it into ROM offsets before disassembling. See [ROM hacking](romhacking.md#finding-block-and-screen-data).
+
 ## 3. Find one visible value
 
 Pick something you can change in one action: lives, score, inning, cursor position, pitcher stamina.

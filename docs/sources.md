@@ -38,6 +38,7 @@ Not verified by execution: Mesen MCP, mcp-bizhawk, Nes.Mcp, GhidraMCP, Gearlynx,
 | [Gearlynx romhacking skill](https://github.com/drhelius/Gearlynx/tree/main/skills/gearlynx-romhacking) | Genre template, search loop, reference library | Gearlynx 78★, Oct 16 2026 |
 | [skilldb: ROM Hacking](https://skilldb.dev/skills/retro-gaming-skills/rom-hacking) | Generic craft knowledge, paywall | page, 68 lines, 2026 |
 | [scotbearss/poryrom](https://github.com/scotbearss/poryrom) | Docker-build + headless-verify + screenshot loop (GBA) | 1★ MIT, Sep 8 2026 |
+| [spiiin/NesBlockFinder](https://github.com/spiiin/NesBlockFinder) | Block/screen locator and FCEUX dump workflow | 6★, 2017, no license |
 | [drhelius/Gearlynx](https://github.com/drhelius/Gearlynx) | 6502 debugger tool surface, transports | `MCP_README.md`, 2026 |
 | [Yuki001/nes-skills](https://github.com/Yuki001/nes-skills) | Four skills, bundled binaries, workflow | repo, Jun 2026 |
 | [vgrichina/re-skill](https://github.com/vgrichina/re-skill) | Phases, scaffold, loop script | repo, Mar 2026 |

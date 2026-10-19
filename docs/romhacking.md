@@ -123,12 +123,26 @@ Expect rough C. 6502 decompilation is best treated as a map, not source.
 |---|---|
 | Text | Find the font/tile map, build a `.tbl`, search for known strings, then follow pointer tables |
 | Level data | Watch the RAM buffer the level decompresses into, then find the ROM source |
+| Blocks / screens | Dump PPU nametables, then match them against PRG with NesBlockFinder (below) |
 | Palettes | If written from RAM, breakpoint on `$3F00` writes; if immediate, search for the byte sequence |
 | Sprites/CHR | Extract tiles from CHR-ROM directly; for CHR-RAM, dump VRAM at the right frame |
 | Music | APU writes (`$4000–$4017`) are the trace point; trackers vary wildly |
 | Compression | Identify the decompressor from its loop, then re-inject with a tool that understands it |
 
 romdev has `romPatch` operations for pointer finding and compressed-asset re-injection; check `GET /tool/romPatch/schema` for the exact ops in your version. Do not hand-roll a compressor until you know the format.
+
+### Finding block and screen data
+
+When the target is a level layout, a cutscene screen or a tilemap rather than code, match what the PPU renders against the ROM instead of disassembling.
+
+1. Load the level in FCEUX.
+2. **Debug → Hex Editor → File → Dump to file → PPU Memory**. That gives you the nametables and attributes as the game actually built them.
+3. Run [NesBlockFinder](https://github.com/spiiin/NesBlockFinder) with the ROM and the dump. It searches 2×2 / 4×4 / 2×4 / 1×1 blocks, left-right or top-down, with optional attribute search and stride modes for interleaved layouts.
+4. The output is a list of candidate ROM offsets; confirm them in a hex editor.
+5. For 4×4-block screens, `NesScreenFinder.py` takes the block addresses and searches for the screen layout.
+
+Caveats: Python 2 with Tkinter, last updated 2017, no license, Russian `readme.txt`. It matches raw block data, so it will not find a compressed level; if nothing matches, the level is compressed or assembled at runtime. It is a locator, not an editor.
+
 
 ## Phase 4 — patch
 
@@ -176,6 +190,7 @@ If the game stores lives as "lives - 1" or as a BCD value, the search values shi
 | Disassembly (reassemblable) | retrodisasm, romdev `disasm` | this page |
 | Decompiler | GhidraMCP | [MCP servers](mcp-servers.md) |
 | Tile extraction | FCEUX Lua PPU dumps, YY-CHR, romdev `sprites` | [Resources](resources.md) |
+| Block/screen data location | NesBlockFinder + FCEUX PPU dump | [Resources](resources.md) |
 | Patching | Flips, xdelta, romdev `romPatch` | this page |
 | Process / task ledger | re-skill | [Skills](agent-skills.md#re-skill) |
 

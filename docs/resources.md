@@ -45,6 +45,7 @@ ROM-only projects can skip all of these and use romdev's bundled cc65.
 |---|---|
 | [YY-CHR](https://www.romhackplaza.org/index.php/utilities/yy-chr-utility) | Tile/CHR editor; the classic for NES ripping and editing |
 | [NES Screen Tool](https://github.com/BrokeStudio/NES-Screen-Tool) | Nametable, attribute and sprite layout |
+| [NesBlockFinder](https://github.com/spiiin/NesBlockFinder) | Match a PPU nametable dump to ROM offsets to locate block/screen data (Python 2, 2017, no license) |
 | [Aseprite](https://www.aseprite.org/) | Source pixel art; romdev imports Aseprite/LibreSprite |
 | [NESdev: pattern tables](https://www.nesdev.org/wiki/PPU_pattern_tables) | Tile format, 2-bitplanes |
 | [NESdev: nametables](https://www.nesdev.org/wiki/PPU_nametables) | 32×30 layout and mirroring |
