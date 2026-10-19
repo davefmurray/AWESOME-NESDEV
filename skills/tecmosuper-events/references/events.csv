@@ -282,7 +282,7 @@ bank_hex,bank_name,event_hex,name,flags,disassembly_label
 0F,"Menus, team/player data, playcalling, message bar",4D,,unassigned,
 0F,"Menus, team/player data, playcalling, message bar",4E,??? Clock Bkg,bank_swap,CLOCK_BACKGROUND_SCREEN_ID
 0F,"Menus, team/player data, playcalling, message bar",4F,"??? ""#th Down ##"" slidebar",bank_swap,DOWN_MARKERS_1ST_10_MESSAGE_BAR_ID
-0F,"Menus, team/player data, playcalling, message bar",50,"""\\\Fumble///"" slidebar",bank_swap,FUMBLE_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",50,"""Fumble///"" slidebar",bank_swap,FUMBLE_MESSAGE_BAR_ID
 0F,"Menus, team/player data, playcalling, message bar",51,"""Punt Kick"" slidebar",bank_swap,PUNT_KICK_MESSAGE_BAR_ID
 0F,"Menus, team/player data, playcalling, message bar",52,"""Field Goal"" slidebar",bank_swap,FIELD_GOAL_MESSAGE_BAR_ID
 0F,"Menus, team/player data, playcalling, message bar",53,"""Successful Try"" slidebar",bank_swap,SUCCESSFUL_TRY_MESSAGE_BAR_ID
@@ -299,9 +299,9 @@ bank_hex,bank_name,event_hex,name,flags,disassembly_label
 0F,"Menus, team/player data, playcalling, message bar",5E,"""Field Goal"" slidebar",bank_swap,FIELD_GOAL_MESSAGE_BAR_ID_2
 0F,"Menus, team/player data, playcalling, message bar",5F,"""Recover"" slidebar",bank_swap,RECOVER_MESSAGE_BAR_ID
 0F,"Menus, team/player data, playcalling, message bar",60,"""QB Sack"" slidebar",bank_swap,QB_SACK_MESSAGE_BAR_ID
-0F,"Menus, team/player data, playcalling, message bar",61,"""\\\Kick Block///"" slidebar",bank_swap,KICK_BLOCK_MESSAGE_BAR_ID
-0F,"Menus, team/player data, playcalling, message bar",62,"""\\\Blocked Punt///"" slidebar",bank_swap,BLOCKED_PUNT_MESSAGE_BAR_ID
-0F,"Menus, team/player data, playcalling, message bar",63,"""\\\Pass Block///"" slidebar",bank_swap,ONSIDE_KICK_MESSAGE_BAR_ID
-0F,"Menus, team/player data, playcalling, message bar",64,"""\\\Onside Kick///"" slidebar",bank_swap,PENALTY_MESSAGE_BAR_ID
-0F,"Menus, team/player data, playcalling, message bar",65,"""\\\Penalty///"" slidebar",bank_swap,OUT_OF_BOUNDS_OFFSCREEN_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",61,"""Kick Block///"" slidebar",bank_swap,KICK_BLOCK_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",62,"""Blocked Punt///"" slidebar",bank_swap,BLOCKED_PUNT_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",63,"""Pass Block///"" slidebar",bank_swap,ONSIDE_KICK_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",64,"""Onside Kick///"" slidebar",bank_swap,PENALTY_MESSAGE_BAR_ID
+0F,"Menus, team/player data, playcalling, message bar",65,"""Penalty///"" slidebar",bank_swap,OUT_OF_BOUNDS_OFFSCREEN_MESSAGE_BAR_ID
 0F,"Menus, team/player data, playcalling, message bar",66,"""Out of Bounds"" slidebar",bank_swap,OUT_OF_BOUNDS_ONSCREEN_MESSAGE_BAR_ID

@@ -2835,7 +2835,7 @@
   "bank_name": "Menus, team/player data, playcalling, message bar",
   "event": 80,
   "event_hex": "50",
-  "name": "\"\\\\\\Fumble///\" slidebar",
+  "name": "\"Fumble///\" slidebar",
   "flags": "bank_swap",
   "disassembly_label": "FUMBLE_MESSAGE_BAR_ID"
  },
@@ -3005,7 +3005,7 @@
   "bank_name": "Menus, team/player data, playcalling, message bar",
   "event": 97,
   "event_hex": "61",
-  "name": "\"\\\\\\Kick Block///\" slidebar",
+  "name": "\"Kick Block///\" slidebar",
   "flags": "bank_swap",
   "disassembly_label": "KICK_BLOCK_MESSAGE_BAR_ID"
  },
@@ -3015,7 +3015,7 @@
   "bank_name": "Menus, team/player data, playcalling, message bar",
   "event": 98,
   "event_hex": "62",
-  "name": "\"\\\\\\Blocked Punt///\" slidebar",
+  "name": "\"Blocked Punt///\" slidebar",
   "flags": "bank_swap",
   "disassembly_label": "BLOCKED_PUNT_MESSAGE_BAR_ID"
  },
@@ -3025,7 +3025,7 @@
   "bank_name": "Menus, team/player data, playcalling, message bar",
   "event": 99,
   "event_hex": "63",
-  "name": "\"\\\\\\Pass Block///\" slidebar",
+  "name": "\"Pass Block///\" slidebar",
   "flags": "bank_swap",
   "disassembly_label": "ONSIDE_KICK_MESSAGE_BAR_ID"
  },
@@ -3035,7 +3035,7 @@
   "bank_name": "Menus, team/player data, playcalling, message bar",
   "event": 100,
   "event_hex": "64",
-  "name": "\"\\\\\\Onside Kick///\" slidebar",
+  "name": "\"Onside Kick///\" slidebar",
   "flags": "bank_swap",
   "disassembly_label": "PENALTY_MESSAGE_BAR_ID"
  },
@@ -3045,7 +3045,7 @@
   "bank_name": "Menus, team/player data, playcalling, message bar",
   "event": 101,
   "event_hex": "65",
-  "name": "\"\\\\\\Penalty///\" slidebar",
+  "name": "\"Penalty///\" slidebar",
   "flags": "bank_swap",
   "disassembly_label": "OUT_OF_BOUNDS_OFFSCREEN_MESSAGE_BAR_ID"
  },

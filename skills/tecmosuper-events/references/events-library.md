@@ -241,7 +241,7 @@ Menus, team and player data, playcalling, standings, and the in-game message-bar
 | `4B` | P2, Def "Call Timeout" | bank-swap | `P2_DEF_TIMEOUT_SCREEN_ID` |
 | `4E` | ??? Clock Bkg | bank-swap | `CLOCK_BACKGROUND_SCREEN_ID` |
 | `4F` | ??? "#th Down ##" slidebar | bank-swap | `DOWN_MARKERS_1ST_10_MESSAGE_BAR_ID` |
-| `50` | "\\\Fumble///" slidebar | bank-swap | `FUMBLE_MESSAGE_BAR_ID` |
+| `50` | "Fumble///" slidebar | bank-swap | `FUMBLE_MESSAGE_BAR_ID` |
 | `51` | "Punt Kick" slidebar | bank-swap | `PUNT_KICK_MESSAGE_BAR_ID` |
 | `52` | "Field Goal" slidebar | bank-swap | `FIELD_GOAL_MESSAGE_BAR_ID` |
 | `53` | "Successful Try" slidebar | bank-swap | `SUCCESSFUL_TRY_MESSAGE_BAR_ID` |
@@ -258,11 +258,11 @@ Menus, team and player data, playcalling, standings, and the in-game message-bar
 | `5E` | "Field Goal" slidebar | bank-swap | `FIELD_GOAL_MESSAGE_BAR_ID_2` |
 | `5F` | "Recover" slidebar | bank-swap | `RECOVER_MESSAGE_BAR_ID` |
 | `60` | "QB Sack" slidebar | bank-swap | `QB_SACK_MESSAGE_BAR_ID` |
-| `61` | "\\\Kick Block///" slidebar | bank-swap | `KICK_BLOCK_MESSAGE_BAR_ID` |
-| `62` | "\\\Blocked Punt///" slidebar | bank-swap | `BLOCKED_PUNT_MESSAGE_BAR_ID` |
-| `63` | "\\\Pass Block///" slidebar | bank-swap | `ONSIDE_KICK_MESSAGE_BAR_ID` |
-| `64` | "\\\Onside Kick///" slidebar | bank-swap | `PENALTY_MESSAGE_BAR_ID` |
-| `65` | "\\\Penalty///" slidebar | bank-swap | `OUT_OF_BOUNDS_OFFSCREEN_MESSAGE_BAR_ID` |
+| `61` | "Kick Block///" slidebar | bank-swap | `KICK_BLOCK_MESSAGE_BAR_ID` |
+| `62` | "Blocked Punt///" slidebar | bank-swap | `BLOCKED_PUNT_MESSAGE_BAR_ID` |
+| `63` | "Pass Block///" slidebar | bank-swap | `ONSIDE_KICK_MESSAGE_BAR_ID` |
+| `64` | "Onside Kick///" slidebar | bank-swap | `PENALTY_MESSAGE_BAR_ID` |
+| `65` | "Penalty///" slidebar | bank-swap | `OUT_OF_BOUNDS_OFFSCREEN_MESSAGE_BAR_ID` |
 | `66` | "Out of Bounds" slidebar | bank-swap | `OUT_OF_BOUNDS_ONSCREEN_MESSAGE_BAR_ID` |
 
 **Unassigned in this bank:** `0B`, `0E`–`0F`, `11`–`16`, `1B`–`1C`, `20`, `22`–`23`, `31`, `39`, `43`, `46`, `49`, `4C`–`4D`
