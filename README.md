@@ -5,7 +5,7 @@
 Not a link dump. Every entry says what it is for, how to install it, and where it breaks.
 Last verified **October 2026**.
 
-[Start here](docs/start-here.md) · [The agent stack](docs/agent-stack.md) · [MCP servers](docs/mcp-servers.md) · [Agent skills](docs/agent-skills.md) · [Homebrew](docs/homebrew.md) · [ROM hacking](docs/romhacking.md) · [Cold-ROM playbook](docs/cold-rom-playbook.md) · [Reference](docs/reference.md) · [Troubleshooting](docs/troubleshooting.md) · [Resources](docs/resources.md) · [Glossary](docs/glossary.md) · [Sources](docs/sources.md)
+[Start here](docs/start-here.md) · [The agent stack](docs/agent-stack.md) · [MCP servers](docs/mcp-servers.md) · [Agent skills](docs/agent-skills.md) · [Skills library](skills/) · [Homebrew](docs/homebrew.md) · [ROM hacking](docs/romhacking.md) · [Cold-ROM playbook](docs/cold-rom-playbook.md) · [Reference](docs/reference.md) · [Troubleshooting](docs/troubleshooting.md) · [Resources](docs/resources.md) · [Glossary](docs/glossary.md) · [Sources](docs/sources.md)
 
 ---
 
@@ -64,6 +64,29 @@ That fork → build → run loop is the single biggest quality-of-life change in
 | [Glossary](docs/glossary.md) | PRG, CHR, mapper, OAM, CDL, NMI, and the rest |
 | [Sources](docs/sources.md) | Where every claim came from, with dates and versions |
 | [Tools](tools/README.md) | Header parser, bank-aware address math, CDL merge/stats |
+| [Skills library](skills/README.md) | Seven installable NESdev skills distilled from the wiki |
+
+---
+
+## Installable skills
+
+Seven skills built from the NESdev Wiki, each with references and failure-mode checklists:
+
+| Skill | Covers |
+|---|---|
+| [nesdev-wiki-guide](skills/nesdev-wiki-guide/SKILL.md) | Routing a question to the right page |
+| [nes-memory-map](skills/nes-memory-map/SKILL.md) | CPU/PPU address spaces, mirrors, vectors, warmup |
+| [nes-ppu-rendering](skills/nes-ppu-rendering/SKILL.md) | Rendering, palettes, sprites, scrolling, NMI |
+| [nes-cart-mappers](skills/nes-cart-mappers/SKILL.md) | iNES/NES 2.0, NROM/UxROM/MMC1/MMC3, banking |
+| [nes-apu-audio](skills/nes-apu-audio/SKILL.md) | Channels, frame counter, envelopes, DMC |
+| [nes-input-devices](skills/nes-input-devices/SKILL.md) | Controller reads, DPCM glitch, Zapper, Four Score |
+| [nes-6502-assembly](skills/nes-6502-assembly/SKILL.md) | Addressing modes, cycles, jump tables, optimization |
+
+```bash
+cp -r skills/nes-* ~/.claude/skills/
+```
+
+Details and provenance: [skills/README.md](skills/README.md).
 
 ---
 

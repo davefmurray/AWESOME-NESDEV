@@ -2,6 +2,8 @@
 
 The tables you will look up ten times a day. All values are NTSC unless noted. Authoritative source: [NESdev wiki](https://www.nesdev.org/wiki/).
 
+> Installable versions of these tables live in [`skills/`](../skills/README.md): memory map, PPU, mappers, APU, input, 6502.
+
 ## CPU memory map
 
 | Range | Contents |

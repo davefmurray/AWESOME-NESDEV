@@ -48,11 +48,16 @@ Not verified by execution: Mesen MCP, mcp-bizhawk, Nes.Mcp, GhidraMCP, Gearlynx,
 | [skills.rest: 6502-assembly](https://skills.rest/skill/6502-assembly) | Install command, skill summary | page, Feb 2026 |
 | [Jay McGavren: Claude Code for NES Development](https://jay.mcgavren.com/2026/05/25/claude-code-for-nes-development.html) | Verified hello-world, nes.cfg, Makefile | May 25 2026 |
 | [NESdev wiki](https://www.nesdev.org/wiki/) | Memory map, PPU registers, iNES, mappers, APU, palettes | continuously updated |
+| [NESdev wiki: 64 core pages](https://www.nesdev.org/wiki/) | Source for the seven installable skills in `skills/` | fetched 2026-10-19 |
 | [Nerdy Nights](https://nerdy-nights.nes.science/) | Learning path | archived course |
 | [nesdoug](https://nesdoug.com/) | C tutorials | site, 2026 |
 | [cc65](https://cc65.github.io/) | Assembler/linker behavior | docs, 2026 |
 | [FamiStudio](https://www.famistudio.org/) | Audio tooling | site, 2026 |
 | [Flips](https://github.com/Alcaro/Flips) | IPS/BPS patching | repo, 2026 |
+
+## Derived skills
+
+The `skills/` library was distilled from 64 NESdev Wiki pages fetched on 2026-10-19. The page list is in [`skills/nesdev-wiki-guide/references/page-index.md`](../skills/nesdev-wiki-guide/references/page-index.md). Prose was rewritten and tables reformatted; no wiki article is copied verbatim. The wiki retains its own terms — link back to it rather than mirroring sections.
 
 ## Repository metrics
 
