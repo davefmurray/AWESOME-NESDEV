@@ -3,7 +3,7 @@
 Seven installable agent skills distilled from the [NESdev Wiki](https://www.nesdev.org/wiki/). Each is a folder with a `SKILL.md` and `references/` — copy the whole folder into your harness's skills directory.
 
 ```bash
-cp -r skills/nes-* ~/.claude/skills/
+cp -r skills/*/ ~/.claude/skills/
 ```
 
 | Skill | Use when |

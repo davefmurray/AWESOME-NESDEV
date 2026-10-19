@@ -83,7 +83,7 @@ Seven skills built from the NESdev Wiki, each with references and failure-mode c
 | [nes-6502-assembly](skills/nes-6502-assembly/SKILL.md) | Addressing modes, cycles, jump tables, optimization |
 
 ```bash
-cp -r skills/nes-* ~/.claude/skills/
+cp -r skills/*/ ~/.claude/skills/
 ```
 
 Details and provenance: [skills/README.md](skills/README.md).
