@@ -105,4 +105,4 @@ The error messages you will actually see, grouped by where they come from. If a 
 - NES itself: [NESdev wiki](https://www.nesdev.org/wiki/) and the [forums](https://forums.nesdev.org/).
 ---
 
-Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md)
+Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md) · [Cold ROM](cold-rom-playbook.md)

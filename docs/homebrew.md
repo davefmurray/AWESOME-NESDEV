@@ -300,6 +300,7 @@ Start with NROM, then MMC1 or MMC3. Every mapper adds init code, banking state a
 ## Debugging
 
 - **romdev:** `breakpoint`, `watch`, `disasm`, `memory`, `cpu`. Use `build({output:'romWithDebug'})` and `symbols` to assert on named variables instead of magic addresses.
+- **MesenCE + mesence:** 57 tools, NES workflow skill, CDL and labels. Pause before reading.
 - **Mesen MCP:** hooks, symbols, call stack, tilemap/OAM renders. Pause before reading.
 - **mcp-bizhawk:** memory domains, savestates, frame advance. ~1 frame latency.
 - **Plain Mesen/FCEUX:** the built-in debuggers are excellent; the MCP layer is convenience, not a replacement.
@@ -322,4 +323,4 @@ Assert on memory, not pixels. A screenshot tells you *that* it is wrong; a memor
 - [Resources](resources.md) — tools, emulators, audio and art.
 ---
 
-Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md)
+Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md) · [Cold ROM](cold-rom-playbook.md)

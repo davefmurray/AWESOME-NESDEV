@@ -30,6 +30,14 @@ Not verified by execution: Mesen MCP, mcp-bizhawk, Nes.Mcp, GhidraMCP, Gearlynx,
 | [Nes.Mcp on NuGet](https://www.nuget.org/packages/Nes.Mcp) | Version, tool list, mapper limits | 0.0.11, Oct 3 2026 |
 | [SuperJMN/Zafiro.Nes.Debug](https://github.com/SuperJMN/Zafiro.Nes.Debug) | Nes.Mcp source / current repo name | repo, Oct 2026 |
 | [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP) | Install, headless mode, Ghidra version | repo, Oct 2026 |
+| [sadnescity/mesence-claude-plugin](https://github.com/sadnescity/mesence-claude-plugin) | MesenCE plugin, 57 tools, 14 skills, install | plugin 3.1.1, Sep 23 2026 |
+| [sadnescity/MesenCE](https://github.com/sadnescity/MesenCE) | Mesen2 fork with built-in MCP | 0★, Sep 23 2026 |
+| [sadnescity/romhacking-claude-plugin](https://github.com/sadnescity/romhacking-claude-plugin) | Translation method, phases, Python scripts | 1.0.1 MIT, Sep 23 2026 |
+| [sadnescity/claude-plugins](https://github.com/sadnescity/claude-plugins) | Marketplace entries and versions | Sep 2026 |
+| [thomasjvu/mcp-nes](https://github.com/thomasjvu/mcp-nes) | Gameplay-only MCP tool list | 1★, Feb 10 2026 |
+| [Gearlynx romhacking skill](https://github.com/drhelius/Gearlynx/tree/main/skills/gearlynx-romhacking) | Genre template, search loop, reference library | Gearlynx 78★, Oct 16 2026 |
+| [skilldb: ROM Hacking](https://skilldb.dev/skills/retro-gaming-skills/rom-hacking) | Generic craft knowledge, paywall | page, 68 lines, 2026 |
+| [scotbearss/poryrom](https://github.com/scotbearss/poryrom) | Docker-build + headless-verify + screenshot loop (GBA) | 1★ MIT, Sep 8 2026 |
 | [drhelius/Gearlynx](https://github.com/drhelius/Gearlynx) | 6502 debugger tool surface, transports | `MCP_README.md`, 2026 |
 | [Yuki001/nes-skills](https://github.com/Yuki001/nes-skills) | Four skills, bundled binaries, workflow | repo, Jun 2026 |
 | [vgrichina/re-skill](https://github.com/vgrichina/re-skill) | Phases, scaffold, loop script | repo, Mar 2026 |
@@ -49,6 +57,16 @@ Not verified by execution: Mesen MCP, mcp-bizhawk, Nes.Mcp, GhidraMCP, Gearlynx,
 
 Star counts and last-push dates were read from the GitHub API on **October 18, 2026** and are recorded in the pages where they matter, to give a sense of maturity — not as a quality score. A 23-star project (romdev) is the most capable option here; a 1-star project (nes-skills) has the most NES-specific content.
 
+## Corrections from the field notes
+
+Three claims in the source notes that did not survive a direct check:
+
+1. **"sadnescity/claude-plugins mesen2 — 33 tools."** The current marketplace entry is `mesence` **3.1.1 with 57 tools** (sourced from `sadnescity/mesence-claude-plugin`). The 33-tool `mesen2` 2.0.1 plugin is superseded. The 57/14 numbers come from the plugin's own README and the marketplace JSON.
+2. **"drhelius/gearlynx-romhacking."** There is no standalone repository by that name. The skill lives at `drhelius/Gearlynx/skills/gearlynx-romhacking`, alongside a debugging skill and a hardware reference library.
+3. **"Future-dated marketplace timestamps."** Checked against the GitHub API on 2026-10-18: MesenCE and both plugins were pushed 2026-09-23; Gearlynx 2026-10-16. Not future-dated at the time of writing. Re-check before relying on activity claims.
+
+Star counts recorded here are from the GitHub API on 2026-10-18, not marketplace pages.
+
 ## How claims were graded
 
 - **Verified** — executed; output observed.
@@ -63,4 +81,4 @@ Where a project contradicts itself (e.g. README vs npm description on platform c
 If something here is wrong or has moved, open an issue or a PR. Include the version you tested and the output you saw. "It didn't work" is not actionable; a log line is.
 ---
 
-Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md)
+Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md) · [Cold ROM](cold-rom-playbook.md)

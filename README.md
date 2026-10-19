@@ -5,13 +5,13 @@
 Not a link dump. Every entry says what it is for, how to install it, and where it breaks.
 Last verified **October 2026**.
 
-[Start here](docs/start-here.md) · [The agent stack](docs/agent-stack.md) · [MCP servers](docs/mcp-servers.md) · [Agent skills](docs/agent-skills.md) · [Homebrew](docs/homebrew.md) · [ROM hacking](docs/romhacking.md) · [Reference](docs/reference.md) · [Troubleshooting](docs/troubleshooting.md) · [Resources](docs/resources.md) · [Glossary](docs/glossary.md) · [Sources](docs/sources.md)
+[Start here](docs/start-here.md) · [The agent stack](docs/agent-stack.md) · [MCP servers](docs/mcp-servers.md) · [Agent skills](docs/agent-skills.md) · [Homebrew](docs/homebrew.md) · [ROM hacking](docs/romhacking.md) · [Cold-ROM playbook](docs/cold-rom-playbook.md) · [Reference](docs/reference.md) · [Troubleshooting](docs/troubleshooting.md) · [Resources](docs/resources.md) · [Glossary](docs/glossary.md) · [Sources](docs/sources.md)
 
 ---
 
 ## The 60-second version
 
-There is one all-in-one option, one great debugger, and a handful of skill packs that are mostly one person's notes plus a disassembler. Start with **romdev**.
+There is one all-in-one option, two strong emulator-MCP families, and a handful of skill packs. Start with **romdev**; add **MesenCE** when you need a debugger and a procedure for a cold ROM.
 
 ```bash
 # Node 24+ — builds, runs, inspects and patches 19 retro systems
@@ -39,8 +39,9 @@ That fork → build → run loop is the single biggest quality-of-life change in
 | If you want to… | Use | Page |
 |---|---|---|
 | Build a homebrew game with the least setup | **romdev** + its generated skill | [Homebrew](docs/homebrew.md) |
-| Debug frame-by-frame with hooks and symbols | **romdev** for builds + **Mesen MCP** (Windows) or **mcp-bizhawk** | [MCP servers](docs/mcp-servers.md) |
+| Debug frame-by-frame with NES workflows | **MesenCE** + `mesence` plugin, or **Mesen MCP** / **mcp-bizhawk** | [MCP servers](docs/mcp-servers.md) |
 | Reverse-engineer or hack a commercial ROM | **nes-skills** (FCEUX Lua + retrodisasm) + **romdev** | [ROM hacking](docs/romhacking.md) |
+| Start from a completely undocumented ROM | **cold-ROM playbook** + MesenCE/romdev | [Cold-ROM playbook](docs/cold-rom-playbook.md) |
 | Run a multi-day RE campaign | **re-skill** + **romdev** + **GhidraMCP** | [Agent skills](docs/agent-skills.md) |
 | Learn the platform properly | [Reference](docs/reference.md) + [Resources](docs/resources.md) | — |
 
@@ -56,11 +57,13 @@ That fork → build → run loop is the single biggest quality-of-life change in
 | [Agent skills](docs/agent-skills.md) | Every skill pack, install commands, what it is good for, how to write your own |
 | [Homebrew](docs/homebrew.md) | Toolchains, project layout, PPU bring-up, sound, mappers, testing |
 | [ROM hacking](docs/romhacking.md) | Triage → dynamic analysis → static analysis → patch → verify, with a worked example |
+| [Cold-ROM playbook](docs/cold-rom-playbook.md) | The same loop for a ROM with no docs: header, value search, CDL sessions, banked-address discipline |
 | [Reference](docs/reference.md) | CPU memory map, PPU registers, iNES header, mappers, 6502 quick reference |
 | [Troubleshooting](docs/troubleshooting.md) | The error messages you will actually hit, and the fix |
 | [Resources](docs/resources.md) | Non-agent NESdev links: docs, emulators, graphics, audio, hardware |
 | [Glossary](docs/glossary.md) | PRG, CHR, mapper, OAM, CDL, NMI, and the rest |
 | [Sources](docs/sources.md) | Where every claim came from, with dates and versions |
+| [Tools](tools/README.md) | Header parser, bank-aware address math, CDL merge/stats |
 
 ---
 
@@ -84,12 +87,16 @@ Neither replaces knowing the platform. The NES is a 1983 console with a PPU that
 |---|---|---|
 | romdev | `0.150.2` (Oct 16, 2026) | ✅ verified end-to-end on NES |
 | Mesen MCP fork | `mesen-mcp-v0.2` (May 4, 2026) | ✅ usable; Windows x64 prebuilt only |
+| MesenCE + `mesence` | plugin `3.1.1`, 57 tools (Sep 2026) | 🧪 0★; closest to an NES end-to-end kit |
 | mcp-bizhawk | npm `0.1.x` (Oct 2026) | ✅ usable; ~1 frame latency |
+| mcp-nes | repo, Feb 2026 | ⚠️ gameplay only; no memory access |
 | Nes.Mcp | NuGet `0.0.11` (Oct 2026) | 🧪 early; 4 mappers, no PPU/OAM |
 | GhidraMCP | Ghidra 12.1.4 | ✅ general RE; no iNES loader |
 | nes-skills | repo, Jun 2026 | ✅ content; ⚠️ 1★, no license file |
 | re-skill | repo, Mar 2026 | ✅ process; 174★, MIT |
 | dotnes skills | repo, Sep 2026 | ✅ reference; tied to dotnes repo |
+| sadnescity/romhacking | plugin `1.0.1` (Sep 2026) | ✅ MIT; translation method, not mechanics |
+| gearlynx-romhacking | inside Gearlynx, Oct 2026 | ✅ genre template; Lynx, not NES |
 
 Legend: ✅ works as described · ⚠️ read before trusting · 🧪 early / incomplete · ❌ not for NES
 

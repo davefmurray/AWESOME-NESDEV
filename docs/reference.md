@@ -83,10 +83,12 @@ Each 8×8 tile is 16 bytes: 8 bytes for bitplane 0 (LSB), then 8 for bitplane 1 
 | 5 | 1 | CHR ROM size in 8 KB units (0 = CHR-RAM) |
 | 6 | 1 | bit 0 mirroring (0 horizontal, 1 vertical) · bit 1 battery · bit 2 trainer · bit 3 four-screen · bits 4–7 mapper low nibble |
 | 7 | 1 | bits 0–1 console type · bits 2–3 NES 2.0 marker (`10`) · bits 4–7 mapper high nibble |
-| 8 | 1 | PRG RAM size in 8 KB units (NES 2.0: mapper high bits + submapper) |
-| 9 | 1 | bit 0 TV system (1 = PAL) |
-| 10 | 1 | unofficial TV system / PRG RAM / bus conflicts |
-| 11–15 | 5 | padding (should be zero) |
+| 8 | 1 | iNES: PRG RAM size in 8 KB units. NES 2.0: mapper high nibble (bits 0–3) + submapper (bits 4–7) |
+| 9 | 1 | iNES: bit 0 TV system (1 = PAL). NES 2.0: PRG-ROM size MSB (bits 0–3), CHR-ROM size MSB (bits 4–7) |
+| 10 | 1 | iNES: unofficial TV/RAM/bus conflicts. NES 2.0: PRG-RAM (low nibble) / PRG-NVRAM (high nibble), size = 64 << value |
+| 11 | 1 | NES 2.0: CHR-RAM (low nibble) / CHR-NVRAM (high nibble), size = 64 << value |
+| 12 | 1 | NES 2.0: TV system / timing (0 NTSC, 1 PAL, 2 dual, 3 Dendy) |
+| 13–15 | 3 | padding / NES 2.0 miscellaneous |
 
 Mapper number = `((byte7 >> 4) << 4) | (byte6 >> 4)`.
 
@@ -167,7 +169,7 @@ Cycle counts matter in NMI handlers and raster tricks. A taken branch costs an e
 
 ## CDL (code/data log)
 
-Coverage files record, per PRG byte, whether it was executed or read as data. FCEUX-style `.cdl` uses one byte per PRG byte, with bit 0 = code and bit 1 = data; emulators differ, so check the file size against the PRG size before trusting it.
+Coverage files record, per PRG byte, whether it was executed or read as data. FCEUX-style `.cdl` uses one byte per PRG byte, commonly bit 0 = code and bit 1 = data; emulators differ, so check the file size against the PRG size and confirm the bit mapping with `--code-bit`/`--data-bit` before trusting it.
 
 Use it to:
 
@@ -199,4 +201,4 @@ PAL: 50.007 Hz, 312 scanlines, different music pitch and frame budget. A 60 Hz g
 - [Emulator tests](https://www.nesdev.org/wiki/Emulator_tests) — useful when your emulator and your code disagree
 ---
 
-Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md)
+Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md) · [Cold ROM](cold-rom-playbook.md)

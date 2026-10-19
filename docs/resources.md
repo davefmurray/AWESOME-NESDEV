@@ -20,6 +20,7 @@ Non-agent tools and references. Everything here was reachable in October 2026; c
 | [Mesen](https://www.mesen.ca/) | Windows/Linux/macOS | Best-in-class debugger, accuracy, rewinding; the MCP fork is built on it |
 | [FCEUX](https://fceux.com/) | Windows/Linux/macOS | Lua scripting, CDL coverage, cheat search; the NES hacking workhorse |
 | [BizHawk](https://github.com/TASEmulators/BizHawk) | Windows (Wine elsewhere) | TAS tools, Lua, many cores; the base for mcp-bizhawk |
+| [MesenCE](https://github.com/sadnescity/MesenCE) | Multi | Mesen2 fork with a 57-tool MCP server; the mesence plugin |
 | [Nestopia UE](http://0ldsk00l.ca/nestopia/) | Multi | Accuracy-focused, simple |
 | [puNES](https://github.com/punesemu/puNES) | Multi | Accurate, good for hardware-edge testing |
 
@@ -92,6 +93,9 @@ These are the pages that did not exist a year ago:
 
 - [MCP servers](mcp-servers.md) — romdev, Mesen MCP, mcp-bizhawk, Nes.Mcp, GhidraMCP, Gearlynx
 - [Agent skills](agent-skills.md) — nes-skills, re-skill, dotnes skills, retro-build, 6502 reference
+- [sadnescity plugins](https://github.com/sadnescity/claude-plugins) — MesenCE (57 tools), Ghidra, armips, and a gated translation method
+- [poryrom](https://github.com/scotbearss/poryrom) — GBA/Pokémon, but the build-in-Docker → verify headless → screenshot loop is a good model
+- [skilldb: ROM Hacking](https://skilldb.dev/skills/retro-gaming-skills/rom-hacking) — generic craft knowledge, paywalled
 - [The agent stack](agent-stack.md) — configs and session hygiene
 - [Homebrew](homebrew.md) and [ROM hacking](romhacking.md) — workflows that use them
 
@@ -102,4 +106,4 @@ These are the pages that did not exist a year ago:
 - When a community site is down, link the NESdev wiki page or an archive instead of a dead homepage.
 ---
 
-Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md)
+Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md) · [Cold ROM](cold-rom-playbook.md)

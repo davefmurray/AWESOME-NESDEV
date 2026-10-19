@@ -24,6 +24,10 @@ Two fields matter most: `name` (lowercase, hyphens) and `description` (when to u
 | **Yuki001/nes-skills** | NES format, 6502 reference, FCEUX Lua, retrodisasm | clone + copy | ✅ content / ⚠️ provenance |
 | **re-skill** | Full RE workspace + autonomous loop for a ROM | clone to skills dir | ✅ |
 | **dotnes skills** | ROM→C#, NES disassembly, MesenCE runtime checks | copy from repo | ✅ reference |
+| **mesence skills** | 14 skills bundled with the MesenCE MCP: NES workflows, memory, disassembly/CDL, patching | plugin marketplace | 🧪 0★ |
+| **gearlynx-romhacking** | The best-written genre template: search → breakpoint → patch loop | copy from Gearlynx | ✅ Lynx |
+| **sadnescity/romhacking** | Gated translation method: tables, pointers, fonts, QA, patch | plugin marketplace | ✅ MIT |
+| **skilldb rom-hacking** | Generic craft knowledge, no tooling | paywalled pack | ⚠️ |
 | **retro-build** | cc65 build + launch in Mesen | plugin marketplace | ✅ macOS |
 | **6502-assembly** | Standalone 6502 reference | `npx skills add` | ✅ |
 
@@ -206,6 +210,107 @@ Use it when you want 6502 knowledge without the NES tooling opinions. If you alr
 
 ---
 
+## MesenCE skills (mesence plugin)
+
+**Repo:** <https://github.com/sadnescity/MesenCE> · **Plugin:** 3.1.1 · **License:** GPL-3.0
+
+The `mesence` plugin bundles 14 skills with the MesenCE MCP server. The ones that matter for NES:
+
+| Skill | What it encodes |
+|---|---|
+| `mesen-workflows-nes` | NES-specific RE workflow: memory types, address conversion, what to try first |
+| `mesen-romhacking` | Cheats, tiles, palettes, Lua, TBL text search, ROM patching |
+| `mesen-disassembly` | Disassembly, assembly, labels, CDL, tracing, profiling |
+| `mesen-memory` | Read/write, search, freeze, access counters |
+| `mesen-debug-execution` | Stepping, breakpoints, callstack, expressions |
+| `mesen-console-reference` | Per-console memory/CPU/tile-format reference for 7 systems |
+
+Install via the marketplace (requires MesenCE running with MCP enabled):
+
+```text
+/plugin marketplace add sadnescity/claude-plugins
+/plugin install mesence@sadnescity-plugins
+```
+
+**Why it is the closest to end-to-end:** the workflow skill supplies the procedure, and the MCP supplies memory search, write breakpoints and CDL. That is the loop this wiki describes, packaged. The caveats are real: 0★, one author, a separate emulator fork, and a marketplace entry that used to be a 33-tool `mesen2` plugin. See [MCP servers](mcp-servers.md).
+
+---
+
+## gearlynx-romhacking
+
+**Source:** <https://github.com/drhelius/Gearlynx/tree/main/skills/gearlynx-romhacking> · **License:** GPL-3.0
+
+Not an NES skill, and not a separate repo — it lives inside the Gearlynx emulator. It is the best-written example of the genre, and worth reading as a template even if you never touch a Lynx.
+
+What it does well:
+
+- **The full loop**: capture a value → change it → search again → write breakpoint → identify the writer → patch.
+- **Cheat discovery** from write breakpoints, not guessed addresses.
+- **Sprite and text table hunting** with a translation workflow.
+- **Save states as checkpoints**, so every experiment is reversible.
+- **A hardware reference library** (~15 files) shipped alongside the skill, so the model can look up registers instead of inventing them.
+- **Setup guidance** that checks whether the MCP server is already connected before telling you to install anything.
+
+Install (only useful with the Gearlynx MCP server):
+
+```bash
+git clone https://github.com/drhelius/Gearlynx
+cp -r Gearlynx/skills/gearlynx-romhacking ~/.claude/skills/
+```
+
+Read it for structure: description triggers, prerequisite check, phases, verification. Then write the NES version.
+
+---
+
+## sadnescity/romhacking (translation method)
+
+**Repo:** <https://github.com/sadnescity/romhacking-claude-plugin> · **Version:** 1.0.1 · **License:** MIT
+
+A guided, gated method for **game translation**, game-agnostic. This is the polished workflow skill that the NES pack lacks — it just aims at text rather than mechanics.
+
+```
+recon → encoding (table + control codes) → accents → space
+→ graphics → glossary → translation → QA → patch
+```
+
+- Project state lives in `ROMHACK.md` next to the data.
+- Every phase has a gate that is proved, not declared: a table counts when its round-trip is byte-identical; accents count when they are readable on screen.
+- `scripts/` are Python 3, standard library only: TBL tables, relative search, pointers, dump/insert, iNES, entropy, tiles/PNG, IPS, project state. Seeds to adapt, not finished tools.
+- Orchestrates emulator plugins rather than duplicating them.
+
+Install:
+
+```text
+/plugin marketplace add sadnescity/claude-plugins
+/plugin install romhacking@sadnescity-plugins
+```
+
+**Use when:** you are translating text, menus, or fonts. **Do not use when:** you want infinite lives; that is the memory loop, and this plugin will make you do table work first.
+
+---
+
+## skilldb: retro-gaming-skills/rom-hacking
+
+**Page:** <https://skilldb.dev/skills/retro-gaming-skills/rom-hacking> · **Access:** paywalled pack
+
+A 68-line prompt-knowledge skill: hex editing, tile editing (it correctly notes NES 2bpp planar), TBL files, pointer tables, assembly-level hacking, IPS/BPS distribution. Advice includes starting with well-documented games and keeping the project in git.
+
+**No tooling.** It is encoded craft knowledge, and the pack is behind a subscription. Read the summary, skip the purchase if you already have the NESdev wiki and this page.
+
+---
+
+## The gap, updated
+
+The 2026 picture is better than "scattered pieces":
+
+- **Live NES hacking:** MesenCE + `mesence` gives tools + a NES workflow skill.
+- **Translation:** `sadnescity/romhacking` gives a gated method.
+- **Static analysis:** `nes-skills` gives FCEUX Lua, CDL and retrodisasm.
+- **Project scaffolding:** `re-skill` gives the ledger and autonomous loop.
+- **One-shot:** romdev gives the whole loop behind one MCP.
+
+What is still missing is a **free, NES-mechanics-specific** skill that wraps MesenCE's search loop and hands off to retrodisasm for a permanent patch. The closest assembly today is `mesence` + `mesen-workflows-nes` + retrodisasm. That is the skill worth writing.
+
 ## Writing your own NES skill
 
 The best skill encodes something you had to learn the hard way. "How to get a black-screen ROM to render" is a better skill than "all about the NES".
@@ -289,4 +394,4 @@ If the second one triggers, your description is too broad. Tighten it.
 - **Delete what you do not use.** Idle skills still cost a description in the tool catalog.
 ---
 
-Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md)
+Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md) · [Cold ROM](cold-rom-playbook.md)

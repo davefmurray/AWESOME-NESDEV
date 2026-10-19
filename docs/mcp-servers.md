@@ -8,6 +8,7 @@ Six servers are worth knowing. One covers the whole NES loop; two are emulator d
 |---|---|---|---|---|---|
 | **romdev** | 19 retro systems | Streamable HTTP (localhost:7331) | Build + run + debug + disassemble + patch | `npx romdevtools` | ✅ |
 | **Mesen MCP** | NES, SNES, GB/GBC/GBA, PCE, SMS/GG, WS | TCP JSON-RPC + Python stdio bridge | Deep debugger: hooks, symbols, PPU/OAM renders | Build fork / Windows zip | ✅ Windows |
+| **MesenCE** | NES, SNES, GB/GBA, PCE, SMS/GG, WS | Streamable HTTP (localhost:9100) | 57 tools + 14 skills: CDL, labels, TBL text search, patching | MesenCE + plugin marketplace | 🧪 0★ |
 | **mcp-bizhawk** | NES, SNES, GB/GBC/GBA, Genesis, N64, PSX, Atari, Lynx, … | stdio + Lua bridge in BizHawk | Memory, input, savestates, screenshots | `npm i -g mcp-bizhawk` | ✅ |
 | **Nes.Mcp** | NES only | stdio | CPU step, breakpoints, memory, screen | `dnx Nes.Mcp --yes` | 🧪 early |
 | **GhidraMCP** | Any Ghidra target | HTTP + stdio client | Static analysis only; 6502 via Ghidra | Ghidra extension + `uvx` | ✅ |
@@ -148,6 +149,42 @@ An earlier, smaller fork exists — <https://github.com/crlsh/mesen-mcp> (6 tool
 
 ---
 
+## MesenCE + mesence plugin
+
+**Repo:** <https://github.com/sadnescity/MesenCE> · **Plugin:** `mesence` 3.1.1 (Sep 2026) · **License:** GPL-3.0
+
+A Mesen2 fork with a built-in MCP server, plus a Claude Code plugin that ships the configuration and 14 reference skills. This is the closest thing to an end-to-end NES reverse-engineering kit: 57 tools, per-console workflows, and a dedicated NES skill.
+
+### What you get
+
+| Layer | Contents |
+|---|---|
+| MCP server | 57 tools: stepping, memory search/freeze, disassembly/assembly, labels, CDL, tracing, profiler, sprites/tilemaps, Lua, TBL text search, ROM patching |
+| Skills | `mesen-setup`, `mesen-debug-execution`, `mesen-memory`, `mesen-disassembly`, `mesen-emulator`, `mesen-romhacking`, `mesen-console-reference`, and per-console workflows (`mesen-workflows-nes`, `-snes`, `-gb`, `-gba`, `-pce`, `-sms`, `-ws`) |
+| Transport | Streamable HTTP on `localhost:9100` |
+
+### Install
+
+1. Install [MesenCE](https://github.com/sadnescity/MesenCE) (Windows/Linux/macOS).
+2. Enable its MCP server: **Tools → MCP Server Config**, or launch with `--mcp` (optional `--mcp-port=PORT`).
+3. In Claude Code:
+
+```text
+/plugin marketplace add sadnescity/claude-plugins
+/plugin install mesence@sadnescity-plugins
+```
+
+### Why it matters
+
+The NES workflow skill is the procedure layer that other emulator MCPs lack: it tells the model how to go from a cold ROM to a labelled address, while the tools supply memory search, write breakpoints and CDL. If you want one install for live NES hacking, try this after romdev.
+
+### Caveats
+
+- **0★, one author, no release history.** MesenCE is a separate fork — not upstream Mesen2, and not the astrobleem MCP fork. Pin the version and check ROM compatibility.
+- The marketplace previously listed a `mesen2` plugin (2.0.1, 33 tools). It is superseded by `mesence` (3.1.1, 57 tools). A page showing 33 is stale.
+- GPL-3.0; the plugin inherits the emulator's license.
+- Its skills are reference workflows, not guarantees. Verify the addresses it suggests.
+
 ## mcp-bizhawk
 
 **Repo:** <https://github.com/dmang-dev/mcp-bizhawk> · **Install:** npm · **License:** MIT
@@ -197,6 +234,16 @@ Use `bizhawk_list_memory_domains` to confirm names for the loaded core.
 - **macOS/Linux work**, which makes this the practical debugger MCP outside Windows.
 
 ---
+
+## mcp-nes
+
+**Repo:** <https://github.com/thomasjvu/mcp-nes> · **Stars:** 1 · **License:** none declared · **Transport:** stdio or SSE
+
+A pure-JavaScript NES emulator exposed as an MCP server, with a CRT-styled browser UI. No external emulator, no native dependency.
+
+Tools: `load_rom`, `get_screen`, `press_up/down/left/right`, `press_a/b`, `press_start/select`, `wait_frames`, `is_rom_loaded`, `list_roms`.
+
+**It cannot read memory.** That makes it a validation harness, not a hacking tool: useful for "does it boot", "does this input sequence reach the menu", or capturing a screenshot without installing an emulator. For memory work use MesenCE, Mesen MCP, BizHawk or romdev.
 
 ## Nes.Mcp
 
@@ -283,11 +330,13 @@ Install: download the `.mcpb` for your platform, or run `gearlynx --mcp-stdio` /
 ## Choosing
 
 - **Only one server?** romdev.
-- **Windows and need breakpoints?** romdev + Mesen MCP.
-- **macOS/Linux and need breakpoints?** romdev + mcp-bizhawk.
+- **Want the deepest live NES debugger with a procedure layer?** MesenCE + the `mesence` plugin.
+- **Windows and want the astrobleem fork?** romdev + Mesen MCP.
+- **macOS/Linux and need breakpoints without building Mesen?** romdev + mcp-bizhawk, or MesenCE if the fork runs on your machine.
 - **CI, no display?** romdev (best) or Nes.Mcp (smallest).
+- **Only need to play a ROM and screenshot it?** mcp-nes.
 - **Static analysis at scale?** GhidraMCP, fed by a romdev or retrodisasm project.
 - **Learning what a debugger MCP should feel like?** read Gearlynx's tool list.
 ---
 
-Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md)
+Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md) · [Cold ROM](cold-rom-playbook.md)

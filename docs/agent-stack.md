@@ -31,12 +31,13 @@ romdev (MCP)  +  romdev SKILL.md
 ### Stack B — debug someone else's code
 
 ```
-romdev (build/run)  +  Mesen MCP (Windows) or mcp-bizhawk (any OS)
+romdev (build/run)  +  MesenCE, Mesen MCP (Windows) or mcp-bizhawk (any OS)
 ```
 
 - romdev handles assembly and quick screenshots.
 - The debugger MCP handles breakpoints, symbols, hooks, call stacks, PPU/OAM inspection.
-- On Windows, Mesen MCP is the better surface. On macOS/Linux, BizHawk is the practical one.
+- MesenCE + the `mesence` plugin is the closest to an end-to-end NES debugger: 57 tools and a NES workflow skill.
+- On Windows, the astrobleem Mesen MCP fork is also strong. On macOS/Linux without building Mesen, BizHawk is the practical fallback.
 
 **Use when:** you have a ROM that boots but misbehaves, or you are hunting a specific RAM address.
 
@@ -77,6 +78,13 @@ Mesen is a stdio bridge, so it goes in `.mcp.json` (project) rather than `claude
     }
   }
 }
+```
+
+MesenCE is a plugin, not a JSON entry: install the emulator, enable **Tools → MCP Server Config** (port 9100), then:
+
+```text
+/plugin marketplace add sadnescity/claude-plugins
+/plugin install mesence@sadnescity-plugins
 ```
 
 ### Codex CLI
@@ -137,7 +145,7 @@ Each skill is a directory containing `SKILL.md` and optional `references/`, `scr
 
 **romdev sessions.** Every call needs an `x-romdev-session` header (the MCP client sends it as a session argument on the stateless revision). Use one descriptive id per task: `nes-platformer-color`, `rpg-text-hack`. Do not generate a new id per call — you will get a fresh, empty emulator and "No ROM loaded".
 
-**Debugger sessions.** Mesen and BizHawk are single-instance. If two agents connect, they share one paused/running state and one breakpoint list. Run one emulator per agent, on separate ports and separate portable config directories.
+**Debugger sessions.** Mesen, MesenCE and BizHawk are single-instance. If two agents connect, they share one paused/running state and one breakpoint list. Run one emulator per agent, on separate ports and separate portable config directories.
 
 **Pause before reading.** A running emulator advances between calls. Mesen's own docs put it bluntly: without `pause()`, two consecutive `read_memory` calls see different frames. romdev's `frame`/`memory` calls are synchronous, so this is less of an issue there.
 
@@ -181,4 +189,4 @@ Models are confident about PPU timing. Make the emulator the judge:
 romdev has `frame({op:'verify'})` and `regression({op:'capture'|'check'})` for exactly this. Use them before you believe a "done".
 ---
 
-Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md)
+Part of [AWESOME NESDEV](../README.md) · [Start here](start-here.md) · [MCP servers](mcp-servers.md) · [Skills](agent-skills.md) · [Homebrew](homebrew.md) · [ROM hacking](romhacking.md) · [Cold ROM](cold-rom-playbook.md)
