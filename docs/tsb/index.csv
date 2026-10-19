@@ -1,0 +1,172 @@
+title,category,file,source
+Player-2 Condition Fix,32-TEAM ROM FIXES,32-team-rom-fixes/10436-player-2-condition-fix.md,https://tecmobowl.org/topic/10436-player-2-conditions-fix/
+Change SKP vs SKP pass distribution to a default global value,CPU & SIM,cpu-sim/70386-change-skp-vs-skp-pass-distribution-to-a-default-global-value.md,https://tecmobowl.org/forums/topic/70386-sim-target-distribution-hack
+COM Control Movement Logic Summary,CPU & SIM,cpu-sim/63064-com-control-movement-logic-summary.md,https://tecmobowl.org/topic/63064-com-takes-control-movement-logic-summary/
+COM Defensive Juice Modification Helper,CPU & SIM,cpu-sim/11363-com-defensive-juice-modification-helper.md,https://tecmobowl.org/forums/topic/11363-juice-helper-spreadsheet/
+COM Defensive Juice: HEX Locations,CPU & SIM,cpu-sim/7144-65571-com-defensive-juice-hex-locations.md,https://tecmobowl.org/forum/topic/7144-how-tsb-decides-strength-of-cpu-opponent/page__hl__juice#entry65571
+COM Defensive Juice: Introduction,CPU & SIM,cpu-sim/10781-com-defensive-juice-introduction.md,https://tecmobowl.org/forums/topic/10781-com-defensive-coverage-late-in-season/
+COM Enhanced Coverage,CPU & SIM,cpu-sim/10781-94279-com-enhanced-coverage.md,https://tecmobowl.org/topic/10781-com-defensive-coverage-late-in-season/#entry94279
+COM Find Open Receiver,CPU & SIM,cpu-sim/53837-com-find-open-receiver.md,https://tecmobowl.org/topic/53837-cpu-find-open-receiver/
+COM Play Calling/Go For It General Logic,CPU & SIM,cpu-sim/10793-com-play-calling-go-for-it-general-logic.md,https://tecmobowl.org/topic/10793-cpu-logic-for-play-selection/
+COM punts in tied 4th quarter game instead of running play,CPU & SIM,cpu-sim/71605-com-punts-in-tied-4th-quarter-game-instead-of-running-play.md,https://tecmobowl.org/forums/topic/71605-how-can-you-edit-logic-so-com-doesnt-go-for-it-on-4th-down-in-a-tie-when-inside-their-own-end-of-the-field/
+COM RUN / PASS Ratio,CPU & SIM,cpu-sim/6677-com-run-pass-ratio.md,https://tecmobowl.org/forums/topic/6677-editng-teams-runpass-ratio-in-tsb/
+COM Sim Attribute Locations,CPU & SIM,cpu-sim/12519-com-sim-attribute-locations.md,https://tecmobowl.org/forums/topic/12519-tsb-sim-locations-and-values/
+COM Ultra Logic Hack,CPU & SIM,cpu-sim/11474-com-ultra-logic-hack.md,https://tecmobowl.org/topic/11474-jstout-logic-modifier/
+COM vs COM Grappling Differential,CPU & SIM,cpu-sim/10241-com-vs-com-grappling-differential.md,https://tecmobowl.org/topic/10241-snes-tsb-i-improved-grappling-code/
+Modify COM RUN / PASS RATIO Weights,CPU & SIM,cpu-sim/10511-modify-com-run-pass-ratio-weights.md,https://tecmobowl.org/forums/topic/10511-heavier-weighting-of-com-runpass-ratio
+http://tecmobowl.org/forum/topic/11363-juice-helper-spreadsheet/,Community replies,community-replies/11363-http-tecmobowl-org-forum-topic-11363-juice-helper-spreadsheet.md,https://tecmobowl.org/forum/topic/11363-juice-helper-spreadsheet/
+http://tecmobowl.org/topic/11502-adding-the-change-playbook-option-during-playnes/,Community replies,community-replies/11502-http-tecmobowl-org-topic-11502-adding-the-change-playbook-option-durin.md,https://tecmobowl.org/topic/11502-adding-the-change-playbook-option-during-playnes/
+http://tecmobowl.org/topic/55221-sorting-receiving-stats-by-yards-instead-of-catches/,Community replies,community-replies/55221-http-tecmobowl-org-topic-55221-sorting-receiving-stats-by-yards-instea.md,https://tecmobowl.org/topic/55221-sorting-receiving-stats-by-yards-instead-of-catches/
+http://tecmobowl.org/topic/9494-nes-pc-and-pa/,Community replies,community-replies/9494-http-tecmobowl-org-topic-9494-nes-pc-and-pa.md,https://tecmobowl.org/topic/9494-nes-pc-and-pa/
+Cutscene Player Skin Color,EVENTS,events/11026-110296-cutscene-player-skin-color.md,https://tecmobowl.org/topic/11026-tsb-cut-scene-skin-color/#entry110296
+Cutscenes Events in Hex,EVENTS,events/9946-cutscenes-events-in-hex.md,https://tecmobowl.org/topic/9946-events/
+Cutscenes Other Locations,EVENTS,events/11347-102455-cutscenes-other-locations.md,https://tecmobowl.org/topic/11347-just-bring-it-4-special-edition-updated/page-4#entry102455
+Division Cutscene Information,EVENTS,events/52749-division-cutscene-information.md,https://tecmobowl.org/topic/52749-tsb-clinching-division-cutsceen/
+Editing Cutscenes,EVENTS,events/13387-editing-cutscenes.md,https://tecmobowl.org/topic/13387-an-easy-guide-to-changing-and-deleting-various-cutscenes/
+Intro Cutscene Locations,EVENTS,events/12285-112222-intro-cutscene-locations.md,https://tecmobowl.org/topic/12285-locations-of-tsb-cut-scenes/#entry112222
+All games have untimed playoff style OT (no ties),GAMEPLAY,gameplay/72151-all-games-have-untimed-playoff-style-ot-no-ties.md,https://tecmobowl.org/forums/topic/72151-no-ties-all-games-follow-playoff-ot-rules/
+Avoid Block Kick Fix,GAMEPLAY,gameplay/64767-avoid-block-kick-fix.md,https://tecmobowl.org/topic/64767-fg-avoid-kick-block-fix/
+Better INT Return Hack,GAMEPLAY,gameplay/12791-better-int-return-hack.md,https://tecmobowl.org/topic/12791-better-int-return-hack/
+Bump Success Rate,GAMEPLAY,gameplay/56716-bump-success-rate.md,https://tecmobowl.org/topic/56716-changing-the-bumping-probability-success-rate/
+Change extra point distance (15 yd xp),GAMEPLAY,gameplay/66137-change-extra-point-distance-15-yd-xp.md,https://tecmobowl.org/forums/topic/66137-15-ydextra-point-try/
+Clock speed/time between plays,GAMEPLAY,gameplay/11290-clock-speed-time-between-plays.md,https://tecmobowl.org/forums/topic/11290-playcall-screen-clock-speed/
+COM Punt Timing,GAMEPLAY,gameplay/66645-456338-com-punt-timing.md,https://tecmobowl.org/topic/66645-com-punt-timing/#entry456338
+Condition Change Every Play,GAMEPLAY,gameplay/10222-condition-change-every-play.md,https://tecmobowl.org/forums/topic/10222-player-conditions-change-more/
+Conditions Change Explanation,GAMEPLAY,gameplay/58030-424391-conditions-change-explanation.md,https://tecmobowl.org/forums/topic/58030-conditions-distribution/?tab=comments#comment-424391
+Decrease / Increase Rate,GAMEPLAY,gameplay/11138-decrease-increase-rate.md,https://tecmobowl.org/topic/11138-increasedecrease-injury-rate-hack/
+Defense: 3-4 or 4-3 Team Formations,GAMEPLAY,gameplay/11034-defense-3-4-or-4-3-team-formations.md,https://tecmobowl.org/forums/topic/11034-tsb-with-both-34-and-43-defenses/
+Defensive Diving Control Percentage,GAMEPLAY,gameplay/12065-defensive-diving-control-percentage.md,https://tecmobowl.org/topic/12065-nes-snes-tsb-i-ii-iii-gen-tsb-i/
+Defensive Formation Mega Guide,GAMEPLAY,gameplay/11445-defensive-formation-mega-guide.md,https://tecmobowl.org/forums/topic/11445-create-your-own-defenses/
+Defensive Play Fake Presnap Movement,GAMEPLAY,gameplay/13215-defensive-play-fake-presnap-movement.md,https://tecmobowl.org/topic/13215-defense-play-fake-and-presnap-movement-hex-question/
+Defensive Reactions Overview,GAMEPLAY,gameplay/5841-defensive-reactions-overview.md,https://tecmobowl.org/forums/topic/5841-defensive-reactions/
+Determining and Modifying FG Accuracy,GAMEPLAY,gameplay/70424-determining-and-modifying-fg-accuracy.md,https://tecmobowl.org/forums/topic/70424-modifier-to-fg-accuracy/
+Directional Punts,GAMEPLAY,gameplay/62839-directional-punts.md,https://tecmobowl.org/topic/62839-directional-punts
+Displayed Attributes Numbers Locations,GAMEPLAY,gameplay/65417-displayed-attributes-numbers-locations.md,https://tecmobowl.org/topic/65417-the-location-of-displayed-player-attribute-numbers-61319etc-nes-tsb
+emoving Overtime,GAMEPLAY,gameplay/13455-emoving-overtime.md,https://tecmobowl.org/forums/topic/13455-editing-overtime
+Field Goal Arrow Speed,GAMEPLAY,gameplay/3989-field-goal-arrow-speed.md,https://tecmobowl.org/topic/3989-player-attribute-probabilities/
+Field Goal Length,GAMEPLAY,gameplay/4167-field-goal-length.md,https://tecmobowl.org/forums/topic/4167-shorten-field-goals-rom-hack/
+First Down Yardage,GAMEPLAY,gameplay/3960-first-down-yardage.md,https://tecmobowl.org/forums/topic/3960-changing-first-down-yardage/
+Fumble Probability Table,GAMEPLAY,gameplay/58620-fumble-probability-table.md,https://tecmobowl.org/forums/topic/58620-fumble-probabilities-table
+General Attributes Probabilities,GAMEPLAY,gameplay/3989-general-attributes-probabilities.md,https://tecmobowl.org/forums/topic/3989-player-attribute-probabilities/
+Grappling: HP Hack (NES),GAMEPLAY,gameplay/9586-grappling-hp-hack-nes.md,https://tecmobowl.org/forums/topic/9586-nes-improved-grappling-code/
+Grappling: HP Hack (SNES),GAMEPLAY,gameplay/10241-grappling-hp-hack-snes.md,https://tecmobowl.org/forums/topic/10241-snes-tsb-i-improved-grappling-code/
+Grappling: Time Limit,GAMEPLAY,gameplay/11821-grappling-time-limit.md,https://tecmobowl.org/forums/topic/11821-changing-the-amount-of-time-for-grapples/
+How Quickly Players Rise & How Far They Are Thrown,GAMEPLAY,gameplay/52422-how-quickly-players-rise-how-far-they-are-thrown.md,https://tecmobowl.org/topic/52422-possible-to-edit-how-quickly-players-get-up/
+Injuries & Probabilities,GAMEPLAY,gameplay/4363-injuries-probabilities.md,https://tecmobowl.org/forums/topic/4363-save-states-and-injuries/
+Injury Return Rate,GAMEPLAY,gameplay/66654-injury-return-rate.md,https://tecmobowl.org/topic/66654-come-back-from-injury-chances
+"INTs, Deflections, Covered Catches",GAMEPLAY,gameplay/7066-ints-deflections-covered-catches.md,https://tecmobowl.org/topic/7066-passing-game-ratings/
+Keep quarter scores intact if game goes into Overtime,GAMEPLAY,gameplay/60297-keep-quarter-scores-intact-if-game-goes-into-overtime.md,https://tecmobowl.org/forums/topic/60297-keeps-quarter-scores-intact-if-game-goes-to-ot/
+Kickoff Length,GAMEPLAY,gameplay/11291-kickoff-length.md,https://tecmobowl.org/topic/11291-increase-cpu-kickoff-length/
+Kickoff Positioning,GAMEPLAY,gameplay/3959-kickoff-positioning.md,https://tecmobowl.org/forums/topic/3959-adjusting-kick-off-positions/
+Kickoff Touchbacks,GAMEPLAY,gameplay/12758-kickoff-touchbacks.md,https://tecmobowl.org/topic/12758-kickoff-touchbacks/
+KR Speed Change From RT to Actual KR Player,GAMEPLAY,gameplay/4006-kr-speed-change-from-rt-to-actual-kr-player.md,https://tecmobowl.org/forums/topic/4006-changing-the-kr-speed/
+Moving Teams to New Divisions,GAMEPLAY,gameplay/51680-moving-teams-to-new-divisions.md,https://tecmobowl.org/topic/51680-moving-teams-to-different-divisions/
+NCAA TSB Conversion Superpack,GAMEPLAY,gameplay/11077-ncaa-tsb-conversion-superpack.md,https://tecmobowl.org/topic/11077-tsb-ncaa-ultimate-editing-superpack/
+Number of Downs,GAMEPLAY,gameplay/4122-number-of-downs.md,https://tecmobowl.org/forums/topic/4122-change-of-downs-in-tsb/
+Offense: Exchange Players for Custom Formation Sets,GAMEPLAY,gameplay/9599-offense-exchange-players-for-custom-formation-sets.md,https://tecmobowl.org/forums/topic/9599-different-players-on-the-field-for-different-formations/
+Offense: Remove Diving / Jumping,GAMEPLAY,gameplay/10238-offense-remove-diving-jumping.md,https://tecmobowl.org/forums/topic/10238-feasibility-inquiry-removal-of-jumpingdiving/
+Options Formation Hack Information,GAMEPLAY,gameplay/52217-options-formation-hack-information.md,https://tecmobowl.org/topic/52217-a-button-to-cancel-handoff-and-a-to-pitch-along-a-path/
+Out of Bounds Zones,GAMEPLAY,gameplay/11369-out-of-bounds-zones.md,https://tecmobowl.org/topic/11369-out-of-bounds-zones/
+Passing Probability Table,GAMEPLAY,gameplay/12783-passing-probability-table.md,https://tecmobowl.org/topic/12783-passing-game-probability-table-hack/
+Pitch / Hike Snap Speed / Loft,GAMEPLAY,gameplay/11704-pitch-hike-snap-speed-loft.md,https://tecmobowl.org/topic/11704-3x-tsb-hacking-info-requests/
+Play as 2nd Player Against CPU,GAMEPLAY,gameplay/12609-play-as-2nd-player-against-cpu.md,https://tecmobowl.org/topic/12609-play-as-2nd-player-against-cpu/
+Player 2 Onside Kick Recovery Odds,GAMEPLAY,gameplay/63673-player-2-onside-kick-recovery-odds.md,https://tecmobowl.org/topic/63673-onsides-kick-hackbetter-recovery-rate-for-p2/
+Player-controlled QB rollouts for playaction passes,GAMEPLAY,gameplay/60638-player-controlled-qb-rollouts-for-playaction-passes.md,https://tecmobowl.org/forums/topic/60638-player-controlled-qb-rollouts-for-playaction-passes
+Players In Average Condition Permanently,GAMEPLAY,gameplay/64741-players-in-average-condition-permanently.md,https://tecmobowl.org/topic/64741-conditions-always-in-average/
+Possession-style Overtime Rules,GAMEPLAY,gameplay/10427-possession-style-overtime-rules.md,https://tecmobowl.org/forums/topic/10427-possession-style-overtime/
+PR Speed Change From SS to Actual PR Player,GAMEPLAY,gameplay/4168-pr-speed-change-from-ss-to-actual-pr-player.md,https://tecmobowl.org/forums/topic/4168-a-better-alternative-rom-hack-for-punt-returns/
+Prevent Fumbling After TD,GAMEPLAY,gameplay/12527-prevent-fumbling-after-td.md,https://tecmobowl.org/topic/12527-stopping-fumbles-after-touchdowns-beta/
+Punting Length / Coverage,GAMEPLAY,gameplay/4162-punting-length-coverage.md,https://tecmobowl.org/forums/topic/4162-shorter-punts-rom-hack/
+QB / PR Fumbling Increased,GAMEPLAY,gameplay/7010-qb-pr-fumbling-increased.md,https://tecmobowl.org/topic/7010-qb-and-punt-returner-ball-control/
+QB can throw a lob pass by pressing the Start button instead of B,GAMEPLAY,gameplay/55448-qb-can-throw-a-lob-pass-by-pressing-the-start-button-instead-of-b.md,https://tecmobowl.org/forums/topic/55448-use-start-instead-of-b-button-to-throw-lob-passes/
+QB Split PC / PA Ratings,GAMEPLAY,gameplay/9494-qb-split-pc-pa-ratings.md,https://tecmobowl.org/forums/topic/9494-nes-pc-and-pa/
+QB WR Priority Selection,GAMEPLAY,gameplay/11317-qb-wr-priority-selection.md,https://tecmobowl.org/forums/topic/11317-changing-qb-wr-priority/
+Quarter Length,GAMEPLAY,gameplay/9111-339861-quarter-length.md,https://tecmobowl.org/topic/9111-how-to-change-5mins-to-7mins/#entry339861
+Quarter Length / Options Display (32-Team ROM),GAMEPLAY,gameplay/11099-quarter-length-options-display-32-team-rom.md,https://tecmobowl.org/forums/topic/11099-how-to-change-the-mimimummaximum-qtr-time32-team-rom/
+Quickness Controls INT / Fumble Return Speeds,GAMEPLAY,gameplay/9398-quickness-controls-int-fumble-return-speeds.md,https://tecmobowl.org/topic/9398-using-quickness-for-int-and-fumble-returns/
+Quickness for Pass Incompletions for Coverage,GAMEPLAY,gameplay/12729-quickness-for-pass-incompletions-for-coverage.md,https://tecmobowl.org/topic/12729-use-quickness-for-pass-incompletions/
+Remove Halftime,GAMEPLAY,gameplay/72344-remove-halftime.md,https://tecmobowl.org/forums/topic/72344-no-halftime/
+Special Teams: KR XY Location,GAMEPLAY,gameplay/5852-special-teams-kr-xy-location.md,https://tecmobowl.org/forums/topic/5852-kr-xy-location/
+Swap PC / PA Ratings,GAMEPLAY,gameplay/55328-swap-pc-pa-ratings.md,https://tecmobowl.org/topic/55328-possible-to-swap-pc-and-pa-nes-tsb/
+Team Control - MAN/SKP/COA/COM,GAMEPLAY,gameplay/51704-team-control-man-skp-coa-com.md,https://tecmobowl.org/topic/51704-team-control-manskpcoacom-refrence/
+Time Out / Touchback / Fair Catch/ Kneel Hack,GAMEPLAY,gameplay/55558-time-out-touchback-fair-catch-kneel-hack.md,https://tecmobowl.org/topic/55558-time-out-touchback-fair-catch-kneel-hack/
+Toggle Slow Motion Game Debug,GAMEPLAY,gameplay/55776-toggle-slow-motion-game-debug.md,https://tecmobowl.org/forums/topic/55776-nes-slow-motion-game-debug
+Turn Off Injuries Skip mode,GAMEPLAY,gameplay/69576-turn-off-injuries-skip-mode.md,https://tecmobowl.org/forums/topic/69576-turn-off-injuries-in-skp-mode/
+Turn Off Season Injuries,GAMEPLAY,gameplay/8936-turn-off-season-injuries.md,https://tecmobowl.org/forums/topic/8936-turning-off-injuries-during-season-mode/
+Turn On Preseason Injuries,GAMEPLAY,gameplay/8694-turn-on-preseason-injuries.md,https://tecmobowl.org/forums/topic/8694-preseason-injuries/
+Control Execution Code,GENERAL INFO,general-info/9701-control-execution-code.md,https://tecmobowl.org/topic/9701-tsb-nes-gameplay-code/
+CPU RAM and MMC3 General Locations,GENERAL INFO,general-info/53074-cpu-ram-and-mmc3-general-locations.md,https://tecmobowl.org/topic/53074-nes-ram-and-mmc3-layout-and-registers/
+Data Structure for Sprite scripts and tiles,GENERAL INFO,general-info/69117-data-structure-for-sprite-scripts-and-tiles.md,https://tecmobowl.org/forums/topic/69117-data-structure-for-sprite-scripts-and-tiles/
+Total Conversion Files,GENERAL INFO,general-info/53231-total-conversion-files.md,https://tecmobowl.org/topic/53231-32-nes-tsb-files-from-cx-rom/
+TSB ROM Hex Location Index,GENERAL INFO,general-info/53101-tsb-rom-hex-location-index.md,https://tecmobowl.org/topic/53101-tsb-rom-hex-location-index/
+TSB Team Pointer Info,GENERAL INFO,general-info/60112-401794-tsb-team-pointer-info.md,https://tecmobowl.org/topic/60112-team-location-namemascot-length-pointer/#entry401794
+Various ROM Hex Locations,GENERAL INFO,general-info/53112-various-rom-hex-locations.md,https://tecmobowl.org/topic/53112-many-various-rom-locations/
+Active Player Icon,GRAPHICS,graphics/71617-active-player-icon.md,https://tecmobowl.org/forums/topic/71617-editing-player-icons/
+By-pass Chiefs' 3rd uniform,GRAPHICS,graphics/69093-by-pass-chiefs-3rd-uniform.md,https://tecmobowl.org/forums/topic/69093-how-to-edit-chiefs-uniform-colors-in-28-team-rom/
+"Change Game-ending ""1991"" Text",GRAPHICS,graphics/77-change-game-ending-1991-text.md,https://tecmobowl.org/topic/77-a-couple-questions-on-editing-games/
+Change the ROM to Greyscale,GRAPHICS,graphics/66704-change-the-rom-to-greyscale.md,https://tecmobowl.org/topic/66704-greyscale-tecmo/
+Changing Team Layout when Removing Teams,GRAPHICS,graphics/72048-508942-changing-team-layout-when-removing-teams.md,https://tecmobowl.org/forums/topic/72048-how-do-you-shift-team-abbreviations-on-team-control-screen-closer-to-middle-when-having-less-teams-in-game/?tab=comments#comment-508942
+Color Location Megathread,GRAPHICS,graphics/11748-color-location-megathread.md,https://tecmobowl.org/topic/11748-color-location-mega-thread/
+Control Icon Flashing,GRAPHICS,graphics/11479-100528-control-icon-flashing.md,https://tecmobowl.org/topic/11479-flashing-pinkwhite-palette/#entry100528
+Cutscene & Event Editing Introduction,GRAPHICS,graphics/9946-cutscene-event-editing-introduction.md,https://tecmobowl.org/forums/topic/9946-events/
+"Drawing Routine for Intro (Montana, Barry , LT) ** New 1.13.2021",GRAPHICS,graphics/56191-drawing-routine-for-intro-montana-barry-lt-new-1-13-2021.md,https://tecmobowl.org/forums/topic/56191-drawing-routine-for-intro-montana-barry-lt
+Eliminating MAN Games,GRAPHICS,graphics/10789-eliminating-man-games.md,https://tecmobowl.org/forums/topic/10789-eliminating-man-games/
+Eliminating Teams,GRAPHICS,graphics/7850-eliminating-teams.md,https://tecmobowl.org/forums/topic/7850-removing-teams-from-the-menu/
+End Zone Tutorial,GRAPHICS,graphics/13438-end-zone-tutorial.md,https://tecmobowl.org/topic/13438-editing-endzones-a-tutorial/
+Example of drawing a screen using 4x4 blocks (Start Screen),GRAPHICS,graphics/67291-example-of-drawing-a-screen-using-4x4-blocks-start-screen.md,https://tecmobowl.org/forum/topic/67291-example-of-meta-tile-drawing-4-tile-x-4-tile-blocks-start-screen
+Field Color,GRAPHICS,graphics/64496-469497-field-color.md,https://tecmobowl.org/forum/topic/64496-field-color-locations/#comment-469497
+Goal Post Color,GRAPHICS,graphics/53494-goal-post-color.md,https://tecmobowl.org/topic/53494-goal-post-color/
+Large Helmet: Guide,GRAPHICS,graphics/2756-large-helmet-guide.md,https://tecmobowl.org/forums/topic/2756-editing-large-helmets/
+Leaders Screen: Icon Control,GRAPHICS,graphics/13118-123856-leaders-screen-icon-control.md,https://tecmobowl.org/topic/13118-leaders-screen/#entry123856
+Map of Field of Play & HEX Locations,GRAPHICS,graphics/13441-map-of-field-of-play-hex-locations.md,https://tecmobowl.org/topic/13441-nes-tsb-map-of-field/
+Mid-Field Logo Document & Images,GRAPHICS,graphics/10301-mid-field-logo-document-images.md,https://tecmobowl.org/topic/10301-midfiled-logo-doc/
+Mid-Field Logo Palette Location & More,GRAPHICS,graphics/13241-mid-field-logo-palette-location-more.md,https://tecmobowl.org/topic/13241-need-some-advice-on-changing-color-to-logo/
+Mini-Helmet: Guide,GRAPHICS,graphics/4048-mini-helmet-guide.md,https://tecmobowl.org/forums/topic/4048-mini-helmet-designs/
+Mini-Helmet: NFC West 32-Team ROM Location,GRAPHICS,graphics/9528-mini-helmet-nfc-west-32-team-rom-location.md,https://tecmobowl.org/forums/topic/9528-mini-helmets-for-nfc-west-cxrom-32-team-nes-tsb/
+Mini-Helmet: Tiles / Colors #1,GRAPHICS,graphics/2638-mini-helmet-tiles-colors-1.md,https://tecmobowl.org/forums/topic/2638-question-for-grg-about-last-byte-small-helmet-pointers/
+Modify the message on the Half Time Blimp,GRAPHICS,graphics/69145-modify-the-message-on-the-half-time-blimp.md,https://tecmobowl.org/forums/topic/69145-tsb-blimp-text-nes
+NFL Shield / Intro Graphics / Title Screen / Scrolling NFL Pro Football / Tecmo Sports News,GRAPHICS,graphics/6970-nfl-shield-intro-graphics-title-screen-scrolling-nfl-pro-football-tecm.md,https://tecmobowl.org/forums/topic/6970-misc-rom-locations/
+Offensive Formation Fix for TSB Tool,GRAPHICS,graphics/55564-offensive-formation-fix-for-tsb-tool.md,https://tecmobowl.org/forums/topic/55564-changing-a-teams-offensive-formation
+"Offensive Formations: Graphics, Text",GRAPHICS,graphics/1709-offensive-formations-graphics-text.md,https://tecmobowl.org/forums/topic/1709-changing-formations/
+Offensive Starters: Names,GRAPHICS,graphics/832-offensive-starters-names.md,https://tecmobowl.org/forums/topic/832-the-of-starters-image/
+Player Portrait: Introduction,GRAPHICS,graphics/9968-player-portrait-introduction.md,https://tecmobowl.org/forums/topic/9968-tsbm-13-making-your-own-faces/
+Player Rating Data Screen Graphics,GRAPHICS,graphics/11730-104144-player-rating-data-screen-graphics.md,https://tecmobowl.org/topic/11730-tsb-player-data-screen-stat-locations/#entry104144
+Playoff Bracket: Graphics / Number of Games,GRAPHICS,graphics/10443-playoff-bracket-graphics-number-of-games.md,https://tecmobowl.org/forums/topic/10443-nes-playoff-bracket-hack/
+Pro Bowl Logos,GRAPHICS,graphics/67376-pro-bowl-logos.md,https://tecmobowl.org/forum/topic/67376-edit-pro-bowl-conference-logos/
+Pro Bowl Teams 32-Team ROM,GRAPHICS,graphics/11755-pro-bowl-teams-32-team-rom.md,https://tecmobowl.org/forums/topic/11755-editing-pro-bowl-rosters-for-32-team-rom/
+RB Playbook Name,GRAPHICS,graphics/12014-rb-playbook-name.md,https://tecmobowl.org/topic/12014-playbook-rb-name-listing/
+Removing Teams,GRAPHICS,graphics/54998-removing-teams.md,https://tecmobowl.org/topic/54998-removing-teams-from-a-rom
+Schedule: Graphics / Number of Games,GRAPHICS,graphics/769-schedule-graphics-number-of-games.md,https://tecmobowl.org/forums/topic/769-creating-historical-tsb-nes-seasons/
+Set KR/PR for Pro Bowl Teams to different values,GRAPHICS,graphics/53997-set-kr-pr-for-pro-bowl-teams-to-different-values.md,https://tecmobowl.org/forums/topic/53997-probowl-hacking-kr-pr/
+Special Teams: Formation Hacks,GRAPHICS,graphics/11139-special-teams-formation-hacks.md,https://tecmobowl.org/forums/topic/11139-special-teams/
+Super Bowl Palettes Information,GRAPHICS,graphics/13429-super-bowl-palettes-information.md,https://tecmobowl.org/topic/13429-super-bowl-palettes/
+Team Ranking Screen: Teams,GRAPHICS,graphics/12258-team-ranking-screen-teams.md,https://tecmobowl.org/topic/12258-team-ranking-hex-locations/
+Top Seed is Player 1 throughout Playoffs (32 Team Only),GRAPHICS,graphics/60615-top-seed-is-player-1-throughout-playoffs-32-team-only.md,https://tecmobowl.org/forums/topic/60615-playoff-bracket-fixed/
+Turn off sprite flickering needed for the hardware sprite limit,GRAPHICS,graphics/68629-turn-off-sprite-flickering-needed-for-the-hardware-sprite-limit.md,https://tecmobowl.org/forum/topic/68629-no-sprite-flicker-rom-and-15-sprite-per-scanline-rom-for-avs
+Uniforms: Alternate On-Field Colors,GRAPHICS,graphics/10697-uniforms-alternate-on-field-colors.md,https://tecmobowl.org/forums/topic/10697-graphic-hack-uniforms/
+Uniforms: Primary and Secondary,GRAPHICS,graphics/7703-uniforms-primary-and-secondary.md,https://tecmobowl.org/forums/topic/7703-rom-location-of-prisec-uniform-data-for-teams/
+Various Screens: Colors / Design Details,GRAPHICS,graphics/3675-various-screens-colors-design-details.md,https://tecmobowl.org/forums/topic/3675-a-guide-for-changing-nes-tsb-background-palettes/
+Better touchback hack and returnable endzone punts,INCOMPLETE HACKS,incomplete-hacks/55501-better-touchback-hack-and-returnable-endzone-punts.md,https://tecmobowl.org/forums/topic/55501-better-touchback-hackand-returnable-endzone-punts
+Change Defender During Play,INCOMPLETE HACKS,incomplete-hacks/12741-change-defender-during-play.md,https://tecmobowl.org/topic/12741-changing-defender-during-the-play
+Add sounds to menus,MUSIC,music/4144-add-sounds-to-menus.md,https://tecmobowl.org/topic/4144-adding-sounds-to-menu-items/
+Change In-game Music,MUSIC,music/3961-change-in-game-music.md,https://tecmobowl.org/topic/3961-change-tecmo-in-game-music/
+Map of Hex Values for Sound/Music Pointers,MUSIC,music/4144-map-of-hex-values-for-sound-music-pointers.md,https://tecmobowl.org/topic/4144-adding-sounds-to-menu-items/?p=419992
+Music Channels: Hex Guide,MUSIC,music/9849-music-channels-hex-guide.md,https://tecmobowl.org/forums/topic/9849-tsb-music-info/
+Randomize the Tecmo Play Loop Music,MUSIC,music/65048-randomize-the-tecmo-play-loop-music.md,https://tecmobowl.org/topic/65048-randomize-sound-loop-used-for-each-play
+Change The Number of Run and Pass Plays,PLAYBOOK,playbook/7059-change-the-number-of-run-and-pass-plays.md,https://tecmobowl.org/forums/topic/7059-change-the-number-of-run-and-pass-plays/
+Default Playbook Points / ROM Data,PLAYBOOK,playbook/7563-default-playbook-points-rom-data.md,https://tecmobowl.org/forums/topic/7563-tsb-documentation/
+Offensive Playbook Design Guide,PLAYBOOK,playbook/10528-offensive-playbook-design-guide.md,https://tecmobowl.org/forums/topic/10528-nes-play-design-info/
+Offensive Playbook HEX Guide,PLAYBOOK,playbook/854-offensive-playbook-hex-guide.md,https://tecmobowl.org/topic/854-how-to-modify-actual-plays-routes-blocking-etc/
+Offensive Preference,PLAYBOOK,playbook/12357-113579-offensive-preference.md,https://tecmobowl.org/topic/12357-offensive-preference/#entry113579
+Passing % Spreadsheet with INT/Quickness Hack,PLAYBOOK,playbook/12732-passing-spreadsheet-with-int-quickness-hack.md,https://tecmobowl.org/topic/12732-updated-pass-percentage-spreadsheet-with-quickness-hack/
+Play Design / HEX Guide,PLAYBOOK,playbook/7218-play-design-hex-guide.md,https://tecmobowl.org/topic/7218-play-designs-and-hex-guide/
+Pro Bowl Playbooks,PLAYBOOK,playbook/11494-100649-pro-bowl-playbooks.md,https://tecmobowl.org/topic/11494-playbooks-ghosting-plays/#entry100649
+RB Name Listing,PLAYBOOK,playbook/12014-rb-name-listing.md,https://tecmobowl.org/forums/topic/12014-playbook-rb-name-listing/
+RUN / PASS Slots Code,PLAYBOOK,playbook/52877-run-pass-slots-code.md,https://tecmobowl.org/topic/52877-changing-offensive-play-slots-pass-to-run-and-vice-versa/
+TSB ROM Bank Dissected,PLAYBOOK,playbook/11582-tsb-rom-bank-dissected.md,https://tecmobowl.org/topic/11582-tecmo-nes-rom-mapping-project/
+Add Stats Screen to End of Quarters,STATS & SAVE STATES,stats-save-states/11820-add-stats-screen-to-end-of-quarters.md,https://tecmobowl.org/forums/topic/11820-adding-stats-to-the-end-of-quarters/
+Add Tackles to Save Stats,STATS & SAVE STATES,stats-save-states/9460-add-tackles-to-save-stats.md,https://tecmobowl.org/topic/9460-recording-tackles/
+Enable Battery emulation for an incorrectly configured Tecmo Super Bowl rom,STATS & SAVE STATES,stats-save-states/7851-enable-battery-emulation-for-an-incorrectly-configured-tecmo-super-bow.md,https://tecmobowl.org/forums/topic/7851-season-doesnt-save/
+Nestopia Save State Info,STATS & SAVE STATES,stats-save-states/12156-nestopia-save-state-info.md,https://tecmobowl.org/forums/topic/12156-nestopia-save-state-locations-and-info/
+Save States & Injuries w/ Nesticle,STATS & SAVE STATES,stats-save-states/7855-save-states-injuries-w-nesticle.md,https://tecmobowl.org/forums/topic/7855-nesticle-save-state-format/
+TSB Stats Code,STATS & SAVE STATES,stats-save-states/10280-tsb-stats-code.md,https://tecmobowl.org/topic/10280-stats-code-nes/

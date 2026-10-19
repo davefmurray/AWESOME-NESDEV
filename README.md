@@ -65,12 +65,13 @@ That fork → build → run loop is the single biggest quality-of-life change in
 | [Sources](docs/sources.md) | Where every claim came from, with dates and versions |
 | [Tools](tools/README.md) | Header parser, bank-aware address math, CDL merge/stats |
 | [Skills library](skills/README.md) | NESdev hardware skills plus a Tecmo Super Bowl category |
+| [TSB documentation library](docs/tsb/README.md) | 174 index cards from the TSB Hacks documentation directory |
 
 ---
 
 ## Installable skills
 
-Seven NESdev hardware skills plus a three-skill Tecmo Super Bowl category, each with references and failure-mode checklists:
+Seven NESdev hardware skills plus an eight-skill Tecmo Super Bowl category, each with references and failure-mode checklists:
 
 | Skill | Covers |
 |---|---|
@@ -84,6 +85,11 @@ Seven NESdev hardware skills plus a three-skill Tecmo Super Bowl category, each 
 | [tecmosuper-events](skills/tecmosuper-events/SKILL.md) | TSB cutscenes: bank/scene IDs, calls, full event library |
 | [tecmosuper-rom-map](skills/tecmosuper-rom-map/SKILL.md) | TSB banks, file offsets, data locations |
 | [tecmosuper-hacking](skills/tecmosuper-hacking/SKILL.md) | TSBTool SET commands, hex edits, rebuild, patches |
+| [tecmosuper-graphics](skills/tecmosuper-graphics/SKILL.md) | Uniforms, helmets, portraits, logos, palettes, screens |
+| [tecmosuper-gameplay](skills/tecmosuper-gameplay/SKILL.md) | Kicking, clock, downs, injuries, fumbles, conditions |
+| [tecmosuper-playbooks](skills/tecmosuper-playbooks/SKILL.md) | Play scripts, slots, names, defensive reactions |
+| [tecmosuper-sim](skills/tecmosuper-sim/SKILL.md) | COM juice, sim weights, coverage, season sim |
+| [tecmosuper-data](skills/tecmosuper-data/SKILL.md) | Rosters, attributes, team pointers, schedule, saves |
 
 ```bash
 cp -r skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
@@ -123,7 +129,7 @@ Neither replaces knowing the platform. The NES is a 1983 console with a PPU that
 | dotnes skills | repo, Sep 2026 | ✅ reference; tied to dotnes repo |
 | sadnescity/romhacking | plugin `1.0.1` (Sep 2026) | ✅ MIT; translation method, not mechanics |
 | gearlynx-romhacking | inside Gearlynx, Oct 2026 | ✅ genre template; Lynx, not NES |
-| Tecmo Super Bowl skills | 3 skills, Oct 2026 | ✅ events, ROM map, hacking |
+| Tecmo Super Bowl skills | 8 skills + 174 doc cards, Oct 2026 | ✅ events, ROM map, hacking, graphics, gameplay, playbooks, sim, data |
 
 Legend: ✅ works as described · ⚠️ read before trusting · 🧪 early / incomplete · ❌ not for NES
 

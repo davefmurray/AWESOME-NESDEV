@@ -303,15 +303,20 @@ A 68-line prompt-knowledge skill: hex editing, tile editing (it correctly notes 
 
 ## Game-specific: Tecmo Super Bowl
 
-TSB is its own platform in practice: custom bank map, event engine, pointer tables, 28/32-team variants. The repo keeps a separate category at [`../skills/tecmosuper/`](../skills/tecmosuper/README.md):
+TSB is its own platform in practice: custom bank map, event engine, pointer tables, 28/32-team variants. The repo keeps an eight-skill category at [`../skills/tecmosuper/`](../skills/tecmosuper/README.md):
 
 | Skill | Use |
 |---|---|
 | `tecmosuper-events` | The `$C390`/`$C3A2`/`$C3AF` event API, sequence vs scene IDs, and the full event library |
 | `tecmosuper-rom-map` | 32 × 8 KB PRG banks, `$C000`/`$E000` fixed banks, CPU↔file offsets |
 | `tecmosuper-hacking` | TSBTool `SET` commands, hex edits, rebuilding from the 2025 disassembly, patches |
+| `tecmosuper-graphics` | Uniforms, helmets, portraits, logos, palettes, screens |
+| `tecmosuper-gameplay` | Kicking, clock, downs, injuries, fumbles, conditions |
+| `tecmosuper-playbooks` | Play scripts, slots, names, defensive reactions |
+| `tecmosuper-sim` | COM juice, sim weights, coverage, season sim |
+| `tecmosuper-data` | Rosters, attributes, team pointers, schedule, saves |
 
-The key distinction the events skill enforces: a **sequence index** (`CUTSCENE_TO_DRAW` → `CUTSCENE_ADDR`) is not a **scene ID** (the byte inside the sequence). Confusing them is the usual reason a TSB cutscene edit plays the wrong thing.
+The key distinction the events skill enforces: a **sequence index** (`CUTSCENE_TO_DRAW` → `CUTSCENE_ADDR`) is not a **scene ID** (the byte inside the sequence). Confusing them is the usual reason a TSB cutscene edit plays the wrong thing. The [documentation library](../docs/tsb/README.md) indexes all 174 links from the 2023 TSB Hacks directory as cards with offsets and sources.
 
 ## The gap, updated
 

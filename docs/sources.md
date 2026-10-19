@@ -40,6 +40,7 @@ Not verified by execution: Mesen MCP, mcp-bizhawk, Nes.Mcp, GhidraMCP, Gearlynx,
 | [scotbearss/poryrom](https://github.com/scotbearss/poryrom) | Docker-build + headless-verify + screenshot loop (GBA) | 1★ MIT, Sep 8 2026 |
 | [spiiin/NesBlockFinder](https://github.com/spiiin/NesBlockFinder) | Block/screen locator and FCEUX dump workflow | 6★, 2017, no license |
 | [TecmoBowl.org: events](https://tecmobowl.org/forums/topic/9946-events/) | TSB event IDs, `$C390`/`$C3A2`/`$C3AF`, directions | thread, 2008 |
+| [TSB Hacks documentation directory](https://tecmobowl.org/forums/topic/9725-tsb-hacks-documentation-directory-updated-01182023/) | Index of 174 TSB docs; source of `docs/tsb/` cards | updated 2023-01-18 |
 | [bruddog/Tecmo_Super_Bowl_NES_Disassembly](https://github.com/bruddog/Tecmo_Super_Bowl_NES_Disassembly) | Bank IDs, scene enums, sequence table, fixed-bank code | 63★, pushed 2025-10-09 |
 | [rom_map.xlsx](https://github.com/bruddog/Tecmo_Super_Bowl_NES_Disassembly/blob/main/DOCS/rom_map.xlsx) | Bank contents, file ranges, PRG/CHR layout | 2025 |
 | [TSBTool set commands](https://tecmobowl.org/forums/topic/69338-set-commands-list-for-nes-tsb-updated-91725/) | `SET(offset,bytes)` syntax and community patch list | updated 2025-09-17 |

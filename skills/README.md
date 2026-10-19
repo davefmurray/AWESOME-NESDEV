@@ -1,6 +1,6 @@
 # Skills library
 
-Ten installable agent skills: seven distilled from the [NESdev Wiki](https://www.nesdev.org/wiki/), plus a three-skill [Tecmo Super Bowl](tecmosuper/README.md) category. Each is a folder with a `SKILL.md` and `references/` — copy the whole folder into your harness's skills directory.
+Fifteen installable agent skills: seven distilled from the [NESdev Wiki](https://www.nesdev.org/wiki/), plus an eight-skill [Tecmo Super Bowl](tecmosuper/README.md) category. Each is a folder with a `SKILL.md` and `references/` — copy the whole folder into your harness's skills directory.
 
 ```bash
 cp -r skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
@@ -25,6 +25,11 @@ Game-specific skills for TSB, kept separate from the generic NES hardware packs.
 | [tecmosuper-events](tecmosuper-events/SKILL.md) | Cutscenes, menus, event IDs, the `$C390`/`$C3A2`/`$C3AF` engine |
 | [tecmosuper-rom-map](tecmosuper-rom-map/SKILL.md) | Bank map, file offsets, CPU↔file translation, data locations |
 | [tecmosuper-hacking](tecmosuper-hacking/SKILL.md) | TSBTool SET commands, hex edits, rebuild, 28/32-team, patches |
+| [tecmosuper-graphics](tecmosuper-graphics/SKILL.md) | Uniforms, helmets, portraits, logos, palettes, screens |
+| [tecmosuper-gameplay](tecmosuper-gameplay/SKILL.md) | Kicking, clock, downs, injuries, fumbles, conditions |
+| [tecmosuper-playbooks](tecmosuper-playbooks/SKILL.md) | Play scripts, slots, names, defensive reactions |
+| [tecmosuper-sim](tecmosuper-sim/SKILL.md) | COM juice, sim weights, coverage, season sim |
+| [tecmosuper-data](tecmosuper-data/SKILL.md) | Rosters, attributes, team pointers, schedule, saves |
 
 ## Design
 

@@ -1,22 +1,29 @@
 # Tecmo Super Bowl
 
-Game-specific skills for **Tecmo Super Bowl (NES, 1991)**. TSB is not a generic NES ROM: it has its own bank map, event engine, pointer tables, 28/32-team variants, and a community toolchain. These skills keep that knowledge out of the generic NES packs.
+Game-specific skills for **Tecmo Super Bowl (NES, 1991)**, kept out of the generic NES packs. TSB has its own bank map, event engine, pointer tables, 28/32-team variants, and a community toolchain.
 
 | Skill | Use when |
 |---|---|
 | [tecmosuper-events](../tecmosuper-events/SKILL.md) | Triggering or editing cutscenes, menus, halftime, touchdown scenes; decoding event IDs |
-| [tecmosuper-rom-map](../tecmosuper-rom-map/SKILL.md) | Converting CPU addresses to file offsets; locating team data, playbooks, cutscenes, sound |
-| [tecmosuper-hacking](../tecmosuper-hacking/SKILL.md) | TSBTool `SET` commands, hex edits, rebuilding from the disassembly, testing, patching |
+| [tecmosuper-rom-map](../tecmosuper-rom-map/SKILL.md) | Converting CPU addresses to file offsets; locating banks and tables |
+| [tecmosuper-graphics](../tecmosuper-graphics/SKILL.md) | Uniforms, helmets, portraits, logos, palettes, screens, CHR |
+| [tecmosuper-gameplay](../tecmosuper-gameplay/SKILL.md) | Kicking, clock, downs, injuries, fumbles, conditions |
+| [tecmosuper-playbooks](../tecmosuper-playbooks/SKILL.md) | Play scripts, playbook slots, play names, defensive reactions |
+| [tecmosuper-sim](../tecmosuper-sim/SKILL.md) | COM juice, sim attributes, run/pass weights, coverage, season sim |
+| [tecmosuper-data](../tecmosuper-data/SKILL.md) | Rosters, attributes, team pointers, schedule, stats, saves, 32-team |
+| [tecmosuper-hacking](../tecmosuper-hacking/SKILL.md) | TSBTool `SET` commands, hex edits, rebuild, testing, patches |
+
+## Documentation library
+
+Every link in the [TSB Hacks documentation directory](https://tecmobowl.org/forums/topic/9725-tsb-hacks-documentation-directory-updated-01182023/) is indexed at [`../../docs/tsb/`](../../docs/tsb/README.md): **174 cards**, grouped into graphics, gameplay, CPU/sim, playbooks, stats/saves, events, music, general info and 32-team fixes. Each card has a summary, key offsets and the source link.
 
 ## Install
 
-These are flat skill directories so any harness can load them:
-
 ```bash
-cp -r skills/tecmosuper-events ~/.claude/skills/
-cp -r skills/tecmosuper-rom-map ~/.claude/skills/
-cp -r skills/tecmosuper-hacking ~/.claude/skills/
+cp -r skills/tecmosuper-* ~/.claude/skills/
 ```
+
+Eight flat skill directories; the `tecmosuper/` folder itself is just this index.
 
 ## The one thing to get right
 
@@ -29,26 +36,23 @@ The group (`X` in the 2008 list) is the **bank**. The event (`A`) is the **scene
 
 ## Source hierarchy
 
-1. **bruddog's disassembly** (2025) — labels, bank IDs, exact code. Newer than everything else.
-2. **The 2008 events thread** — the community's event names and IDs; still the reference for "what is event $4A".
-3. **Community docs / TSBTool lists** — practical offsets and SET commands, but base-ROM-specific.
+1. **bruddog's disassembly** (2025) — labels, bank IDs, exact code.
+2. **The 2008 events thread** — community event names and IDs.
+3. **The 2023 documentation directory** — practical offsets and SET commands, but base-ROM-specific.
 
-When they disagree, trust the disassembly and note the discrepancy.
+When they disagree, trust the disassembly.
 
 ## Base ROM caveat
 
-TSB shipped with 28 teams; most modern hacks use a 32-team ROM. Offsets, menus and some code differ. Every offset in these skills assumes the original 28-team USA ROM unless stated. Test on the exact base you ship.
+TSB shipped with 28 teams; most modern hacks use a 32-team ROM. Offsets, menus and some code differ. Every offset assumes the original 28-team USA ROM unless stated.
 
 ## Not covered yet
 
-- Full playbook design (formation/play data structures) — the disassembly and `TECMO PLAYBOOK HACKERS GUIDEBOOK` cover it.
-- Graphics pipeline beyond CHR/palette basics.
-- Schedule/playoff expansion.
-- Sim engine stat formulas.
-- 32-team relocation details.
-
-Each is a candidate for its own skill; the category is meant to grow.
+- 32-team relocation details and schedule expansion.
+- Full season/playoff seeding code.
+- Music/sound engine internals (the cards index them; no skill yet).
+- Cutscene script bytecode authoring (events skill covers calling, not every opcode).
 
 ## Legal
 
-No ROMs, no patched ROMs. The disassembly is source code that requires the original ROM to build; it does not include it.
+No ROMs, no patched ROMs. The disassembly requires the original ROM to build; it does not include it. The doc cards link to TecmoBowl.org and quote only short excerpts.
