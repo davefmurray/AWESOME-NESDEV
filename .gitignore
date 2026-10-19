@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+.npmcache/
+.env
+.env.*
+*.log
+
+# Never commit ROMs, dumps, patches or emulator state.
+*.nes
+*.fds
+*.unf
+*.cdl
+*.sav
+*.state
+*.ips
+*.bps
