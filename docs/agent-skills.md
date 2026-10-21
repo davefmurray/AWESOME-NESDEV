@@ -18,7 +18,7 @@ Two fields matter most: `name` (lowercase, hyphens) and `description` (when to u
 
 ## Catalog
 
-> Looking for the NESdev-derived packs? The repo also ships seven installable skills in [`../skills/`](../skills/README.md): memory map, PPU, mappers, APU, input, 6502, and a wiki router. They are self-contained and do not require an MCP server.
+> Looking for the NESdev-derived packs? The repo also ships eight 6502/NES skills in [`../skills/`](../skills/README.md): memory map, PPU, mappers, APU, input, a comprehensive 6502 language skill, an NES-specific 6502 companion, and a wiki router. They are self-contained and do not require an MCP server.
 
 | Skill | What it is for | Install | State |
 |---|---|---|---|
@@ -93,7 +93,7 @@ Project-local: copy to `.agents/skills/` or `.claude/skills/` instead.
 
 - **1★ and no license file.** Read `SKILL.md` before granting tool access; scan the bundled binaries or replace them with your own builds of FCEUX and [retrodisasm](https://github.com/retroenv/retrodisasm).
 - The FCEUX bundle is Windows-only; on macOS use Homebrew FCEUX or run the scripts against your own binary.
-- The 6502 skill overlaps the standalone `6502-assembly` skill below. Install one, not both, to save context.
+- The 6502 skill overlaps both the repo’s own `6502-assembly` and the external standalone `6502-assembly` below. Install one, not all three, to save context.
 
 ---
 
@@ -202,13 +202,15 @@ Good companion read: Jay McGavren's walkthrough of generating a first NES ROM wi
 
 ---
 
-## 6502-assembly (standalone)
+## 6502-assembly (external alternative)
+
+> The repo now ships its own comprehensive [`6502-assembly`](../skills/6502-assembly/SKILL.md). Install either that or this external skill, not both — the names collide.
 
 **Source:** <https://github.com/hwatkins/my-skills> · **Install:** `npx skills add https://github.com/hwatkins/my-skills --skill 6502-assembly`
 
 A pure reference: instruction set, addressing modes, memory layout, algorithms (16-bit add/sub, multiply, divide), optimization, and platform patterns for NES, C64, Apple II and BBC Micro.
 
-Use it when you want 6502 knowledge without the NES tooling opinions. If you already installed `nes-skills`, you have an equivalent reference and do not need both.
+Use it as a lighter alternative to the repo’s own skill. If you already installed the repo’s `6502-assembly`, you do not need this one.
 
 ---
 

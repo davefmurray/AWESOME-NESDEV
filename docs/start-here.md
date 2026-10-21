@@ -30,6 +30,8 @@ You do **not** need cc65, SDCC, a C compiler, or an emulator installed to use ro
 
 Full commands are in [The agent stack](agent-stack.md) and [MCP servers](mcp-servers.md).
 
+Want the language before the toolchain? Read [6502 assembly](6502.md), then install the repo’s [`6502-assembly`](../skills/6502-assembly/SKILL.md) skill.
+
 ## Your first 30 minutes
 
 ### 1. Start the server (1 min)

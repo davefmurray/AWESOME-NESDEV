@@ -84,7 +84,7 @@ That fork → build → run loop is the single biggest quality-of-life change in
 
 ## Installable skills
 
-Seven NESdev hardware skills plus an eight-skill Tecmo Super Bowl category, each with references and failure-mode checklists:
+Eight 6502/NES skills — including a comprehensive 6502 language skill — plus an eight-skill Tecmo Super Bowl category, each with references and failure-mode checklists:
 
 | Skill | Covers |
 |---|---|
@@ -94,7 +94,8 @@ Seven NESdev hardware skills plus an eight-skill Tecmo Super Bowl category, each
 | [nes-cart-mappers](skills/nes-cart-mappers/SKILL.md) | iNES/NES 2.0, NROM/UxROM/MMC1/MMC3, banking |
 | [nes-apu-audio](skills/nes-apu-audio/SKILL.md) | Channels, frame counter, envelopes, DMC |
 | [nes-input-devices](skills/nes-input-devices/SKILL.md) | Controller reads, DPCM glitch, Zapper, Four Score |
-| [nes-6502-assembly](skills/nes-6502-assembly/SKILL.md) | Addressing modes, cycles, jump tables, optimization |
+| [6502-assembly](skills/6502-assembly/SKILL.md) | Full official ISA, addressing, patterns, toolchains, testing |
+| [nes-6502-assembly](skills/nes-6502-assembly/SKILL.md) | NES-specific cycles, jump tables, optimization |
 | [tecmosuper-events](skills/tecmosuper-events/SKILL.md) | TSB cutscenes: bank/scene IDs, calls, full event library |
 | [tecmosuper-rom-map](skills/tecmosuper-rom-map/SKILL.md) | TSB banks, file offsets, data locations |
 | [tecmosuper-hacking](skills/tecmosuper-hacking/SKILL.md) | TSBTool SET commands, hex edits, rebuild, patches |
@@ -105,7 +106,7 @@ Seven NESdev hardware skills plus an eight-skill Tecmo Super Bowl category, each
 | [tecmosuper-data](skills/tecmosuper-data/SKILL.md) | Rosters, attributes, team pointers, schedule, saves |
 
 ```bash
-cp -r skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
+cp -r skills/6502-assembly skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
 ```
 
 Details and provenance: [skills/README.md](skills/README.md).

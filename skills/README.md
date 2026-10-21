@@ -1,9 +1,9 @@
 # Skills library
 
-Fifteen installable agent skills: seven distilled from the [NESdev Wiki](https://www.nesdev.org/wiki/), plus an eight-skill [Tecmo Super Bowl](tecmosuper/README.md) category. Each is a folder with a `SKILL.md` and `references/` — copy the whole folder into your harness's skills directory.
+Sixteen installable agent skills: eight 6502/NES skills (including a comprehensive, platform-agnostic 6502 language skill), plus an eight-skill [Tecmo Super Bowl](tecmosuper/README.md) category. Each is a folder with a `SKILL.md` and `references/` — copy the whole folder into your harness's skills directory.
 
 ```bash
-cp -r skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
+cp -r skills/6502-assembly skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
 ```
 
 | Skill | Use when |
@@ -14,7 +14,8 @@ cp -r skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
 | [nes-cart-mappers](nes-cart-mappers/SKILL.md) | Headers, mapper choice, banking, mirroring, battery saves |
 | [nes-apu-audio](nes-apu-audio/SKILL.md) | Sound channels, frames, envelopes, frequency math, DPCM |
 | [nes-input-devices](nes-input-devices/SKILL.md) | Controllers, DPCM glitch, Zapper, Four Score |
-| [nes-6502-assembly](nes-6502-assembly/SKILL.md) | 6502 code, cycles, jump tables, optimizations |
+| [6502-assembly](6502-assembly/SKILL.md) | Full ISA, addressing, 8/16-bit patterns, toolchains, testing |
+| [nes-6502-assembly](nes-6502-assembly/SKILL.md) | NES-specific 6502 code, cycles, jump tables, optimizations |
 
 ### Tecmo Super Bowl
 
