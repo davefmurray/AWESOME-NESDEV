@@ -7,6 +7,8 @@ description: "6502 assembly for the NES: registers, flags, addressing modes, cyc
 
 The NES uses a 6502 variant (2A03 NTSC / 2A07 PAL) at ~1.79 MHz. It has no decimal mode, no multiply, no divide, and a 256-byte fast-access zero page. Code that respects the cycle rules is code that fits in vblank.
 
+New to 6502? Start with [Easy 6502](https://skilldrick.github.io/easy6502/), then the [curated repos and training docs](../../docs/6502.md).
+
 ## Registers
 
 | Register | Width | Use |

@@ -13,7 +13,7 @@
 Not a link dump. Every entry says what it is for, how to install it, and where it breaks.
 Last verified **October 2026**.
 
-[Start here](docs/start-here.md) · [The agent stack](docs/agent-stack.md) · [MCP servers](docs/mcp-servers.md) · [Agent skills](docs/agent-skills.md) · [Skills library](skills/) · [Tecmo Super Bowl](skills/tecmosuper/README.md) · [Homebrew](docs/homebrew.md) · [ROM hacking](docs/romhacking.md) · [Cold-ROM playbook](docs/cold-rom-playbook.md) · [Reference](docs/reference.md) · [Troubleshooting](docs/troubleshooting.md) · [Resources](docs/resources.md) · [Glossary](docs/glossary.md) · [Sources](docs/sources.md)
+[Start here](docs/start-here.md) · [The agent stack](docs/agent-stack.md) · [MCP servers](docs/mcp-servers.md) · [Agent skills](docs/agent-skills.md) · [Skills library](skills/) · [Tecmo Super Bowl](skills/tecmosuper/README.md) · [Homebrew](docs/homebrew.md) · [ROM hacking](docs/romhacking.md) · [Cold-ROM playbook](docs/cold-rom-playbook.md) · [Reference](docs/reference.md) · [6502 assembly](docs/6502.md) · [Troubleshooting](docs/troubleshooting.md) · [Resources](docs/resources.md) · [Glossary](docs/glossary.md) · [Sources](docs/sources.md)
 
 <p align="center">
   <img src="assets/divider.png" alt="" width="800">
@@ -71,6 +71,7 @@ That fork → build → run loop is the single biggest quality-of-life change in
 | [ROM hacking](docs/romhacking.md) | Triage → dynamic analysis → static analysis → patch → verify, with a worked example |
 | [Cold-ROM playbook](docs/cold-rom-playbook.md) | The same loop for a ROM with no docs: header, value search, CDL sessions, banked-address discipline |
 | [Reference](docs/reference.md) | CPU memory map, PPU registers, iNES header, mappers, 6502 quick reference |
+| [6502 assembly](docs/6502.md) | Learning path, training docs, assemblers, simulators, test suites |
 | [Troubleshooting](docs/troubleshooting.md) | The error messages you will actually hit, and the fix |
 | [Resources](docs/resources.md) | Non-agent NESdev links: docs, emulators, graphics, audio, hardware |
 | [Glossary](docs/glossary.md) | PRG, CHR, mapper, OAM, CDL, NMI, and the rest |

@@ -11,6 +11,7 @@ Non-agent tools and references. Everything here was reachable in October 2026; c
 | [nesdoug](https://nesdoug.com/) | C-based NES tutorials; pairs well with cc65 |
 | [NESdev forums](https://forums.nesdev.org/) | Where the people who wrote the wiki answer questions |
 | [NESdev wiki: Tools](https://www.nesdev.org/wiki/Tools) | Canonical list of assemblers, editors, emulators, utilities |
+| [6502 assembly: repos and training docs](6502.md) | Curated path from Easy 6502 to test suites |
 | [NESdev wiki: Emulator tests](https://www.nesdev.org/wiki/Emulator_tests) | Test ROMs for PPU/APU/CPU behaviour |
 
 ## Emulators
