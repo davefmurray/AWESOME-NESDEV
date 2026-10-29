@@ -1,6 +1,6 @@
 # Skills library
 
-Sixteen installable agent skills: eight 6502/NES skills (including a comprehensive, platform-agnostic 6502 language skill), plus an eight-skill [Tecmo Super Bowl](tecmosuper/README.md) category. Each is a folder with a `SKILL.md` and `references/` — copy the whole folder into your harness's skills directory.
+Seventeen installable agent skills: nine 6502/NES skills (including a comprehensive, platform-agnostic 6502 language skill), plus an eight-skill [Tecmo Super Bowl](tecmosuper/README.md) category. Each is a folder with a `SKILL.md` and `references/` — copy the whole folder into your harness's skills directory.
 
 ```bash
 cp -r skills/6502-assembly skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
@@ -8,6 +8,7 @@ cp -r skills/6502-assembly skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
 
 | Skill | Use when |
 |---|---|
+| [nes-pxl-screen-art](nes-pxl-screen-art/SKILL.md) | Creating/restyling NES screens with pxl, tile/palette conversion and guarded integration |
 | [nesdev-wiki-guide](nesdev-wiki-guide/SKILL.md) | You need the right NESdev page or a primary source |
 | [nes-memory-map](nes-memory-map/SKILL.md) | Placing variables, reading dumps, computing addresses, PPU warmup |
 | [nes-ppu-rendering](nes-ppu-rendering/SKILL.md) | Rendering, palettes, sprites, scrolling, NMI, black screens |
@@ -42,6 +43,10 @@ Game-specific skills for TSB, kept separate from the generic NES hardware packs.
 ## Provenance and license
 
 The facts come from the NESdev Wiki, fetched in October 2026; the 62-page index is in [`nesdev-wiki-guide/references/page-index.md`](nesdev-wiki-guide/references/page-index.md). The wiki retains its own terms — link back to it rather than mirroring large sections.
+
+The pxl screen-art workflow comes from the October 2026 Little League menu,
+title and scoreboard work; its [worked example](nes-pxl-screen-art/references/little-league.md)
+links source and measured evidence. [Tool setup and caveats](../docs/pxl-screen-art.md).
 
 Original text in this directory is released under the repository's CC0 license, like the rest of the wiki.
 

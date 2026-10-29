@@ -53,6 +53,7 @@ That fork → build → run loop is the single biggest quality-of-life change in
 | Reverse-engineer or hack a commercial ROM | **nes-skills** (FCEUX Lua + retrodisasm) + **romdev** | [ROM hacking](docs/romhacking.md) |
 | Start from a completely undocumented ROM | **cold-ROM playbook** + MesenCE/romdev | [Cold-ROM playbook](docs/cold-rom-playbook.md) |
 | Run a multi-day RE campaign | **re-skill** + **romdev** + **GhidraMCP** | [Agent skills](docs/agent-skills.md) |
+| Create or restyle NES screen art | **claude-pxl** + **nes-pxl-screen-art** | [Pixel-art workflow](docs/pxl-screen-art.md) |
 | Learn the platform properly | [Reference](docs/reference.md) + [Resources](docs/resources.md) | — |
 
 <p align="center">
@@ -77,6 +78,7 @@ That fork → build → run loop is the single biggest quality-of-life change in
 | [Glossary](docs/glossary.md) | PRG, CHR, mapper, OAM, CDL, NMI, and the rest |
 | [Sources](docs/sources.md) | Where every claim came from, with dates and versions |
 | [Tools](tools/README.md) | Header parser, bank-aware address math, CDL merge/stats |
+| [Pixel-art workflow](docs/pxl-screen-art.md) | pxl installation, NES conversion, screen integration and measured caveats |
 | [Skills library](skills/README.md) | NESdev hardware skills plus a Tecmo Super Bowl category |
 | [TSB documentation library](docs/tsb/README.md) | 174 index cards from the TSB Hacks documentation directory |
 
@@ -84,10 +86,11 @@ That fork → build → run loop is the single biggest quality-of-life change in
 
 ## Installable skills
 
-Eight 6502/NES skills — including a comprehensive 6502 language skill — plus an eight-skill Tecmo Super Bowl category, each with references and failure-mode checklists:
+Nine 6502/NES skills — including a comprehensive 6502 language skill and a pxl screen-art workflow — plus an eight-skill Tecmo Super Bowl category, each with references and failure-mode checklists:
 
 | Skill | Covers |
 |---|---|
+| [nes-pxl-screen-art](skills/nes-pxl-screen-art/SKILL.md) | pxl artwork, NES conversion, guarded screen integration and emulator checks |
 | [nesdev-wiki-guide](skills/nesdev-wiki-guide/SKILL.md) | Routing a question to the right page |
 | [nes-memory-map](skills/nes-memory-map/SKILL.md) | CPU/PPU address spaces, mirrors, vectors, warmup |
 | [nes-ppu-rendering](skills/nes-ppu-rendering/SKILL.md) | Rendering, palettes, sprites, scrolling, NMI |
@@ -145,6 +148,7 @@ Neither replaces knowing the platform. The NES is a 1983 console with a PPU that
 | dotnes skills | repo, Sep 2026 | ✅ reference; tied to dotnes repo |
 | sadnescity/romhacking | plugin `1.0.1` (Sep 2026) | ✅ MIT; translation method, not mechanics |
 | gearlynx-romhacking | inside Gearlynx, Oct 2026 | ✅ genre template; Lynx, not NES |
+| claude-pxl + NES screen-art skill | pxl `3bc816c`, Oct 29, 2026 | ✅ rendered and integrated menus, title and scoreboard; NES converter required |
 | Tecmo Super Bowl skills | 8 skills + 174 doc cards, Oct 2026 | ✅ events, ROM map, hacking, graphics, gameplay, playbooks, sim, data |
 
 Legend: ✅ works as described · ⚠️ read before trusting · 🧪 early / incomplete · ❌ not for NES
