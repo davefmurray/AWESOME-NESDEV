@@ -81,7 +81,7 @@ Always triage the **first** diff. A later diff is often a consequence of an earl
 | Pattern | Likely cause | Fix |
 |---|---|---|
 | Rebuilt is 1 byte shorter per occurrence | Missing `a:` on absolute zero-page access | Restore `a:` |
-| Rebuilt is 1 byte longer per occurrence | An instruction that should be `.byte` was assembled, or a branch operand became absolute | Mark data; label branch |
+| Rebuilt is 1 byte longer per occurrence | Forced absolute where the original was zero page, or a `.word` where `.byte` belongs | Remove the forced `a:`, or use `.byte` |
 | Single-byte diff at an operand | Wrong endianness, wrong table byte, or a `.byte` vs `.word` mistake | Compare source line at that offset |
 | Whole bank differs | Bank mapped to the wrong CPU window or wrong file offset | Fix `ASM_config_table` |
 | Header bytes differ | Wrong header file/size or edited flags | Regenerate `header.bin` |
