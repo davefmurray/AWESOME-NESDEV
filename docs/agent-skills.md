@@ -18,7 +18,7 @@ Two fields matter most: `name` (lowercase, hyphens) and `description` (when to u
 
 ## Catalog
 
-> Looking for the NESdev-derived packs? The repo also ships nine 6502/NES skills in [`../skills/`](../skills/README.md): memory map, PPU, mappers, APU, input, a comprehensive 6502 language skill, an NES-specific 6502 companion, a wiki router, and a pxl screen-art workflow. The hardware references are self-contained; the screen-art workflow uses pxl plus your project build/emulator tools.
+> Looking for the NESdev-derived packs? The repo also ships ten 6502/NES skills in [`../skills/`](../skills/README.md): memory map, PPU, mappers, APU, input, a comprehensive 6502 language skill, an NES-specific 6502 companion, a [CDL-driven disassembly skill](../skills/nes-disassembly/SKILL.md), a pxl screen-art workflow, and a wiki router. The hardware references are self-contained; the screen-art workflow uses pxl plus your project build/emulator tools.
 
 | Skill | What it is for | Install | State |
 |---|---|---|---|

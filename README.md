@@ -86,7 +86,7 @@ That fork → build → run loop is the single biggest quality-of-life change in
 
 ## Installable skills
 
-Nine 6502/NES skills — including a comprehensive 6502 language skill and a pxl screen-art workflow — plus an eight-skill Tecmo Super Bowl category, each with references and failure-mode checklists:
+Ten 6502/NES skills — including a comprehensive 6502 language skill, a CDL-driven disassembly skill, and a pxl screen-art workflow — plus an eight-skill Tecmo Super Bowl category, each with references and failure-mode checklists:
 
 | Skill | Covers |
 |---|---|
@@ -99,6 +99,7 @@ Nine 6502/NES skills — including a comprehensive 6502 language skill and a pxl
 | [nes-input-devices](skills/nes-input-devices/SKILL.md) | Controller reads, DPCM glitch, Zapper, Four Score |
 | [6502-assembly](skills/6502-assembly/SKILL.md) | Full official ISA, addressing, patterns, toolchains, testing |
 | [nes-6502-assembly](skills/nes-6502-assembly/SKILL.md) | NES-specific cycles, jump tables, optimization |
+| [nes-disassembly](skills/nes-disassembly/SKILL.md) | CDL → BZK → ca65, labels, rebuild, byte verification |
 | [tecmosuper-events](skills/tecmosuper-events/SKILL.md) | TSB cutscenes: bank/scene IDs, calls, full event library |
 | [tecmosuper-rom-map](skills/tecmosuper-rom-map/SKILL.md) | TSB banks, file offsets, data locations |
 | [tecmosuper-hacking](skills/tecmosuper-hacking/SKILL.md) | TSBTool SET commands, hex edits, rebuild, patches |

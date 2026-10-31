@@ -75,7 +75,7 @@ Read backwards from the PC to understand the branch: is it `DEC $xx`, a `CMP`/`B
 
 ### Capture coverage
 
-Run the game through the area you care about with CDL on. You now have a bitmap of which PRG bytes executed and which were read as data. This is the single most useful input to a disassembler, because it prevents code/data confusion in a 6502 ROM full of inline data.
+Run the game through the area you care about with CDL on. You now have a bitmap of which PRG bytes executed and which were read as data. This is the single most useful input to a disassembler, because it prevents code/data confusion in a 6502 ROM full of inline data. The [nes-disassembly skill](../skills/nes-disassembly/SKILL.md) covers the CDL → BZK → ca65 → byte-verify loop.
 
 ## Phase 2 — static analysis
 

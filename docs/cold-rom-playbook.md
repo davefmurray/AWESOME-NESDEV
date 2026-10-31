@@ -92,6 +92,8 @@ python3 tools/cdl_stats.py work/cdl/*.cdl --merge --rom roms/lws.nes
 
 If a page shows 0% code, you did not exercise it. That is information, not failure.
 
+For the full CDL → BZK → ca65 loop, install the [nes-disassembly skill](../skills/nes-disassembly/SKILL.md); its scripts merge logs, generate a BZK config and verify the rebuild.
+
 **CDL caveat:** it only covers what ran. A routine that triggers on a rare error, a secret menu, or a second player will be invisible. Plan sessions around the code you need to read.
 
 ## 5. Disassemble with coverage

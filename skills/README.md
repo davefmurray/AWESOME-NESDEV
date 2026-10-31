@@ -1,6 +1,6 @@
 # Skills library
 
-Seventeen installable agent skills: nine 6502/NES skills (including a comprehensive, platform-agnostic 6502 language skill), plus an eight-skill [Tecmo Super Bowl](tecmosuper/README.md) category. Each is a folder with a `SKILL.md` and `references/` — copy the whole folder into your harness's skills directory.
+Eighteen installable agent skills: ten 6502/NES skills (including a comprehensive 6502 language skill, a CDL-driven disassembly skill, and a pxl screen-art workflow), plus an eight-skill [Tecmo Super Bowl](tecmosuper/README.md) category. Each is a folder with a `SKILL.md` and `references/` — copy the whole folder into your harness's skills directory.
 
 ```bash
 cp -r skills/6502-assembly skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
@@ -17,6 +17,7 @@ cp -r skills/6502-assembly skills/nes*/ skills/tecmosuper-*/ ~/.claude/skills/
 | [nes-input-devices](nes-input-devices/SKILL.md) | Controllers, DPCM glitch, Zapper, Four Score |
 | [6502-assembly](6502-assembly/SKILL.md) | Full ISA, addressing, 8/16-bit patterns, toolchains, testing |
 | [nes-6502-assembly](nes-6502-assembly/SKILL.md) | NES-specific 6502 code, cycles, jump tables, optimizations |
+| [nes-disassembly](nes-disassembly/SKILL.md) | CDL capture, BZK, ca65 labels, rebuild, byte verification |
 
 ### Tecmo Super Bowl
 

@@ -60,6 +60,7 @@ Not verified by execution: Mesen MCP, mcp-bizhawk, Nes.Mcp, GhidraMCP, Gearlynx,
 | [nesdoug](https://nesdoug.com/) | C tutorials | site, 2026 |
 | [cc65](https://cc65.github.io/) | Assembler/linker behavior | docs, 2026 |
 | [6502 skill sources](../skills/6502-assembly/references/sources.md) | Tutorials, assemblers, simulators and test suites behind the 6502 skill | read Oct 2026 |
+| [Disassembly skill sources](../skills/nes-disassembly/references/sources.md) | BZK, CDL, FCEUX/Mesen and ca65 references | read Oct 2026 |
 | [FamiStudio](https://www.famistudio.org/) | Audio tooling | site, 2026 |
 | [Flips](https://github.com/Alcaro/Flips) | IPS/BPS patching | repo, 2026 |
 
